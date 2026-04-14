@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🧠 AI Meta-Coach</title>
+<script src="/socket.io/socket.io.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f0f2f5; color: #1a1a2e; min-height: 100vh;
+  }
+  header {
+    background: #16213e; color: #e2e8f0; padding: 16px 24px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  header h1 { font-size: 1.3rem; font-weight: 600; }
+  header small { font-size: 0.8rem; opacity: 0.6; margin-left: auto; }
+
+  .tabs { display: flex; background: #1a2744; }
+  .tab  {
+    padding: 10px 22px; cursor: pointer; color: #94a3b8;
+    font-size: 0.9rem; border-bottom: 3px solid transparent;
+    transition: all 0.2s;
+  }
+  .tab.active { color: #60a5fa; border-color: #60a5fa; }
+
+  .panel { display: none; padding: 20px; max-width: 860px; margin: 0 auto; }
+  .panel.active { display: block; }
+
+  /* ── Chat ── */
+  #chatbox {
+    height: 460px; overflow-y: auto; background: #fff;
+    border-radius: 12px; padding: 16px; margin-bottom: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .msg { display: flex; margin-bottom: 14px; gap: 10px; }
+  .msg.user  { flex-direction: row-reverse; }
+  .bubble {
+    max-width: 72%; padding: 10px 14px; border-radius: 14px;
+    font-size: 0.93rem; line-height: 1.55; white-space: pre-wrap;
+  }
+  .user  .bubble { background: #3b82f6; color: #fff; border-radius: 14px 2px 14px 14px; }
+  .coach .bubble { background: #f1f5f9; color: #1e293b; border-radius: 2px 14px 14px 14px; }
+  .avatar {
+    width: 34px; height: 34px; border-radius: 50%; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem; background: #e2e8f0;
+  }
+  .user .avatar { background: #3b82f6; }
+
+  .input-row { display: flex; gap: 10px; }
+  #msgInput {
+    flex: 1; padding: 12px 16px; border: 1.5px solid #e2e8f0;
+    border-radius: 10px; font-size: 0.95rem; outline: none;
+    background: #fff; transition: border-color 0.2s;
+  }
+  #msgInput:focus { border-color: #3b82f6; }
+  button {
+    padding: 10px 20px; border: none; border-radius: 10px;
+    cursor: pointer; font-size: 0.88rem; font-weight: 500;
+    transition: opacity 0.2s;
+  }
+  button:hover { opacity: 0.85; }
+  #sendBtn { background: #3b82f6; color: #fff; }
+
+  .action-row { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  .action-row button { font-size: 0.82rem; padding: 7px 14px; }
+  .btn-good  { background: #dcfce7; color: #16a34a; }
+  .btn-bad   { background: #fee2e2; color: #dc2626; }
+  .btn-clear { background: #f1f5f9; color: #64748b; }
+
+  /* ── Memory / Logs ── */
+  #memQuery { width: 100%; padding: 10px 14px; border: 1.5px solid #e2e8f0; border-radius: 10px; font-size: 0.9rem; margin-bottom: 10px; outline: none; }
+  #memQuery:focus { border-color: #3b82f6; }
+  .fetch-btn { background: #6366f1; color: #fff; margin-bottom: 12px; }
+  textarea {
+    width: 100%; height: 260px; padding: 12px; border: 1.5px solid #e2e8f0;
+    border-radius: 10px; font-size: 0.85rem; font-family: monospace;
+    resize: vertical; background: #fff; color: #334155;
+  }
+
+  #statusBar {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    background: #1e293b; color: #94a3b8; font-size: 0.75rem;
+    padding: 5px 16px; display: flex; gap: 20px;
+  }
+  #statusBar span { color: #60a5fa; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>🧠</div>
+  <h1>AI Meta-Coach</h1>
+  <small id="kbInfo">Loading...</small>
+</header>
+
+<div class="tabs">
+  <div class="tab active" onclick="switchTab('chat')">💬 Chat</div>
+  <div class="tab" onclick="switchTab('memory')">🧠 Memory</div>
+  <div class="tab" onclick="switchTab('logs')">📋 Logs</div>
+</div>
+
+<!-- Chat Tab -->
+<div id="chat" class="panel active">
+  <div id="chatbox"></div>
+  <div class="input-row">
+    <input id="msgInput" type="text" placeholder="Ask your Meta-Coach..." autocomplete="off"/>
+    <button id="sendBtn" onclick="sendMessage()">Send ↩</button>
+  </div>
+  <div class="action-row">
+    <button class="btn-good"  onclick="feedback('positive')">👍 Helpful</button>
+    <button class="btn-bad"   onclick="feedback('negative')">👎 Not helpful</button>
+    <button class="btn-clear" onclick="clearChat()">🗑 Clear chat</button>
+  </div>
+</div>
+
+<!-- Memory Tab -->
+<div id="memory" class="panel">
+  <input id="memQuery" type="text" placeholder="Filter by topic (leave blank for most important)"/>
+  <button class="fetch-btn" onclick="loadMemory()">Retrieve Memory</button>
+  <textarea id="memOutput" readonly placeholder="Memory will appear here..."></textarea>
+</div>
+
+<!-- Logs Tab -->
+<div id="logs" class="panel">
+  <button class="fetch-btn" onclick="loadLogs()">Load last 60 lines</button>
+  <textarea id="logOutput" readonly placeholder="Logs will appear here..."></textarea>
+</div>
+
+<div id="statusBar">
+  <span id="connStatus">Connecting...</span>
+  <span id="dbInfo"></span>
+</div>
+
+<script>
+  const socket    = io();
+  let   streaming = false;
+  let   streamBubble = null;
+
+  // ── Status ───────────────────────────────────────────────────
+  socket.on('connect',    () => document.getElementById('connStatus').textContent = '🟢 Connected');
+  socket.on('disconnect', () => document.getElementById('connStatus').textContent = '🔴 Disconnected');
+
+  fetch('/api/status').then(r => r.json()).then(d => {
+    document.getElementById('kbInfo').textContent =
+      `📚 ${d.kbChunks} chunks · ${d.pdfFolder} · ${d.memoryBackend}`;
+    document.getElementById('dbInfo').textContent =
+      `Vector DB: LanceDB · Memory: ${d.memoryBackend}`;
+  });
+
+  // ── Tabs ─────────────────────────────────────────────────────
+  function switchTab(name) {
+    document.querySelectorAll('.tab').forEach((t, i) => {
+      const names = ['chat','memory','logs'];
+      t.classList.toggle('active', names[i] === name);
+    });
+    document.querySelectorAll('.panel').forEach(p => {
+      p.classList.toggle('active', p.id === name);
+    });
+  }
+
+  // ── Chat ─────────────────────────────────────────────────────
+  function addBubble(role, text) {
+    const box   = document.getElementById('chatbox');
+    const msg   = document.createElement('div');
+    msg.className = `msg ${role}`;
+    const av    = document.createElement('div');
+    av.className = 'avatar';
+    av.textContent = role === 'user' ? '🙋' : '🧠';
+    const bub   = document.createElement('div');
+    bub.className = 'bubble';
+    bub.textContent = text;
+    msg.append(av, bub);
+    box.appendChild(msg);
+    box.scrollTop = box.scrollHeight;
+    return bub;
+  }
+
+  function sendMessage() {
+    if (streaming) return;
+    const input = document.getElementById('msgInput');
+    const msg   = input.value.trim();
+    if (!msg) return;
+    input.value = '';
+    addBubble('user', msg);
+    streamBubble = addBubble('coach', '▌');
+    streaming    = true;
+    document.getElementById('sendBtn').disabled = true;
+    socket.emit('chat', msg);
+  }
+
+  socket.on('token', token => {
+    if (!streamBubble) return;
+    const prev = streamBubble.textContent;
+    streamBubble.textContent = (prev === '▌' ? '' : prev) + token;
+    document.getElementById('chatbox').scrollTop = 99999;
+  });
+
+  socket.on('done', () => {
+    streaming = false;
+    document.getElementById('sendBtn').disabled = false;
+    streamBubble = null;
+  });
+
+  socket.on('error', msg => {
+    if (streamBubble) streamBubble.textContent = msg;
+    streaming = false;
+    document.getElementById('sendBtn').disabled = false;
+  });
+
+  document.getElementById('msgInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+  });
+
+  function feedback(type) {
+    fetch('/api/feedback', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({type}) });
+  }
+
+  function clearChat() {
+    document.getElementById('chatbox').innerHTML = '';
+    fetch('/api/clear', { method: 'POST' });
+  }
+
+  // ── Memory ────────────────────────────────────────────────────
+  function loadMemory() {
+    const q = document.getElementById('memQuery').value;
+    fetch(`/api/memory?q=${encodeURIComponent(q)}`)
+      .then(r => r.json())
+      .then(d => { document.getElementById('memOutput').value = d.memory; });
+  }
+
+  // ── Logs ──────────────────────────────────────────────────────
+  function loadLogs() {
+    fetch('/api/logs')
+      .then(r => r.json())
+      .then(d => { document.getElementById('logOutput').value = d.logs; });
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,2042 @@
+2026-04-09 21:19:12.652 [INFO] ════════════════════════════════════════════════════════════
+2026-04-09 21:19:12.656 [INFO] MetaCoach server starting...
+2026-04-09 21:19:12.658 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-09 21:19:12.909 [INFO] Created LanceDB table 'metacoach_kb'
+2026-04-09 21:19:12.911 [WARN] ⚠️  No PDFs found in './material'
+2026-04-09 21:19:12.912 [INFO] ⚠️  No PDFs found in './material'
+2026-04-09 21:19:12.916 [INFO] ✅ Server → http://localhost:5000
+2026-04-09 21:19:33.368 [INFO] ════════════════════════════════════════════════════════════
+2026-04-09 21:19:33.372 [INFO] MetaCoach server starting...
+2026-04-09 21:19:33.373 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-09 21:19:33.396 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-09 21:19:33.397 [WARN] ⚠️  No PDFs found in './material'
+2026-04-09 21:19:33.398 [INFO] ⚠️  No PDFs found in './material'
+2026-04-09 21:19:33.404 [INFO] ✅ Server → http://localhost:5000
+2026-04-09 21:26:21.215 [INFO] ════════════════════════════════════════════════════════════
+2026-04-09 21:26:21.220 [INFO] MetaCoach server starting...
+2026-04-09 21:26:21.221 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-09 21:26:21.239 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-09 21:26:21.241 [WARN] ⚠️  No PDFs found in './material'
+2026-04-09 21:26:21.242 [INFO] ⚠️  No PDFs found in './material'
+2026-04-09 21:26:21.248 [INFO] ✅ Server → http://localhost:5000
+2026-04-09 21:27:05.334 [INFO] Client connected: I1YJJY1JvnYJpgvrAAAB
+2026-04-09 21:27:13.796 [INFO] INPUT: what is metacognition? | intent=coaching
+2026-04-09 21:27:14.392 [ERROR] callLLM failed: HF API 410: {"error":"https://api-inference.huggingface.co is no longer supported. Please use https://router.huggingface.co instead."}
+2026-04-09 21:27:14.597 [ERROR] callLLMStream failed: HF API 410: {"error":"https://api-inference.huggingface.co is no longer supported. Please use https://router.huggingface.co instead."}
+2026-04-09 21:27:14.600 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-09 21:27:19.298 [INFO] INPUT: hello | intent=coaching
+2026-04-09 21:27:19.625 [ERROR] callLLM failed: HF API 410: {"error":"https://api-inference.huggingface.co is no longer supported. Please use https://router.huggingface.co instead."}
+2026-04-09 21:27:19.836 [ERROR] callLLMStream failed: HF API 410: {"error":"https://api-inference.huggingface.co is no longer supported. Please use https://router.huggingface.co instead."}
+2026-04-09 21:27:19.838 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-09 21:27:25.532 [INFO] Feedback: negative
+2026-04-09 21:27:27.767 [INFO] Feedback: negative
+2026-04-09 21:27:29.282 [INFO] Feedback: positive
+2026-04-09 21:28:48.296 [INFO] Client disconnected: I1YJJY1JvnYJpgvrAAAB
+2026-04-09 21:29:08.879 [INFO] ════════════════════════════════════════════════════════════
+2026-04-09 21:29:08.884 [INFO] MetaCoach server starting...
+2026-04-09 21:29:08.886 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-09 21:29:08.906 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-09 21:29:09.242 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-09 21:29:17.881 [INFO] Embedding model ready
+2026-04-09 21:29:21.931 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-09 21:29:25.337 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-09 21:29:25.339 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-09 21:29:25.343 [INFO] ✅ Server → http://localhost:5000
+2026-04-09 21:29:33.157 [INFO] Client connected: gHSjlUcyDVLkAellAAAB
+2026-04-09 21:29:36.290 [INFO] Client connected: SK05BoH30nrLJ8AFAAAD
+2026-04-09 21:29:38.723 [INFO] Client disconnected: gHSjlUcyDVLkAellAAAB
+2026-04-09 21:29:53.306 [INFO] INPUT: what is metacognition? | intent=coaching
+2026-04-09 21:29:53.991 [ERROR] callLLM failed: HF API 410: {"error":"https://api-inference.huggingface.co is no longer supported. Please use https://router.huggingface.co instead."}
+2026-04-09 21:29:54.178 [ERROR] callLLM failed: HF API 410: {"error":"https://api-inference.huggingface.co is no longer supported. Please use https://router.huggingface.co instead."}
+2026-04-09 21:29:54.519 [ERROR] callLLMStream failed: HF API 410: {"error":"https://api-inference.huggingface.co is no longer supported. Please use https://router.huggingface.co instead."}
+2026-04-09 21:29:54.521 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-09 21:34:24.874 [INFO] ════════════════════════════════════════════════════════════
+2026-04-09 21:34:24.879 [INFO] MetaCoach server starting...
+2026-04-09 21:34:24.880 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-09 21:34:24.899 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-09 21:34:25.256 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-09 21:34:25.533 [INFO] Embedding model ready
+2026-04-09 21:34:29.901 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-09 21:34:33.772 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-09 21:34:33.773 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-09 21:34:33.778 [INFO] ✅ Server → http://localhost:5000
+2026-04-09 21:34:37.107 [INFO] Client connected: ml-XCdqoclyfGl71AAAB
+2026-04-09 21:34:47.272 [INFO] INPUT: what is metacognition? | intent=coaching
+2026-04-09 21:34:47.277 [ERROR] callLLM failed: Failed to parse URL from // ❌ OLD (dead)
+https://api-inference.huggingface.co/models/...
+
+// ✅ NEW
+https://router.huggingface.co/hf-inference/models/mistralai/Mistral-7B-Instruct-v0.3/v1/chat/completions
+2026-04-09 21:34:47.279 [ERROR] callLLM failed: Failed to parse URL from // ❌ OLD (dead)
+https://api-inference.huggingface.co/models/...
+
+// ✅ NEW
+https://router.huggingface.co/hf-inference/models/mistralai/Mistral-7B-Instruct-v0.3/v1/chat/completions
+2026-04-09 21:34:47.311 [ERROR] callLLMStream failed: Failed to parse URL from // ❌ OLD (dead)
+https://api-inference.huggingface.co/models/...
+
+// ✅ NEW
+https://router.huggingface.co/hf-inference/models/mistralai/Mistral-7B-Instruct-v0.3/v1/chat/completions
+2026-04-09 21:34:47.314 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-09 21:34:51.296 [INFO] INPUT: hhh | intent=coaching
+2026-04-09 21:34:51.299 [ERROR] callLLM failed: Failed to parse URL from // ❌ OLD (dead)
+https://api-inference.huggingface.co/models/...
+
+// ✅ NEW
+https://router.huggingface.co/hf-inference/models/mistralai/Mistral-7B-Instruct-v0.3/v1/chat/completions
+2026-04-09 21:34:51.301 [ERROR] callLLM failed: Failed to parse URL from // ❌ OLD (dead)
+https://api-inference.huggingface.co/models/...
+
+// ✅ NEW
+https://router.huggingface.co/hf-inference/models/mistralai/Mistral-7B-Instruct-v0.3/v1/chat/completions
+2026-04-09 21:34:51.321 [ERROR] callLLMStream failed: Failed to parse URL from // ❌ OLD (dead)
+https://api-inference.huggingface.co/models/...
+
+// ✅ NEW
+https://router.huggingface.co/hf-inference/models/mistralai/Mistral-7B-Instruct-v0.3/v1/chat/completions
+2026-04-09 21:34:51.323 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-09 21:34:56.765 [INFO] Feedback: positive
+2026-04-09 21:35:01.010 [INFO] INPUT: www | intent=coaching
+2026-04-09 21:35:01.013 [ERROR] callLLM failed: Failed to parse URL from // ❌ OLD (dead)
+https://api-inference.huggingface.co/models/...
+
+// ✅ NEW
+https://router.huggingface.co/hf-inference/models/mistralai/Mistral-7B-Instruct-v0.3/v1/chat/completions
+2026-04-09 21:35:01.014 [ERROR] callLLM failed: Failed to parse URL from // ❌ OLD (dead)
+https://api-inference.huggingface.co/models/...
+
+// ✅ NEW
+https://router.huggingface.co/hf-inference/models/mistralai/Mistral-7B-Instruct-v0.3/v1/chat/completions
+2026-04-09 21:35:01.029 [ERROR] callLLMStream failed: Failed to parse URL from // ❌ OLD (dead)
+https://api-inference.huggingface.co/models/...
+
+// ✅ NEW
+https://router.huggingface.co/hf-inference/models/mistralai/Mistral-7B-Instruct-v0.3/v1/chat/completions
+2026-04-09 21:35:01.031 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-09 21:36:02.612 [INFO] ════════════════════════════════════════════════════════════
+2026-04-09 21:36:02.616 [INFO] MetaCoach server starting...
+2026-04-09 21:36:02.617 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-09 21:36:02.630 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-09 21:36:02.947 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-09 21:36:03.241 [INFO] Embedding model ready
+2026-04-09 21:36:07.813 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-09 21:36:11.372 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-09 21:36:11.373 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-09 21:36:11.379 [INFO] ✅ Server → http://localhost:5000
+2026-04-09 21:36:13.864 [INFO] Client connected: wb5vmMZLqFifg-YzAAAB
+2026-04-09 21:36:23.471 [INFO] INPUT: what is metacognition? | intent=coaching
+2026-04-09 21:36:24.021 [ERROR] callLLM failed: HF API 404: Not Found
+2026-04-09 21:36:24.256 [ERROR] callLLM failed: HF API 404: Not Found
+2026-04-09 21:36:24.519 [ERROR] callLLMStream failed: HF API 404: Not Found
+2026-04-09 21:36:24.522 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-09 21:36:32.543 [INFO] INPUT: wwww | intent=coaching
+2026-04-09 21:36:32.930 [ERROR] callLLM failed: HF API 404: Not Found
+2026-04-09 21:36:33.151 [ERROR] callLLM failed: HF API 404: Not Found
+2026-04-09 21:36:33.495 [ERROR] callLLMStream failed: HF API 404: Not Found
+2026-04-09 21:36:33.497 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-09 21:36:37.411 [INFO] Feedback: positive
+2026-04-09 21:40:19.462 [INFO] ════════════════════════════════════════════════════════════
+2026-04-09 21:40:19.466 [INFO] MetaCoach server starting...
+2026-04-09 21:40:19.467 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-09 21:40:19.482 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-09 21:40:19.862 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-09 21:40:20.128 [INFO] Embedding model ready
+2026-04-09 21:40:24.460 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-09 21:40:28.250 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-09 21:40:28.252 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-09 21:40:28.257 [INFO] ✅ Server → http://localhost:5000
+2026-04-09 21:40:30.104 [INFO] Client connected: d58JJWJNSQ0Lzgi8AAAB
+2026-04-09 21:40:34.029 [INFO] Client disconnected: d58JJWJNSQ0Lzgi8AAAB
+2026-04-09 21:40:56.753 [INFO] Client connected: grXx9LrRqq5cDwMCAAAD
+2026-04-09 21:41:11.228 [INFO] INPUT: what is metacognition? | intent=coaching
+2026-04-09 21:41:11.815 [ERROR] callLLM failed: HF API 404: Not Found
+2026-04-09 21:41:12.047 [ERROR] callLLM failed: HF API 404: Not Found
+2026-04-09 21:41:12.349 [ERROR] callLLMStream failed: HF API 404: Not Found
+2026-04-09 21:41:12.352 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-09 21:47:56.865 [INFO] Client disconnected: grXx9LrRqq5cDwMCAAAD
+2026-04-09 21:56:50.026 [INFO] ════════════════════════════════════════════════════════════
+2026-04-09 21:56:50.031 [INFO] MetaCoach server starting...
+2026-04-09 21:56:50.032 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-09 21:56:50.046 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-09 21:56:50.363 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-09 21:56:50.688 [INFO] Embedding model ready
+2026-04-09 21:56:54.294 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-09 21:56:57.888 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-09 21:56:57.889 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-09 21:56:57.894 [INFO] ✅ Server → http://localhost:5000
+2026-04-09 21:58:04.318 [INFO] Client connected: C9BlgRE0PRFmnfHTAAAB
+2026-04-09 21:58:05.698 [INFO] Client connected: lEawDXT5sysOyIsXAAAD
+2026-04-09 21:58:06.509 [INFO] Client disconnected: lEawDXT5sysOyIsXAAAD
+2026-04-09 21:58:15.366 [INFO] INPUT: what is meta | intent=coaching
+2026-04-09 21:58:15.977 [ERROR] Gemini callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-09 21:58:16.121 [ERROR] Gemini callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-09 21:58:16.377 [ERROR] Gemini callLLMStream failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:streamGenerateContent?alt=sse: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-09 21:58:16.379 [INFO] RESPONSE: ⚠️ Generation error. Please check your API key and connection.
+2026-04-10 07:34:09.975 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 07:34:09.982 [INFO] MetaCoach server starting...
+2026-04-10 07:34:09.983 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 07:34:10.040 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 07:34:10.356 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 07:34:10.656 [INFO] Embedding model ready
+2026-04-10 07:34:15.262 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 07:34:19.085 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 07:34:19.085 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 07:34:19.092 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 07:34:45.209 [INFO] Client connected: VsfvgdARdhi08tP5AAAB
+2026-04-10 07:34:53.409 [INFO] INPUT: WHAT IS metacognition? | intent=coaching
+2026-04-10 07:34:54.075 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 07:34:54.251 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 07:34:54.521 [ERROR] callLLMStream failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:streamGenerateContent?alt=sse: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 07:34:54.523 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-10 07:39:42.890 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 07:39:42.894 [INFO] MetaCoach server starting...
+2026-04-10 07:39:42.895 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 07:39:42.918 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 07:39:43.213 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 07:39:43.466 [INFO] Embedding model ready
+2026-04-10 07:39:47.222 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 07:39:50.154 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 07:39:50.155 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 07:39:50.159 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 07:39:50.730 [INFO] Client connected: kIUEuR94rAlVTw6LAAAB
+2026-04-10 07:39:56.330 [INFO] Client disconnected: kIUEuR94rAlVTw6LAAAB
+2026-04-10 07:39:56.429 [INFO] Client connected: yj6Yn4KplYWpQNpCAAAD
+2026-04-10 07:40:04.664 [INFO] INPUT: WHAT is metacognition? | intent=coaching
+2026-04-10 07:40:05.401 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 55.403723095s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash","location":"global"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"55s"}]
+2026-04-10 07:40:05.592 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 55.204235987s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"55s"}]
+2026-04-10 07:40:05.793 [ERROR] callLLMStream failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:streamGenerateContent?alt=sse: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 07:40:05.795 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-10 07:40:09.727 [INFO] INPUT: dasc | intent=coaching
+2026-04-10 07:40:09.906 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 50.890680284s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"50s"}]
+2026-04-10 07:40:10.084 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 50.712109285s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"50s"}]
+2026-04-10 07:40:10.271 [ERROR] callLLMStream failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:streamGenerateContent?alt=sse: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 07:40:10.273 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-10 07:40:12.322 [INFO] Feedback: positive
+2026-04-10 07:46:56.533 [INFO] Client disconnected: yj6Yn4KplYWpQNpCAAAD
+2026-04-10 07:48:43.724 [INFO] Client connected: sGY0iEwrggW5lf7qAAAF
+2026-04-10 07:49:38.878 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 07:49:38.882 [INFO] MetaCoach server starting...
+2026-04-10 07:49:38.883 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 07:49:38.905 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 07:49:39.206 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 07:49:39.471 [INFO] Embedding model ready
+2026-04-10 07:49:43.720 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 07:49:47.323 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 07:49:47.324 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 07:49:47.328 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 07:49:49.724 [INFO] Client connected: qRsqCSENjyrBISAcAAAB
+2026-04-10 07:49:58.751 [INFO] Client disconnected: qRsqCSENjyrBISAcAAAB
+2026-04-10 07:49:58.843 [INFO] Client connected: tjFjvgn3ir_3RuA_AAAD
+2026-04-10 07:50:08.165 [INFO] INPUT: what is metacognition | intent=coaching
+2026-04-10 07:50:08.736 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 52.085476237s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"52s"}]
+2026-04-10 07:50:08.907 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 51.901483319s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"51s"}]
+2026-04-10 07:50:09.126 [ERROR] callLLMStream failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:streamGenerateContent?alt=sse: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 51.68137832s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"51s"}]
+2026-04-10 07:50:09.129 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-10 07:51:36.249 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 07:51:36.253 [INFO] MetaCoach server starting...
+2026-04-10 07:51:36.254 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 07:51:36.272 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 07:51:36.550 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 07:51:36.832 [INFO] Embedding model ready
+2026-04-10 07:51:41.409 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 07:51:45.025 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 07:51:45.025 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 07:54:49.737 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 07:54:49.741 [INFO] MetaCoach server starting...
+2026-04-10 07:54:49.742 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 07:54:49.752 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 07:54:50.042 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 07:54:50.296 [INFO] Embedding model ready
+2026-04-10 07:54:54.487 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 07:54:57.919 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 07:54:57.920 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 07:54:57.925 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 07:55:08.794 [INFO] Client connected: Eg7WB0_4pi6Rwpe2AAAB
+2026-04-10 07:55:17.072 [INFO] Client connected: RETa8-mPtIKTVrD_AAAD
+2026-04-10 07:55:22.162 [INFO] Client disconnected: Eg7WB0_4pi6Rwpe2AAAB
+2026-04-10 07:55:22.269 [INFO] Client connected: IYYuPaLlb2rSji2tAAAF
+2026-04-10 07:55:23.215 [INFO] Client disconnected: IYYuPaLlb2rSji2tAAAF
+2026-04-10 07:55:27.755 [INFO] INPUT: what is meta | intent=coaching
+2026-04-10 07:55:28.375 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 32.456303529s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash-lite","location":"global"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"32s"}]
+2026-04-10 07:55:28.555 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 32.260103157s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash-lite","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"32s"}]
+2026-04-10 07:55:28.772 [ERROR] callLLMStream failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:streamGenerateContent?alt=sse: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 32.045436017s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-lite"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"32s"}]
+2026-04-10 07:55:28.775 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-10 07:58:32.078 [INFO] Client disconnected: RETa8-mPtIKTVrD_AAAD
+2026-04-10 07:59:55.498 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 07:59:55.501 [INFO] MetaCoach server starting...
+2026-04-10 07:59:55.502 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 07:59:55.550 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 07:59:55.818 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 07:59:56.076 [INFO] Embedding model ready
+2026-04-10 07:59:59.983 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 08:00:02.859 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:00:02.860 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:00:02.864 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 08:00:08.286 [INFO] Client connected: ALN-ZKN5adFMxNs6AAAB
+2026-04-10 08:00:11.527 [INFO] Client disconnected: ALN-ZKN5adFMxNs6AAAB
+2026-04-10 08:00:11.606 [INFO] Client connected: 0HdVN1xu31p4RK8kAAAD
+2026-04-10 08:00:17.433 [INFO] Client disconnected: 0HdVN1xu31p4RK8kAAAD
+2026-04-10 08:00:17.549 [INFO] Client connected: iHbLEUUMhlG162KfAAAF
+2026-04-10 08:00:20.900 [INFO] INPUT: whatt | intent=coaching
+2026-04-10 08:00:21.558 [WARN] Quota exceeded — falling back to model: gemini-1.5-flash
+2026-04-10 08:00:21.737 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 08:00:21.930 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 08:00:22.146 [ERROR] callLLMStream failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:streamGenerateContent?alt=sse: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 08:00:22.149 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-10 08:02:44.423 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 08:02:44.427 [INFO] MetaCoach server starting...
+2026-04-10 08:02:44.428 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 08:02:44.457 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 08:02:44.736 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 08:02:44.996 [INFO] Embedding model ready
+2026-04-10 08:02:48.815 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 08:02:51.677 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:02:51.678 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:02:51.682 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 08:02:56.736 [INFO] Client connected: v6auXmzWhvasDO-IAAAB
+2026-04-10 08:03:08.596 [INFO] Client disconnected: v6auXmzWhvasDO-IAAAB
+2026-04-10 08:03:08.694 [INFO] Client connected: u6Rw_UmnhT0It5BKAAAD
+2026-04-10 08:03:11.609 [INFO] INPUT: hhh | intent=coaching
+2026-04-10 08:03:12.188 [WARN] Quota exceeded — falling back to model: gemini-1.5-flash
+2026-04-10 08:03:12.359 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 08:03:12.520 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 08:03:12.721 [ERROR] callLLMStream failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:streamGenerateContent?alt=sse: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 08:03:12.723 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-10 08:04:54.903 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 08:04:54.905 [INFO] MetaCoach server starting...
+2026-04-10 08:04:54.906 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 08:04:54.920 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 08:04:55.248 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 08:04:55.527 [INFO] Embedding model ready
+2026-04-10 08:04:59.514 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 08:05:02.631 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:05:02.632 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:05:16.483 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 08:05:16.486 [INFO] MetaCoach server starting...
+2026-04-10 08:05:16.487 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 08:05:16.496 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 08:05:16.787 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 08:05:17.062 [INFO] Embedding model ready
+2026-04-10 08:05:21.491 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 08:05:24.888 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:05:24.888 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:05:24.893 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 08:05:28.732 [INFO] Client connected: 3Iwze8RsUrd8OJ12AAAB
+2026-04-10 08:05:53.815 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 08:05:53.819 [INFO] MetaCoach server starting...
+2026-04-10 08:05:53.820 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 08:05:53.847 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 08:05:54.121 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 08:05:54.370 [INFO] Embedding model ready
+2026-04-10 08:05:58.081 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 08:06:01.718 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:06:01.719 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:06:05.193 [INFO] Client disconnected: 3Iwze8RsUrd8OJ12AAAB
+2026-04-10 08:06:05.290 [INFO] Client connected: 7DC55nUfj0YpChtXAAAD
+2026-04-10 08:06:15.728 [INFO] Client disconnected: 7DC55nUfj0YpChtXAAAD
+2026-04-10 08:06:24.032 [INFO] Client connected: b-pxJ31YrW-E1QG4AAAF
+2026-04-10 08:06:47.925 [INFO] Client disconnected: b-pxJ31YrW-E1QG4AAAF
+2026-04-10 08:06:53.508 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 08:06:53.512 [INFO] MetaCoach server starting...
+2026-04-10 08:06:53.513 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 08:06:53.550 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 08:06:53.858 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 08:06:54.100 [INFO] Embedding model ready
+2026-04-10 08:06:57.642 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 08:07:00.766 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:07:00.767 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:07:09.738 [INFO] Client connected: 1UNQZLklqe_lXAx1AAAH
+2026-04-10 08:07:13.288 [INFO] Client connected: -k9hapnDqaI8OVTCAAAJ
+2026-04-10 08:09:11.139 [INFO] INPUT: what | intent=coaching
+2026-04-10 08:09:11.775 [WARN] Quota exceeded — falling back to model: gemini-2.0-flash-lite
+2026-04-10 08:09:11.945 [WARN] Quota exceeded — falling back to model: gemini-1.5-pro
+2026-04-10 08:09:12.111 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 08:09:12.267 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 08:09:12.453 [ERROR] callLLMStream failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:streamGenerateContent?alt=sse: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-10 08:09:12.455 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-10 08:10:07.219 [INFO] Client disconnected: 1UNQZLklqe_lXAx1AAAH
+2026-04-10 08:10:07.221 [INFO] Client disconnected: -k9hapnDqaI8OVTCAAAJ
+2026-04-10 08:11:44.855 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 08:11:44.858 [INFO] MetaCoach server starting...
+2026-04-10 08:11:44.859 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 08:11:44.872 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 08:11:45.158 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 08:11:45.433 [INFO] Embedding model ready
+2026-04-10 08:11:49.380 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 08:11:52.859 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:11:52.860 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:11:52.864 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 08:12:01.662 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 08:12:01.665 [INFO] MetaCoach server starting...
+2026-04-10 08:12:01.667 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 08:12:01.704 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 08:12:02.000 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 08:12:02.291 [INFO] Embedding model ready
+2026-04-10 08:12:06.104 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 08:12:09.316 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:12:09.317 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:12:56.756 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 08:12:56.760 [INFO] MetaCoach server starting...
+2026-04-10 08:12:56.761 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 08:12:56.774 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 08:12:57.102 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 08:12:57.379 [INFO] Embedding model ready
+2026-04-10 08:13:01.889 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 08:13:05.674 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:13:05.675 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:13:34.253 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 08:13:34.257 [INFO] MetaCoach server starting...
+2026-04-10 08:13:34.258 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 08:13:34.272 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 08:13:34.614 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 08:13:34.896 [INFO] Embedding model ready
+2026-04-10 08:13:39.562 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 08:13:43.349 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:13:43.350 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:14:00.967 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 08:14:00.971 [INFO] MetaCoach server starting...
+2026-04-10 08:14:00.972 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 08:14:00.981 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 08:14:01.278 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 08:14:01.554 [INFO] Embedding model ready
+2026-04-10 08:14:05.465 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 08:14:08.916 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:14:08.917 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:14:53.324 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 08:14:53.327 [INFO] MetaCoach server starting...
+2026-04-10 08:14:53.328 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 08:14:53.339 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 08:14:53.622 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 08:14:53.940 [INFO] Embedding model ready
+2026-04-10 08:14:57.740 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 08:15:01.676 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:15:01.677 [INFO] ✅ 1 PDF(s) · 130 semantic chunks loaded into LanceDB
+2026-04-10 08:15:01.683 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 08:15:26.027 [INFO] Client connected: 8wa3B0y2qh46uQKBAAAB
+2026-04-10 08:15:32.422 [INFO] INPUT: hh | intent=coaching
+2026-04-10 08:15:38.924 [INFO] RESPONSE: Hello. To assist you, please clarify what you would like to discuss or what goal you have in mind.
+2026-04-10 08:15:47.828 [INFO] INPUT: what is metacognition? | intent=coaching
+2026-04-10 08:15:54.127 [INFO] RESPONSE: I don't have enough information in the provided knowledge base to define "metacognition."
+
+However, if you're interested
+2026-04-10 08:16:15.666 [INFO] INPUT: I am struggling with consistency | intent=coaching
+2026-04-10 08:16:16.118 [WARN] Quota exceeded — falling back to model: gemini-2.0-flash
+2026-04-10 08:16:16.287 [WARN] Quota exceeded — falling back to model: gemini-2.0-flash-lite
+2026-04-10 08:16:16.451 [WARN] All models quota-limited. Waiting 46s before retry (attempt 3/3)…
+2026-04-10 08:16:57.647 [INFO] Feedback: positive
+2026-04-10 08:17:03.511 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-04-10 08:17:06.769 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-04-10 08:17:08.357 [ERROR] callLLMStream failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-04-10 08:17:08.359 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-10 08:27:22.495 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 08:27:22.498 [INFO] MetaCoach server starting...
+2026-04-10 08:27:22.499 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 08:27:22.609 [INFO] Created LanceDB table 'metacoach_kb'
+2026-04-10 08:27:22.910 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 08:27:23.202 [INFO] Embedding model ready
+2026-04-10 08:27:27.021 [INFO] 6 1 meta coaching pelez.pdf: 130 semantic chunks
+2026-04-10 08:27:29.836 [INFO] ✅ 1 PDF(s) · 130 new chunks loaded into LanceDB (0 skipped)
+2026-04-10 08:27:29.837 [INFO] ✅ 1 PDF(s) · 130 new chunks loaded into LanceDB (0 skipped)
+2026-04-10 08:27:29.841 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 08:27:31.659 [INFO] Client connected: Q3xcCsL9bfEHecASAAAB
+2026-04-10 08:27:42.834 [INFO] INPUT: what is metacognition | intent=coaching
+2026-04-10 08:27:47.773 [INFO] RESPONSE: Metacognition refers to thinking about one's own decision-making process. It is described as a higher-order executive pr
+2026-04-10 08:28:09.721 [INFO] INPUT: I am struggling with consistency | intent=coaching
+2026-04-10 08:28:11.408 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-04-10 08:28:12.298 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-04-10 08:28:15.924 [ERROR] callLLMStream failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-04-10 08:28:15.925 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-10 08:28:25.970 [INFO] INPUT: what | intent=coaching
+2026-04-10 08:28:26.399 [WARN] Quota exceeded — falling back to model: gemini-2.0-flash
+2026-04-10 08:28:26.574 [WARN] Quota exceeded — falling back to model: gemini-2.0-flash-lite
+2026-04-10 08:28:26.762 [WARN] All models quota-limited. Waiting 36s before retry (attempt 3/3)…
+2026-04-10 08:29:05.122 [ERROR] callLLM failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-04-10 08:29:09.845 [ERROR] callLLMStream failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-04-10 08:29:09.846 [INFO] RESPONSE: ⚠️ Generation error. Please try again.
+2026-04-10 08:31:48.463 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 08:31:48.466 [INFO] MetaCoach server starting...
+2026-04-10 08:31:48.467 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 08:31:48.497 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 08:31:48.524 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 08:31:48.525 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 08:31:48.525 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 08:31:48.530 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 08:31:50.738 [INFO] Client connected: tqq7Eu08rodEfskPAAAB
+2026-04-10 08:32:10.745 [INFO] Client disconnected: tqq7Eu08rodEfskPAAAB
+2026-04-10 08:32:10.882 [INFO] Client connected: cFdUWR81TvWymdyXAAAD
+2026-04-10 08:32:18.461 [INFO] INPUT: what is metacognition? | intent=coaching
+2026-04-10 08:32:20.895 [ERROR] callLLM [gemini-2.5-flash] failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-04-10 08:32:20.896 [WARN] Model gemini-2.5-flash on cooldown for 60s
+2026-04-10 08:32:21.075 [WARN] Model gemini-2.0-flash on cooldown for 41s
+2026-04-10 08:32:22.603 [WARN] Model gemini-2.0-flash-lite on cooldown for 40s
+2026-04-10 08:32:24.765 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 08:32:27.020 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 08:32:27.022 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 08:32:27.321 [INFO] Embedding model ready
+2026-04-10 08:32:28.388 [INFO] ✅ callLLMStream succeeded with gemini-2.5-flash-lite
+2026-04-10 08:32:28.389 [INFO] RESPONSE: Metacognition refers to higher-order executive processes that involve knowledge or cognitive processes about cognition i
+2026-04-10 08:32:46.061 [INFO] INPUT: I am struggling with consistency | intent=coaching
+2026-04-10 08:32:47.293 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 08:32:48.159 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 08:32:49.823 [INFO] ✅ callLLMStream succeeded with gemini-2.5-flash-lite
+2026-04-10 08:32:49.824 [INFO] RESPONSE: I understand you're struggling with consistency. To help you explore this, could you tell me more about what specific ar
+2026-04-10 08:32:56.991 [INFO] INPUT: at work | intent=coaching
+2026-04-10 08:32:58.557 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 08:32:59.170 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 08:33:02.137 [INFO] ✅ callLLMStream succeeded with gemini-2.5-flash-lite
+2026-04-10 08:33:02.138 [INFO] RESPONSE: You're looking to improve consistency at work.
+
+To help clarify this, what does "consistency" look like for you in a wor
+2026-04-10 08:33:51.361 [INFO] INPUT: I can't keep working for more than 2 hours with the same pace | intent=coaching
+2026-04-10 08:33:53.515 [ERROR] callLLM [gemini-2.5-flash] failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-04-10 08:33:53.516 [WARN] Model gemini-2.5-flash on cooldown for 60s
+2026-04-10 08:33:53.687 [WARN] Model gemini-2.0-flash on cooldown for 9s
+2026-04-10 08:33:55.191 [WARN] Model gemini-2.0-flash-lite on cooldown for 7s
+2026-04-10 08:33:58.023 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 08:33:58.779 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 08:34:01.436 [INFO] ✅ callLLMStream succeeded with gemini-2.5-flash-lite
+2026-04-10 08:34:01.437 [INFO] RESPONSE: I understand you're finding it difficult to maintain your work pace beyond two-hour intervals.
+
+To clarify, what is your
+2026-04-10 08:34:46.570 [INFO] INPUT: I want to extend the duration length with the same energy level | intent=coaching
+2026-04-10 08:34:47.096 [WARN] Model gemini-2.0-flash on cooldown for 15s
+2026-04-10 08:34:48.252 [WARN] Model gemini-2.0-flash-lite on cooldown for 14s
+2026-04-10 08:34:51.002 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 08:34:51.813 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 08:34:53.561 [INFO] ✅ callLLMStream succeeded with gemini-2.5-flash-lite
+2026-04-10 08:34:53.562 [INFO] RESPONSE: You aim to extend your work duration while maintaining the same energy level.
+
+To help structure your thinking, let's co
+2026-04-10 08:35:25.825 [INFO] INPUT: you suggest these  key factors | intent=coaching
+2026-04-10 08:35:27.694 [INFO] ✅ callLLM succeeded with gemini-2.5-flash
+2026-04-10 08:35:27.897 [WARN] Model gemini-2.5-flash on cooldown for 35s
+2026-04-10 08:35:29.382 [WARN] Model gemini-2.0-flash on cooldown for 33s
+2026-04-10 08:35:30.921 [WARN] Model gemini-2.0-flash-lite on cooldown for 31s
+2026-04-10 08:35:32.877 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 08:35:34.789 [INFO] ✅ callLLMStream succeeded with gemini-2.5-flash-lite
+2026-04-10 08:35:34.790 [INFO] RESPONSE: I can help you explore the factors contributing to your two-hour work limit.
+
+To identify these factors, consider:
+*   W
+2026-04-10 08:51:48.144 [INFO] Client disconnected: cFdUWR81TvWymdyXAAAD
+2026-04-10 08:51:48.241 [INFO] Client connected: VTY_yZCCXOV4739yAAAF
+2026-04-10 08:52:00.950 [INFO] INPUT: what is metacognition? | intent=coaching
+2026-04-10 08:52:01.627 [WARN] Model gemini-2.5-flash on cooldown for 61s
+2026-04-10 08:52:02.645 [WARN] Model gemini-2.0-flash on cooldown for 60s
+2026-04-10 08:52:04.127 [WARN] Model gemini-2.0-flash-lite on cooldown for 58s
+2026-04-10 08:52:06.194 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 08:52:07.548 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 08:52:09.958 [INFO] ✅ callLLMStream succeeded with gemini-2.5-flash-lite
+2026-04-10 08:52:09.959 [INFO] RESPONSE: You're asking for a definition of metacognition based on the provided text.
+
+Metacognition refers to higher-order execut
+2026-04-10 08:57:58.435 [INFO] Client disconnected: VTY_yZCCXOV4739yAAAF
+2026-04-10 08:58:21.716 [INFO] Client connected: Tr2plExBJtncGfbcAAAH
+2026-04-10 08:58:22.929 [INFO] Client disconnected: Tr2plExBJtncGfbcAAAH
+2026-04-10 08:58:23.024 [INFO] Client connected: u0Z9rFhhmWonGDAPAAAJ
+2026-04-10 08:58:30.687 [INFO] INPUT: what is metacognition? | intent=coaching
+2026-04-10 08:58:30.689 [INFO] 💾 Cache hit — returning cached response (0 API cost)
+2026-04-10 08:58:30.699 [INFO] 💾 Cache hit — returning cached response (0 API cost)
+2026-04-10 08:58:31.355 [WARN] Model gemini-2.5-flash on cooldown for 31s
+2026-04-10 08:58:32.409 [WARN] Model gemini-2.0-flash on cooldown for 30s
+2026-04-10 08:58:33.916 [WARN] Model gemini-2.0-flash-lite on cooldown for 29s
+2026-04-10 08:58:36.215 [INFO] ✅ callLLMStream succeeded with gemini-2.5-flash-lite
+2026-04-10 08:58:36.216 [INFO] RESPONSE: You are asking for a definition of metacognition.
+
+Metacognition is a higher-order executive process that involves knowl
+2026-04-10 09:00:04.070 [INFO] Client disconnected: u0Z9rFhhmWonGDAPAAAJ
+2026-04-10 09:00:04.186 [INFO] Client connected: 58aWDDjM4A3JrCWKAAAL
+2026-04-10 09:00:19.239 [INFO] INPUT: what is metacognition? | intent=coaching
+2026-04-10 09:00:19.241 [INFO] 💾 Cache hit — returning cached response (0 API cost)
+2026-04-10 09:00:19.252 [INFO] 💾 Cache hit — returning cached response (0 API cost)
+2026-04-10 09:00:19.816 [WARN] Model gemini-2.5-flash on cooldown for 43s
+2026-04-10 09:00:20.974 [WARN] Model gemini-2.0-flash on cooldown for 41s
+2026-04-10 09:00:22.482 [WARN] Model gemini-2.0-flash-lite on cooldown for 40s
+2026-04-10 09:00:24.120 [WARN] Model gemini-2.5-flash-lite on cooldown for 38s
+2026-04-10 09:00:25.492 [WARN] Model gemini-2.5-pro on cooldown for 37s
+2026-04-10 09:00:26.995 [WARN] Model gemini-2.0-flash-001 on cooldown for 35s
+2026-04-10 09:00:28.536 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 34s
+2026-04-10 09:00:35.776 [INFO] ✅ callLLMStream succeeded with gemini-flash-latest
+2026-04-10 09:00:35.777 [INFO] RESPONSE: Metacognition is a higher-order executive process that involves monitoring and controlling
+2026-04-10 09:02:14.246 [INFO] INPUT: I am struggling with consistency , I can't work with the same pace for more than 2 hours | intent=coaching
+2026-04-10 09:02:14.819 [WARN] Model gemini-2.5-flash on cooldown for 48s
+2026-04-10 09:02:15.945 [WARN] Model gemini-2.0-flash on cooldown for 46s
+2026-04-10 09:02:17.452 [WARN] Model gemini-2.0-flash-lite on cooldown for 45s
+2026-04-10 09:02:19.170 [WARN] Model gemini-2.5-flash-lite on cooldown for 43s
+2026-04-10 09:02:20.428 [WARN] Model gemini-2.5-pro on cooldown for 42s
+2026-04-10 09:02:21.969 [WARN] Model gemini-2.0-flash-001 on cooldown for 40s
+2026-04-10 09:02:23.462 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 39s
+2026-04-10 09:02:26.656 [INFO] ✅ callLLM succeeded with gemini-flash-latest
+2026-04-10 09:02:28.084 [INFO] ✅ callLLM succeeded with gemini-flash-latest
+2026-04-10 09:02:51.708 [INFO] ✅ callLLMStream succeeded with gemini-flash-latest
+2026-04-10 09:02:51.709 [INFO] RESPONSE: It sounds like you have identified a clear threshold where your current pace becomes difficult to maintain. To extend th
+2026-04-10 09:03:05.762 [INFO] INPUT: guide me | intent=coaching
+2026-04-10 09:03:06.212 [WARN] Model gemini-2.5-flash on cooldown for 56s
+2026-04-10 09:03:07.439 [WARN] Model gemini-2.0-flash on cooldown for 55s
+2026-04-10 09:03:08.962 [WARN] Model gemini-2.0-flash-lite on cooldown for 53s
+2026-04-10 09:03:10.457 [WARN] Model gemini-2.5-flash-lite on cooldown for 52s
+2026-04-10 09:03:11.969 [WARN] Model gemini-2.5-pro on cooldown for 50s
+2026-04-10 09:03:13.478 [WARN] Model gemini-2.0-flash-001 on cooldown for 49s
+2026-04-10 09:03:14.987 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 47s
+2026-04-10 09:03:18.358 [INFO] ✅ callLLM succeeded with gemini-flash-latest
+2026-04-10 09:03:44.874 [INFO] ✅ callLLM succeeded with gemini-flash-latest
+2026-04-10 09:04:21.649 [INFO] ✅ callLLMStream succeeded with gemini-flash-latest
+2026-04-10 09:04:21.650 [INFO] RESPONSE: I will guide you through a structured reflection to identify what occurs as you approach your current 2-hour
+2026-04-10 09:04:30.246 [INFO] INPUT: what is the capital of brazil? | intent=coaching
+2026-04-10 09:04:30.945 [WARN] Model gemini-2.5-flash on cooldown for 32s
+2026-04-10 09:04:31.933 [WARN] Model gemini-2.0-flash on cooldown for 30s
+2026-04-10 09:04:33.443 [WARN] Model gemini-2.0-flash-lite on cooldown for 29s
+2026-04-10 09:04:35.174 [WARN] Model gemini-2.5-flash-lite on cooldown for 27s
+2026-04-10 09:04:36.454 [WARN] Model gemini-2.5-pro on cooldown for 26s
+2026-04-10 09:04:37.931 [WARN] Model gemini-2.0-flash-001 on cooldown for 24s
+2026-04-10 09:04:39.444 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 23s
+2026-04-10 09:05:09.605 [INFO] ✅ callLLM succeeded with gemini-flash-latest
+2026-04-10 09:05:09.818 [WARN] Model gemini-2.5-flash on cooldown for 53s
+2026-04-10 09:05:11.346 [WARN] Model gemini-2.0-flash on cooldown for 51s
+2026-04-10 09:05:12.805 [WARN] Model gemini-2.0-flash-lite on cooldown for 50s
+2026-04-10 09:05:14.316 [WARN] Model gemini-2.5-flash-lite on cooldown for 48s
+2026-04-10 09:05:15.826 [WARN] Model gemini-2.5-pro on cooldown for 47s
+2026-04-10 09:05:17.346 [WARN] Model gemini-2.0-flash-001 on cooldown for 45s
+2026-04-10 09:05:18.866 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 44s
+2026-04-10 09:05:21.388 [INFO] ✅ callLLM succeeded with gemini-flash-latest
+2026-04-10 09:05:46.469 [INFO] ✅ callLLMStream succeeded with gemini-flash-latest
+2026-04-10 09:05:46.470 [INFO] RESPONSE: I don't have enough information in the provided knowledge base.
+2026-04-10 09:06:03.162 [INFO] INPUT: I only have you | intent=coaching
+2026-04-10 09:06:03.625 [WARN] Model gemini-2.5-flash on cooldown for 59s
+2026-04-10 09:06:04.854 [WARN] Model gemini-2.0-flash on cooldown for 58s
+2026-04-10 09:06:06.346 [WARN] Model gemini-2.0-flash-lite on cooldown for 56s
+2026-04-10 09:06:07.853 [WARN] Model gemini-2.5-flash-lite on cooldown for 55s
+2026-04-10 09:06:09.338 [WARN] Model gemini-2.5-pro on cooldown for 53s
+2026-04-10 09:06:10.873 [WARN] Model gemini-2.0-flash-001 on cooldown for 52s
+2026-04-10 09:06:12.384 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 50s
+2026-04-10 09:06:17.574 [ERROR] callLLM [gemini-flash-latest] failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-04-10 09:06:17.575 [WARN] Model gemini-flash-latest on cooldown for 60s
+2026-04-10 09:06:17.738 [WARN] Model gemini-2.5-pro on cooldown for 45s
+2026-04-10 09:06:19.256 [WARN] Model gemini-2.0-flash-lite on cooldown for 43s
+2026-04-10 09:06:19.257 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 09:06:20.778 [WARN] Model gemini-2.0-flash-lite on cooldown for 42s
+2026-04-10 09:06:22.273 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 40s
+2026-04-10 09:06:23.772 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 39s
+2026-04-10 09:06:25.319 [WARN] Model gemini-2.5-flash on cooldown for 37s
+2026-04-10 09:06:26.813 [WARN] Model gemini-2.5-flash on cooldown for 36s
+2026-04-10 09:06:28.275 [WARN] Model gemini-2.5-pro on cooldown for 34s
+2026-04-10 09:06:29.779 [WARN] Model gemini-2.5-pro on cooldown for 33s
+2026-04-10 09:06:31.311 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 31s
+2026-04-10 09:06:32.804 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 30s
+2026-04-10 09:06:34.306 [WARN] Model gemini-2.0-flash-lite on cooldown for 28s
+2026-04-10 09:06:34.307 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 09:06:35.833 [WARN] Model gemini-2.0-flash-lite on cooldown for 27s
+2026-04-10 09:06:37.321 [WARN] Model gemini-2.5-pro on cooldown for 25s
+2026-04-10 09:06:38.814 [WARN] Model gemini-2.5-pro on cooldown for 24s
+2026-04-10 09:06:40.340 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 22s
+2026-04-10 09:06:41.830 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 21s
+2026-04-10 09:06:43.384 [WARN] Model gemini-2.5-flash on cooldown for 19s
+2026-04-10 09:06:44.863 [WARN] Model gemini-2.5-flash on cooldown for 18s
+2026-04-10 09:06:46.355 [WARN] Model gemini-2.5-pro on cooldown for 16s
+2026-04-10 09:06:47.845 [WARN] Model gemini-2.5-pro on cooldown for 15s
+2026-04-10 09:06:49.387 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 13s
+2026-04-10 09:06:49.388 [ERROR] callLLMStream: exhausted all models and retries.
+2026-04-10 09:06:49.389 [INFO] RESPONSE: ⚠️ All models are currently rate-limited. Please wait a minute and try again.
+2026-04-10 09:07:02.709 [INFO] INPUT: I only have you | intent=coaching
+2026-04-10 09:07:03.094 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 59s
+2026-04-10 09:07:04.435 [WARN] Model gemini-2.5-flash on cooldown for 58s
+2026-04-10 09:07:05.891 [WARN] Model gemini-2.0-flash on cooldown for 57s
+2026-04-10 09:07:07.408 [WARN] Model gemini-2.0-flash-lite on cooldown for 55s
+2026-04-10 09:07:09.028 [WARN] Model gemini-2.5-flash-lite on cooldown for 53s
+2026-04-10 09:07:10.416 [WARN] Model gemini-2.5-pro on cooldown for 52s
+2026-04-10 09:07:11.914 [WARN] Model gemini-2.0-flash-001 on cooldown for 51s
+2026-04-10 09:07:15.000 [INFO] ✅ callLLM succeeded with gemini-flash-latest
+2026-04-10 09:07:16.533 [INFO] ✅ callLLM succeeded with gemini-flash-latest
+2026-04-10 09:07:51.776 [INFO] ✅ callLLMStream succeeded with gemini-flash-latest
+2026-04-10 09:07:51.777 [INFO] RESPONSE: I understand you are looking for guidance on your goal to extend your work sessions beyond
+2026-04-10 09:09:12.885 [INFO] Client disconnected: 58aWDDjM4A3JrCWKAAAL
+2026-04-10 09:09:12.981 [INFO] Client connected: HoNfT_sGM3TLJs1gAAAN
+2026-04-10 09:09:28.262 [INFO] INPUT: what is metacognition | intent=coaching
+2026-04-10 09:09:28.787 [WARN] Model gemini-2.5-flash on cooldown for 34s
+2026-04-10 09:09:29.945 [WARN] Model gemini-2.0-flash on cooldown for 32s
+2026-04-10 09:09:31.457 [WARN] Model gemini-2.0-flash-lite on cooldown for 31s
+2026-04-10 09:09:33.109 [WARN] Model gemini-2.5-flash-lite on cooldown for 29s
+2026-04-10 09:09:34.474 [WARN] Model gemini-2.5-pro on cooldown for 28s
+2026-04-10 09:09:35.976 [WARN] Model gemini-2.0-flash-001 on cooldown for 26s
+2026-04-10 09:09:37.559 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 25s
+2026-04-10 09:09:41.652 [INFO] ✅ callLLM succeeded with gemini-flash-latest
+2026-04-10 09:09:42.476 [INFO] ✅ callLLM succeeded with gemini-flash-latest
+2026-04-10 09:10:32.035 [INFO] ✅ callLLMStream succeeded with gemini-flash-latest
+2026-04-10 09:10:32.036 [INFO] RESPONSE: 
+2026-04-10 09:12:53.906 [INFO] Client disconnected: HoNfT_sGM3TLJs1gAAAN
+2026-04-10 09:12:54.047 [INFO] Client connected: 22ICbZxid_KuMrx_AAAP
+2026-04-10 09:13:05.291 [INFO] INPUT: hi | intent=coaching
+2026-04-10 09:13:06.061 [WARN] Model gemini-2.5-flash on cooldown for 57s
+2026-04-10 09:13:06.983 [WARN] Model gemini-2.0-flash on cooldown for 55s
+2026-04-10 09:13:08.469 [WARN] Model gemini-2.0-flash-lite on cooldown for 54s
+2026-04-10 09:13:10.130 [WARN] Model gemini-2.5-flash-lite on cooldown for 52s
+2026-04-10 09:13:11.474 [WARN] Model gemini-2.5-pro on cooldown for 51s
+2026-04-10 09:13:13.008 [WARN] Model gemini-2.0-flash-001 on cooldown for 49s
+2026-04-10 09:13:14.488 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 48s
+2026-04-10 09:13:37.690 [INFO] ✅ callLLM succeeded with gemini-flash-latest
+2026-04-10 09:14:15.829 [INFO] ✅ callLLM succeeded with gemini-flash-latest
+2026-04-10 09:14:16.197 [WARN] Model gemini-2.5-flash on cooldown for 46s
+2026-04-10 09:14:17.521 [WARN] Model gemini-2.0-flash on cooldown for 45s
+2026-04-10 09:14:19.014 [WARN] Model gemini-2.0-flash-lite on cooldown for 43s
+2026-04-10 09:14:20.698 [WARN] Model gemini-2.5-flash-lite on cooldown for 42s
+2026-04-10 09:14:22.050 [WARN] Model gemini-2.5-pro on cooldown for 40s
+2026-04-10 09:14:23.560 [WARN] Model gemini-2.0-flash-001 on cooldown for 39s
+2026-04-10 09:14:25.062 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 37s
+2026-04-10 09:14:27.210 [ERROR] callLLMStream [gemini-flash-latest] failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:streamGenerateContent?alt=sse: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-04-10 09:14:27.211 [WARN] Model gemini-flash-latest on cooldown for 60s
+2026-04-10 09:14:28.078 [WARN] Model gemini-2.0-flash-lite on cooldown for 34s
+2026-04-10 09:14:29.578 [WARN] Model gemini-2.5-pro on cooldown for 33s
+2026-04-10 09:14:29.579 [ERROR] callLLMStream: exhausted all models and retries.
+2026-04-10 09:14:29.580 [INFO] RESPONSE: ⚠️ All models are currently rate-limited. Please wait a minute and try again.
+2026-04-10 09:19:04.120 [INFO] Client disconnected: 22ICbZxid_KuMrx_AAAP
+2026-04-10 09:24:42.594 [INFO] Client connected: T9_tsnF7DbRWMK57AAAR
+2026-04-10 09:24:42.992 [INFO] Client disconnected: T9_tsnF7DbRWMK57AAAR
+2026-04-10 09:24:43.065 [INFO] Client connected: w40V2xXGBMN-cemQAAAT
+2026-04-10 09:24:44.573 [INFO] Client disconnected: w40V2xXGBMN-cemQAAAT
+2026-04-10 09:24:44.675 [INFO] Client connected: 2N2rVfBh9lYEIct5AAAV
+2026-04-10 09:24:45.426 [INFO] Client disconnected: 2N2rVfBh9lYEIct5AAAV
+2026-04-10 09:24:45.526 [INFO] Client connected: WBn92OmTFWUIFLFaAAAX
+2026-04-10 09:24:45.717 [INFO] Client connected: g_xuS4WzZDKFZKWiAAAZ
+2026-04-10 09:24:53.000 [INFO] INPUT: what is metacognition | intent=coaching
+2026-04-10 09:24:53.866 [WARN] Model gemini-2.5-flash on cooldown for 9s
+2026-04-10 09:24:54.717 [WARN] Model gemini-2.0-flash on cooldown for 8s
+2026-04-10 09:24:56.204 [WARN] Model gemini-2.0-flash-lite on cooldown for 6s
+2026-04-10 09:24:57.833 [WARN] Model gemini-2.5-flash-lite on cooldown for 5s
+2026-04-10 09:24:59.245 [WARN] Model gemini-2.5-pro on cooldown for 3s
+2026-04-10 09:25:00.736 [WARN] Model gemini-2.0-flash-001 on cooldown for 2s
+2026-04-10 09:25:02.262 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 60s
+2026-04-10 09:25:03.782 [WARN] Model gemini-2.0-flash-lite on cooldown for 59s
+2026-04-10 09:25:05.280 [WARN] Model gemini-2.5-flash on cooldown for 57s
+2026-04-10 09:25:06.771 [WARN] Model gemini-2.0-flash on cooldown for 56s
+2026-04-10 09:25:06.772 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 09:25:08.274 [WARN] Model gemini-2.5-flash-lite on cooldown for 54s
+2026-04-10 09:25:09.780 [WARN] Model gemini-2.5-pro on cooldown for 53s
+2026-04-10 09:25:11.289 [WARN] Model gemini-2.0-flash-001 on cooldown for 51s
+2026-04-10 09:25:15.260 [INFO] ✅ callLLM succeeded with gemini-flash-latest
+2026-04-10 09:25:15.441 [WARN] Model gemini-flash-latest on cooldown for 47s
+2026-04-10 09:25:16.967 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 45s
+2026-04-10 09:25:18.484 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 44s
+2026-04-10 09:25:19.973 [WARN] Model gemini-2.5-flash-lite on cooldown for 42s
+2026-04-10 09:25:21.489 [WARN] Model gemini-2.5-flash-lite on cooldown for 41s
+2026-04-10 09:25:23.007 [WARN] Model gemini-2.5-flash on cooldown for 39s
+2026-04-10 09:25:24.526 [WARN] Model gemini-2.5-flash on cooldown for 38s
+2026-04-10 09:25:26.019 [WARN] Model gemini-2.0-flash-001 on cooldown for 36s
+2026-04-10 09:25:27.546 [WARN] Model gemini-2.0-flash-001 on cooldown for 35s
+2026-04-10 09:25:27.812 [INFO] Client disconnected: g_xuS4WzZDKFZKWiAAAZ
+2026-04-10 09:25:29.002 [WARN] Model gemini-flash-latest on cooldown for 33s
+2026-04-10 09:25:29.003 [ERROR] callLLMStream: exhausted all models and retries.
+2026-04-10 09:25:29.004 [INFO] RESPONSE: ⚠️ All models are currently rate-limited. Please wait a minute and try again.
+2026-04-10 09:25:30.515 [INFO] Client disconnected: WBn92OmTFWUIFLFaAAAX
+2026-04-10 09:27:54.181 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 09:27:54.185 [INFO] MetaCoach server starting...
+2026-04-10 09:27:54.186 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 09:27:54.196 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 09:27:54.228 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 09:27:54.230 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:27:54.230 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:28:35.641 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 09:28:35.645 [INFO] MetaCoach server starting...
+2026-04-10 09:28:35.648 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 09:28:35.684 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 09:28:35.705 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 09:28:35.705 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:28:35.706 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:29:31.870 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 09:29:31.873 [INFO] MetaCoach server starting...
+2026-04-10 09:29:31.874 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 09:29:31.889 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 09:29:31.916 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 09:29:31.917 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:29:31.918 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:29:31.924 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 09:29:47.913 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 09:29:47.917 [INFO] MetaCoach server starting...
+2026-04-10 09:29:47.918 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 09:29:47.931 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 09:29:47.962 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 09:29:47.963 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:29:47.964 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:30:06.605 [INFO] Client connected: J5dMpKWaxKkLy-ymAAAB
+2026-04-10 09:30:11.195 [INFO] INPUT: hi | intent=coaching
+2026-04-10 09:30:12.043 [WARN] Model gemini-2.5-flash on cooldown for 51s
+2026-04-10 09:30:12.915 [WARN] Model gemini-2.5-flash on cooldown for 50s
+2026-04-10 09:30:13.128 [WARN] Model gemini-2.0-flash on cooldown for 49s
+2026-04-10 09:30:14.387 [WARN] Model gemini-2.0-flash-lite on cooldown for 48s
+2026-04-10 09:30:14.389 [WARN] Model gemini-2.0-flash on cooldown for 48s
+2026-04-10 09:30:16.023 [WARN] Model gemini-2.5-flash-lite on cooldown for 46s
+2026-04-10 09:30:16.026 [WARN] Model gemini-2.5-flash-lite on cooldown for 46s
+2026-04-10 09:30:17.400 [WARN] Model gemini-2.5-pro on cooldown for 45s
+2026-04-10 09:30:17.404 [WARN] Model gemini-2.5-pro on cooldown for 45s
+2026-04-10 09:30:18.919 [WARN] Model gemini-2.0-flash-001 on cooldown for 44s
+2026-04-10 09:30:18.924 [WARN] Model gemini-2.0-flash-001 on cooldown for 44s
+2026-04-10 09:30:20.430 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 42s
+2026-04-10 09:30:20.438 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 42s
+2026-04-10 09:30:22.060 [WARN] Model gemini-flash-latest on cooldown for 40s
+2026-04-10 09:30:22.061 [WARN] All 8 models quota-limited. Waiting before retry…
+2026-04-10 09:30:22.062 [WARN] Model gemini-flash-latest on cooldown for 40s
+2026-04-10 09:30:23.433 [WARN] Model gemini-2.5-flash-lite on cooldown for 39s
+2026-04-10 09:30:24.929 [WARN] Model gemini-flash-latest on cooldown for 38s
+2026-04-10 09:30:26.435 [WARN] Model gemini-2.0-flash-lite on cooldown for 36s
+2026-04-10 09:30:26.436 [WARN] All 8 models quota-limited. Waiting before retry…
+2026-04-10 09:30:52.462 [WARN] Model gemini-2.0-flash on cooldown for 10s
+2026-04-10 09:30:53.752 [WARN] Model gemini-2.5-pro on cooldown for 9s
+2026-04-10 09:30:53.754 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 09:30:56.442 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 09:30:56.444 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 09:30:56.792 [INFO] Embedding model ready
+2026-04-10 09:30:56.984 [WARN] Model gemini-2.5-flash-lite on cooldown for 5s
+2026-04-10 09:30:58.473 [WARN] Model gemini-2.5-flash-lite on cooldown for 4s
+2026-04-10 09:30:59.995 [WARN] Model gemini-2.0-flash-lite on cooldown for 2s
+2026-04-10 09:31:01.488 [WARN] Model gemini-2.0-flash-lite on cooldown for 61s
+2026-04-10 09:31:03.005 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 59s
+2026-04-10 09:31:04.545 [WARN] Model gemini-2.5-flash on cooldown for 58s
+2026-04-10 09:31:06.026 [WARN] Model gemini-2.0-flash on cooldown for 56s
+2026-04-10 09:31:07.517 [WARN] Model gemini-2.5-flash-lite on cooldown for 55s
+2026-04-10 09:31:09.039 [WARN] Model gemini-2.5-pro on cooldown for 53s
+2026-04-10 09:31:10.607 [WARN] Model gemini-2.0-flash-001 on cooldown for 52s
+2026-04-10 09:31:10.607 [ERROR] callLLMStream: exhausted all models and retries.
+2026-04-10 09:31:10.609 [INFO] RESPONSE: ⚠️ All models are currently rate-limited. Please wait a minute and try again.
+2026-04-10 09:34:46.792 [INFO] Client disconnected: J5dMpKWaxKkLy-ymAAAB
+2026-04-10 09:34:47.684 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 09:34:47.687 [INFO] MetaCoach server starting...
+2026-04-10 09:34:47.687 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 09:34:47.894 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 09:34:47.911 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 09:34:47.912 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:34:47.913 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:38:04.629 [INFO] Client connected: aULHZ8XvWM6eIr2NAAAD
+2026-04-10 09:38:04.673 [INFO] Client disconnected: aULHZ8XvWM6eIr2NAAAD
+2026-04-10 09:38:04.747 [INFO] Client connected: 8xBkgMo09g7WkRmDAAAF
+2026-04-10 09:38:09.987 [INFO] Client disconnected: 8xBkgMo09g7WkRmDAAAF
+2026-04-10 09:40:36.553 [INFO] Client connected: 3AtaSPBQARaZGgAnAAAH
+2026-04-10 09:41:00.006 [INFO] Client disconnected: 3AtaSPBQARaZGgAnAAAH
+2026-04-10 09:41:00.213 [INFO] Client connected: OQ2pQh0lbUgCOJShAAAJ
+2026-04-10 09:41:03.064 [INFO] Client disconnected: OQ2pQh0lbUgCOJShAAAJ
+2026-04-10 09:41:03.163 [INFO] Client connected: -fP23gEuz1fekL2tAAAL
+2026-04-10 09:41:05.896 [INFO] INPUT: hi | intent=coaching
+2026-04-10 09:41:06.570 [WARN] Model gemini-2.5-flash on cooldown for 55s
+2026-04-10 09:41:07.595 [WARN] Model gemini-2.0-flash on cooldown for 54s
+2026-04-10 09:41:07.871 [WARN] Model gemini-2.5-flash on cooldown for 54s
+2026-04-10 09:41:09.115 [WARN] Model gemini-2.0-flash-lite on cooldown for 53s
+2026-04-10 09:41:09.116 [WARN] Model gemini-2.0-flash-lite on cooldown for 53s
+2026-04-10 09:41:10.790 [WARN] Model gemini-2.5-flash-lite on cooldown for 51s
+2026-04-10 09:41:10.791 [WARN] Model gemini-2.5-flash-lite on cooldown for 51s
+2026-04-10 09:41:12.134 [WARN] Model gemini-2.5-pro on cooldown for 50s
+2026-04-10 09:41:12.137 [WARN] Model gemini-2.5-pro on cooldown for 50s
+2026-04-10 09:41:13.636 [WARN] Model gemini-2.0-flash-001 on cooldown for 48s
+2026-04-10 09:41:13.642 [WARN] Model gemini-2.0-flash-001 on cooldown for 48s
+2026-04-10 09:41:14.827 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 09:41:14.830 [INFO] MetaCoach server starting...
+2026-04-10 09:41:14.831 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 09:41:15.040 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 09:41:15.060 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 09:41:15.061 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:41:15.061 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:41:15.144 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 47s
+2026-04-10 09:41:15.157 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 47s
+2026-04-10 09:41:16.765 [WARN] Model gemini-flash-latest on cooldown for 45s
+2026-04-10 09:41:16.766 [WARN] All 8 models quota-limited. Waiting before retry…
+2026-04-10 09:41:16.769 [WARN] Model gemini-flash-latest on cooldown for 45s
+2026-04-10 09:41:18.170 [WARN] Model gemini-2.0-flash on cooldown for 44s
+2026-04-10 09:41:18.170 [WARN] All 8 models quota-limited. Waiting before retry…
+2026-04-10 09:41:47.165 [WARN] Model gemini-2.0-flash-001 on cooldown for 15s
+2026-04-10 09:41:48.458 [WARN] Model gemini-flash-latest on cooldown for 14s
+2026-04-10 09:41:48.459 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 09:41:48.703 [WARN] Model gemini-flash-latest on cooldown for 13s
+2026-04-10 09:41:49.936 [WARN] Model gemini-flash-latest on cooldown for 12s
+2026-04-10 09:41:49.937 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 09:41:51.452 [WARN] Model gemini-2.5-flash-lite on cooldown for 11s
+2026-04-10 09:41:52.972 [WARN] Model gemini-2.5-flash on cooldown for 9s
+2026-04-10 09:41:54.468 [WARN] Model gemini-flash-latest on cooldown for 8s
+2026-04-10 09:41:55.994 [WARN] Model gemini-2.5-flash on cooldown for 6s
+2026-04-10 09:41:57.483 [WARN] Model gemini-2.5-flash on cooldown for 5s
+2026-04-10 09:41:58.965 [WARN] Model gemini-2.0-flash-lite on cooldown for 3s
+2026-04-10 09:42:00.476 [WARN] Model gemini-2.0-flash-lite on cooldown for 61s
+2026-04-10 09:42:01.999 [WARN] Model gemini-2.5-pro on cooldown for 60s
+2026-04-10 09:42:03.503 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 58s
+2026-04-10 09:42:05.050 [WARN] Model gemini-2.5-flash on cooldown for 57s
+2026-04-10 09:42:05.051 [ERROR] callLLMStream: exhausted all models and retries.
+2026-04-10 09:42:05.052 [INFO] RESPONSE: ⚠️ All models are currently rate-limited. Please wait a minute and try again.
+2026-04-10 09:43:36.083 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 09:43:36.086 [INFO] MetaCoach server starting...
+2026-04-10 09:43:36.087 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 09:43:36.299 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 09:43:36.320 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 09:43:36.321 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:43:36.322 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 09:43:36.326 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 09:43:55.553 [INFO] Client connected: Hhd2GYxqh6PzEE-LAAAB
+2026-04-10 09:43:59.241 [INFO] Client connected: k2s-0dk_6x5VeRPNAAAD
+2026-04-10 09:44:00.098 [INFO] Client disconnected: Hhd2GYxqh6PzEE-LAAAB
+2026-04-10 09:44:00.178 [INFO] Client connected: fD33QKtuYvdTtNmWAAAF
+2026-04-10 09:44:01.174 [INFO] Client disconnected: fD33QKtuYvdTtNmWAAAF
+2026-04-10 09:44:03.871 [INFO] INPUT: hi | intent=coaching
+2026-04-10 09:44:04.461 [WARN] Model gemini-2.5-flash on cooldown for 58s
+2026-04-10 09:44:05.594 [WARN] Model gemini-2.5-flash on cooldown for 56s
+2026-04-10 09:44:05.802 [WARN] Model gemini-2.0-flash on cooldown for 56s
+2026-04-10 09:44:07.064 [WARN] Model gemini-2.0-flash-lite on cooldown for 55s
+2026-04-10 09:44:07.066 [WARN] Model gemini-2.0-flash on cooldown for 55s
+2026-04-10 09:44:08.701 [WARN] Model gemini-2.5-flash-lite on cooldown for 53s
+2026-04-10 09:44:08.706 [WARN] Model gemini-2.5-flash-lite on cooldown for 53s
+2026-04-10 09:44:10.079 [WARN] Model gemini-2.5-pro on cooldown for 52s
+2026-04-10 09:44:10.091 [WARN] Model gemini-2.5-pro on cooldown for 52s
+2026-04-10 09:44:11.612 [WARN] Model gemini-2.0-flash-001 on cooldown for 50s
+2026-04-10 09:44:11.616 [WARN] Model gemini-2.0-flash-001 on cooldown for 50s
+2026-04-10 09:44:13.100 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 49s
+2026-04-10 09:44:13.108 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 49s
+2026-04-10 09:44:14.757 [WARN] Model gemini-flash-latest on cooldown for 47s
+2026-04-10 09:44:14.758 [WARN] All 8 models quota-limited. Waiting before retry…
+2026-04-10 09:44:14.760 [WARN] Model gemini-flash-latest on cooldown for 47s
+2026-04-10 09:44:16.149 [WARN] Model gemini-2.5-flash on cooldown for 46s
+2026-04-10 09:44:17.626 [WARN] Model gemini-2.0-flash-001 on cooldown for 44s
+2026-04-10 09:44:19.107 [WARN] Model gemini-2.0-flash-001 on cooldown for 43s
+2026-04-10 09:44:19.108 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 09:44:19.109 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 09:44:19.396 [INFO] Embedding model ready
+2026-04-10 09:44:20.628 [WARN] Model gemini-2.5-flash-lite on cooldown for 41s
+2026-04-10 09:44:22.144 [WARN] Model gemini-2.5-flash-lite on cooldown for 40s
+2026-04-10 09:44:23.641 [WARN] Model gemini-flash-latest on cooldown for 38s
+2026-04-10 09:44:25.163 [WARN] Model gemini-flash-latest on cooldown for 37s
+2026-04-10 09:44:26.693 [WARN] Model gemini-2.0-flash-lite on cooldown for 35s
+2026-04-10 09:44:28.188 [WARN] Model gemini-2.0-flash-lite on cooldown for 34s
+2026-04-10 09:44:29.700 [WARN] Model gemini-2.0-flash on cooldown for 32s
+2026-04-10 09:44:31.205 [WARN] Model gemini-2.0-flash on cooldown for 31s
+2026-04-10 09:44:32.708 [WARN] Model gemini-2.5-pro on cooldown for 29s
+2026-04-10 09:44:34.222 [WARN] Model gemini-2.5-pro on cooldown for 28s
+2026-04-10 09:44:34.224 [ERROR] callLLMStream: exhausted all models and retries.
+2026-04-10 09:44:34.225 [INFO] RESPONSE: ⚠️ All models are currently rate-limited. Please wait a minute and try again.
+2026-04-10 09:44:45.165 [WARN] Model gemini-2.0-flash-001 on cooldown for 17s
+2026-04-10 09:44:46.452 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 16s
+2026-04-10 09:44:46.453 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 09:46:32.013 [INFO] Client connected: 012XNohOwyTK5Pz1AAAH
+2026-04-10 09:46:33.881 [INFO] Client connected: DlRAsNl_yhTQKaBqAAAJ
+2026-04-10 09:47:10.205 [INFO] Client disconnected: 012XNohOwyTK5Pz1AAAH
+2026-04-10 09:51:33.517 [INFO] Client disconnected: DlRAsNl_yhTQKaBqAAAJ
+2026-04-10 09:51:33.575 [INFO] Client connected: c8KOtsAM5EFxfKG4AAAL
+2026-04-10 09:51:34.520 [INFO] Client disconnected: c8KOtsAM5EFxfKG4AAAL
+2026-04-10 09:51:34.569 [INFO] Client connected: 4LjHGAyDyl5nOojuAAAN
+2026-04-10 09:52:28.914 [INFO] Client disconnected: 4LjHGAyDyl5nOojuAAAN
+2026-04-10 09:52:28.962 [INFO] Client connected: qH7JHROS5QqaxDGjAAAP
+2026-04-10 09:52:33.734 [INFO] INPUT: hi | intent=coaching
+2026-04-10 09:52:34.387 [WARN] Model gemini-2.5-flash on cooldown for 28s
+2026-04-10 09:52:35.460 [WARN] Model gemini-2.5-flash on cooldown for 27s
+2026-04-10 09:52:35.637 [WARN] Model gemini-2.0-flash on cooldown for 26s
+2026-04-10 09:52:36.920 [WARN] Model gemini-2.0-flash on cooldown for 25s
+2026-04-10 09:52:36.927 [WARN] Model gemini-2.0-flash-lite on cooldown for 25s
+2026-04-10 09:52:38.439 [WARN] Model gemini-2.0-flash-lite on cooldown for 24s
+2026-04-10 09:52:38.588 [WARN] Model gemini-2.5-flash-lite on cooldown for 23s
+2026-04-10 09:52:39.948 [WARN] Model gemini-2.5-pro on cooldown for 22s
+2026-04-10 09:52:39.953 [WARN] Model gemini-2.5-flash-lite on cooldown for 22s
+2026-04-10 09:52:41.454 [WARN] Model gemini-2.0-flash-001 on cooldown for 21s
+2026-04-10 09:52:41.472 [WARN] Model gemini-2.0-flash-001 on cooldown for 21s
+2026-04-10 09:52:42.936 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 19s
+2026-04-10 09:52:42.947 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 19s
+2026-04-10 09:52:44.576 [WARN] Model gemini-flash-latest on cooldown for 17s
+2026-04-10 09:52:44.576 [WARN] All 8 models quota-limited. Waiting before retry…
+2026-04-10 09:52:44.578 [WARN] Model gemini-flash-latest on cooldown for 17s
+2026-04-10 09:52:45.973 [WARN] Model gemini-flash-latest on cooldown for 16s
+2026-04-10 09:52:47.456 [WARN] Model gemini-2.0-flash on cooldown for 15s
+2026-04-10 09:52:48.966 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 13s
+2026-04-10 09:52:48.967 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 09:52:50.498 [WARN] Model gemini-2.5-pro on cooldown for 11s
+2026-04-10 09:52:52.012 [WARN] Model gemini-2.5-pro on cooldown for 10s
+2026-04-10 09:52:53.511 [WARN] Model gemini-2.5-flash-lite on cooldown for 8s
+2026-04-10 09:52:55.005 [WARN] Model gemini-2.5-flash-lite on cooldown for 7s
+2026-04-10 09:52:56.522 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 5s
+2026-04-10 09:52:58.032 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 4s
+2026-04-10 09:52:59.539 [WARN] Model gemini-flash-latest on cooldown for 2s
+2026-04-10 09:53:01.035 [WARN] Model gemini-flash-latest on cooldown for 61s
+2026-04-10 09:53:02.539 [WARN] Model gemini-2.5-flash-lite on cooldown for 59s
+2026-04-10 09:53:02.789 [WARN] Model gemini-2.5-flash-lite on cooldown for 59s
+2026-04-10 09:53:04.085 [WARN] Model gemini-2.5-flash on cooldown for 58s
+2026-04-10 09:53:04.086 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 09:53:04.096 [WARN] Model gemini-2.5-flash on cooldown for 58s
+2026-04-10 09:53:04.097 [ERROR] callLLMStream: exhausted all models and retries.
+2026-04-10 09:53:04.098 [INFO] RESPONSE: ⚠️ All models are currently rate-limited. Please wait a minute and try again.
+2026-04-10 09:53:29.312 [INFO] Client disconnected: k2s-0dk_6x5VeRPNAAAD
+2026-04-10 09:54:47.671 [INFO] Client disconnected: qH7JHROS5QqaxDGjAAAP
+2026-04-10 09:54:48.277 [INFO] Client connected: MxT0SK3n5X4gp3bvAAAR
+2026-04-10 09:58:14.197 [INFO] Client connected: j0Z3D8UA8jHZa_OFAAAT
+2026-04-10 10:01:02.744 [INFO] Client disconnected: MxT0SK3n5X4gp3bvAAAR
+2026-04-10 10:01:02.854 [INFO] Client disconnected: j0Z3D8UA8jHZa_OFAAAT
+2026-04-10 10:01:04.519 [INFO] Client connected: R5aTjtd38sikpsAAAAAY
+2026-04-10 10:01:04.530 [INFO] Client connected: dTGKwPeUsrxp7gYFAAAZ
+2026-04-10 10:02:11.786 [INFO] INPUT: hi | intent=coaching
+2026-04-10 10:02:12.598 [WARN] Model gemini-2.5-flash on cooldown for 50s
+2026-04-10 10:02:13.488 [WARN] Model gemini-2.5-flash on cooldown for 49s
+2026-04-10 10:02:13.700 [WARN] Model gemini-2.0-flash on cooldown for 48s
+2026-04-10 10:02:14.980 [WARN] Model gemini-2.0-flash on cooldown for 47s
+2026-04-10 10:02:14.985 [WARN] Model gemini-2.0-flash-lite on cooldown for 47s
+2026-04-10 10:02:16.496 [WARN] Model gemini-2.0-flash-lite on cooldown for 46s
+2026-04-10 10:02:16.636 [WARN] Model gemini-2.5-flash-lite on cooldown for 45s
+2026-04-10 10:02:17.988 [WARN] Model gemini-2.5-pro on cooldown for 44s
+2026-04-10 10:02:17.997 [WARN] Model gemini-2.5-flash-lite on cooldown for 44s
+2026-04-10 10:02:19.513 [WARN] Model gemini-2.0-flash-001 on cooldown for 42s
+2026-04-10 10:02:19.524 [WARN] Model gemini-2.0-flash-001 on cooldown for 42s
+2026-04-10 10:02:21.011 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 41s
+2026-04-10 10:02:21.017 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 41s
+2026-04-10 10:02:22.665 [WARN] Model gemini-flash-latest on cooldown for 39s
+2026-04-10 10:02:22.685 [WARN] Model gemini-flash-latest on cooldown for 39s
+2026-04-10 10:02:22.686 [WARN] All 8 models quota-limited. Waiting before retry…
+2026-04-10 10:02:24.052 [WARN] Model gemini-2.0-flash-001 on cooldown for 38s
+2026-04-10 10:02:25.529 [WARN] Model gemini-flash-latest on cooldown for 36s
+2026-04-10 10:02:27.048 [WARN] Model gemini-flash-latest on cooldown for 35s
+2026-04-10 10:02:27.049 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 10:02:28.604 [WARN] Model gemini-2.0-flash on cooldown for 33s
+2026-04-10 10:02:30.080 [WARN] Model gemini-2.0-flash on cooldown for 32s
+2026-04-10 10:02:31.587 [WARN] Model gemini-2.5-pro on cooldown for 30s
+2026-04-10 10:02:33.078 [WARN] Model gemini-2.5-pro on cooldown for 29s
+2026-04-10 10:02:34.597 [WARN] Model gemini-2.5-flash-lite on cooldown for 27s
+2026-04-10 10:02:36.087 [WARN] Model gemini-2.5-flash-lite on cooldown for 26s
+2026-04-10 10:02:37.629 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 24s
+2026-04-10 10:02:39.128 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 23s
+2026-04-10 10:02:40.646 [WARN] Model gemini-flash-latest on cooldown for 21s
+2026-04-10 10:02:42.151 [WARN] Model gemini-flash-latest on cooldown for 20s
+2026-04-10 10:02:42.152 [ERROR] callLLMStream: exhausted all models and retries.
+2026-04-10 10:02:42.154 [INFO] RESPONSE: ⚠️ All models are currently rate-limited. Please wait a minute and try again.
+2026-04-10 10:02:53.111 [WARN] Model gemini-2.0-flash-001 on cooldown for 9s
+2026-04-10 10:02:54.378 [WARN] Model gemini-2.5-pro on cooldown for 8s
+2026-04-10 10:02:54.379 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 10:05:14.060 [INFO] INPUT: hi | intent=coaching
+2026-04-10 10:05:14.589 [WARN] Model gemini-2.5-flash on cooldown for 47s
+2026-04-10 10:05:15.790 [WARN] Model gemini-2.5-flash on cooldown for 46s
+2026-04-10 10:05:15.968 [WARN] Model gemini-2.0-flash on cooldown for 46s
+2026-04-10 10:05:17.262 [WARN] Model gemini-2.0-flash-lite on cooldown for 45s
+2026-04-10 10:05:17.284 [WARN] Model gemini-2.0-flash on cooldown for 45s
+2026-04-10 10:05:18.917 [WARN] Model gemini-2.5-flash-lite on cooldown for 43s
+2026-04-10 10:05:18.920 [WARN] Model gemini-2.5-flash-lite on cooldown for 43s
+2026-04-10 10:05:20.274 [WARN] Model gemini-2.5-pro on cooldown for 42s
+2026-04-10 10:05:20.291 [WARN] Model gemini-2.5-pro on cooldown for 42s
+2026-04-10 10:05:21.782 [WARN] Model gemini-2.0-flash-001 on cooldown for 40s
+2026-04-10 10:05:21.802 [WARN] Model gemini-2.0-flash-001 on cooldown for 40s
+2026-04-10 10:05:23.290 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 39s
+2026-04-10 10:05:23.294 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 39s
+2026-04-10 10:05:24.953 [WARN] Model gemini-flash-latest on cooldown for 37s
+2026-04-10 10:05:24.954 [WARN] All 8 models quota-limited. Waiting before retry…
+2026-04-10 10:05:24.956 [WARN] Model gemini-flash-latest on cooldown for 37s
+2026-04-10 10:05:26.367 [WARN] Model gemini-2.5-flash on cooldown for 36s
+2026-04-10 10:05:27.870 [WARN] Model gemini-2.0-flash-001 on cooldown for 34s
+2026-04-10 10:05:29.353 [WARN] Model gemini-2.0-flash-001 on cooldown for 33s
+2026-04-10 10:05:29.355 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 10:05:30.854 [WARN] Model gemini-2.5-flash-lite on cooldown for 31s
+2026-04-10 10:05:32.379 [WARN] Model gemini-2.5-flash-lite on cooldown for 30s
+2026-04-10 10:05:33.888 [WARN] Model gemini-flash-latest on cooldown for 28s
+2026-04-10 10:05:35.393 [WARN] Model gemini-flash-latest on cooldown for 27s
+2026-04-10 10:05:36.903 [WARN] Model gemini-2.0-flash-lite on cooldown for 25s
+2026-04-10 10:05:38.435 [WARN] Model gemini-2.0-flash-lite on cooldown for 24s
+2026-04-10 10:05:39.923 [WARN] Model gemini-2.0-flash on cooldown for 22s
+2026-04-10 10:05:41.452 [WARN] Model gemini-2.0-flash on cooldown for 21s
+2026-04-10 10:05:42.972 [WARN] Model gemini-2.5-pro on cooldown for 19s
+2026-04-10 10:05:44.460 [WARN] Model gemini-2.5-pro on cooldown for 18s
+2026-04-10 10:05:44.461 [ERROR] callLLMStream: exhausted all models and retries.
+2026-04-10 10:05:44.463 [INFO] RESPONSE: ⚠️ All models are currently rate-limited. Please wait a minute and try again.
+2026-04-10 10:05:53.525 [INFO] Feedback: positive
+2026-04-10 10:05:55.203 [INFO] Feedback: negative
+2026-04-10 10:05:55.363 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 7s
+2026-04-10 10:05:56.632 [WARN] Model gemini-2.0-flash-001 on cooldown for 5s
+2026-04-10 10:05:56.633 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 10:06:03.350 [INFO] INPUT: hi | intent=coaching
+2026-04-10 10:06:03.801 [WARN] Model gemini-2.5-flash on cooldown for 58s
+2026-04-10 10:06:05.042 [WARN] Model gemini-2.0-flash on cooldown for 57s
+2026-04-10 10:06:05.312 [WARN] Model gemini-2.5-flash on cooldown for 57s
+2026-04-10 10:06:06.545 [WARN] Model gemini-2.0-flash-lite on cooldown for 55s
+2026-04-10 10:06:06.553 [WARN] Model gemini-2.0-flash-lite on cooldown for 55s
+2026-04-10 10:06:08.043 [WARN] Model gemini-2.5-flash-lite on cooldown for 54s
+2026-04-10 10:06:08.048 [WARN] Model gemini-2.5-flash-lite on cooldown for 54s
+2026-04-10 10:06:09.555 [WARN] Model gemini-2.5-pro on cooldown for 52s
+2026-04-10 10:06:09.561 [WARN] Model gemini-2.5-pro on cooldown for 52s
+2026-04-10 10:06:11.063 [WARN] Model gemini-2.0-flash-001 on cooldown for 51s
+2026-04-10 10:06:11.068 [WARN] Model gemini-2.0-flash-001 on cooldown for 51s
+2026-04-10 10:06:12.551 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 49s
+2026-04-10 10:06:12.554 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 49s
+2026-04-10 10:06:14.074 [WARN] Model gemini-flash-latest on cooldown for 48s
+2026-04-10 10:06:14.075 [WARN] All 8 models quota-limited. Waiting before retry…
+2026-04-10 10:06:14.076 [WARN] Model gemini-flash-latest on cooldown for 48s
+2026-04-10 10:06:15.591 [WARN] Model gemini-2.0-flash-lite on cooldown for 46s
+2026-04-10 10:06:17.109 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 45s
+2026-04-10 10:06:18.607 [WARN] Model gemini-2.5-pro on cooldown for 43s
+2026-04-10 10:06:18.608 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 10:06:20.133 [WARN] Model gemini-2.0-flash-lite on cooldown for 42s
+2026-04-10 10:06:21.645 [WARN] Model gemini-2.5-pro on cooldown for 40s
+2026-04-10 10:06:23.178 [WARN] Model gemini-2.5-pro on cooldown for 39s
+2026-04-10 10:06:24.669 [WARN] Model gemini-2.0-flash on cooldown for 37s
+2026-04-10 10:06:26.180 [WARN] Model gemini-2.0-flash on cooldown for 36s
+2026-04-10 10:06:27.686 [WARN] Model gemini-2.5-flash-lite on cooldown for 34s
+2026-04-10 10:06:29.204 [WARN] Model gemini-2.5-flash-lite on cooldown for 33s
+2026-04-10 10:06:30.720 [WARN] Model gemini-2.0-flash-001 on cooldown for 31s
+2026-04-10 10:06:32.240 [WARN] Model gemini-2.0-flash-001 on cooldown for 30s
+2026-04-10 10:06:33.750 [WARN] Model gemini-flash-latest on cooldown for 28s
+2026-04-10 10:06:33.752 [ERROR] callLLMStream: exhausted all models and retries.
+2026-04-10 10:06:33.753 [INFO] RESPONSE: ⚠️ All models are currently rate-limited. Please wait a minute and try again.
+2026-04-10 10:06:44.474 [WARN] Model gemini-flash-latest on cooldown for 18s
+2026-04-10 10:06:45.772 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 16s
+2026-04-10 10:06:45.773 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 10:06:54.224 [INFO] Client disconnected: R5aTjtd38sikpsAAAAAY
+2026-04-10 10:06:54.227 [INFO] Client disconnected: dTGKwPeUsrxp7gYFAAAZ
+2026-04-10 10:06:56.378 [INFO] Client connected: 4JpwijjAZyiqfyGtAAAc
+2026-04-10 10:06:56.516 [INFO] Client connected: fDBoE9m3uIFEytiaAAAf
+2026-04-10 10:20:15.901 [INFO] Client disconnected: 4JpwijjAZyiqfyGtAAAc
+2026-04-10 10:20:15.908 [INFO] Client disconnected: fDBoE9m3uIFEytiaAAAf
+2026-04-10 10:20:16.410 [INFO] Client connected: WyZnUmUAOkFHUBT3AAAi
+2026-04-10 10:20:16.459 [INFO] Client connected: pW7kzVNIdeA6fu6KAAAl
+2026-04-10 10:20:17.376 [INFO] Client disconnected: pW7kzVNIdeA6fu6KAAAl
+2026-04-10 10:20:18.407 [INFO] Client disconnected: WyZnUmUAOkFHUBT3AAAi
+2026-04-10 10:20:18.602 [INFO] Client connected: rALg4Nnl-gbu1m1wAAAo
+2026-04-10 10:20:18.652 [INFO] Client connected: JhhbYkqlj0bl35BHAAAr
+2026-04-10 10:21:25.280 [INFO] Client disconnected: rALg4Nnl-gbu1m1wAAAo
+2026-04-10 11:20:31.126 [INFO] Client disconnected: JhhbYkqlj0bl35BHAAAr
+2026-04-10 11:20:33.393 [INFO] Client connected: zbcSkhOqovHMQDbqAAAt
+2026-04-10 11:20:33.743 [INFO] Client connected: 3_USx853ChgrIYh_AAAw
+2026-04-10 11:20:49.088 [INFO] Client disconnected: 3_USx853ChgrIYh_AAAw
+2026-04-10 11:20:52.143 [INFO] Client connected: gyo3RRXsmaH9I5USAAAy
+2026-04-10 11:20:52.349 [INFO] Client connected: zpU4K9P3HBNanBpWAAA1
+2026-04-10 11:20:56.463 [INFO] Client connected: 7DtAV0DvkOyvyVtIAAA5
+2026-04-10 11:22:37.303 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 11:22:37.310 [INFO] MetaCoach server starting...
+2026-04-10 11:22:37.311 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 11:22:37.369 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 11:22:37.517 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 11:22:37.517 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:22:37.518 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:22:37.523 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 11:22:39.066 [INFO] Client connected: OWJxiT2tddsgpgCmAAAB
+2026-04-10 11:22:43.529 [INFO] Client connected: 5ePjMvxZHt33sWK1AAAD
+2026-04-10 11:23:04.130 [INFO] Client disconnected: 5ePjMvxZHt33sWK1AAAD
+2026-04-10 11:23:04.714 [INFO] Client connected: eGgP1aesu-94RUWzAAAG
+2026-04-10 11:23:07.714 [INFO] Client disconnected: eGgP1aesu-94RUWzAAAG
+2026-04-10 11:23:07.856 [INFO] Client connected: Z2cz8wDIdS23ZXd_AAAJ
+2026-04-10 11:23:22.529 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 11:23:22.533 [INFO] MetaCoach server starting...
+2026-04-10 11:23:22.534 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 11:23:22.555 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 11:23:22.582 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 11:23:22.583 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:23:22.584 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:23:31.283 [INFO] Client disconnected: OWJxiT2tddsgpgCmAAAB
+2026-04-10 11:23:35.403 [INFO] Client disconnected: Z2cz8wDIdS23ZXd_AAAJ
+2026-04-10 11:23:50.077 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 11:23:50.082 [INFO] MetaCoach server starting...
+2026-04-10 11:23:50.083 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 11:23:50.106 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 11:23:50.131 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 11:23:50.132 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:23:50.133 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:23:59.747 [INFO] Client connected: ORkz5J56UiYFDylJAAAM
+2026-04-10 11:24:07.588 [INFO] INPUT: hi | intent=coaching
+2026-04-10 11:24:09.331 [INFO] ✅ callLLM succeeded with gemini-2.5-flash
+2026-04-10 11:24:09.644 [WARN] Model gemini-2.5-flash on cooldown for 53s
+2026-04-10 11:24:10.800 [WARN] Model gemini-2.0-flash on cooldown for 51s
+2026-04-10 11:24:12.463 [WARN] Model gemini-2.0-flash-lite on cooldown for 50s
+2026-04-10 11:24:16.691 [INFO] ✅ callLLM succeeded with gemini-2.5-flash-lite
+2026-04-10 11:24:16.694 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 11:24:17.075 [INFO] Embedding model ready
+2026-04-10 11:24:17.285 [WARN] Model gemini-2.5-flash-lite on cooldown for 45s
+2026-04-10 11:24:18.825 [WARN] Model gemini-2.5-pro on cooldown for 43s
+2026-04-10 11:24:20.334 [WARN] Model gemini-2.0-flash-001 on cooldown for 42s
+2026-04-10 11:24:21.853 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 40s
+2026-04-10 11:24:38.402 [INFO] ✅ callLLMStream succeeded with gemini-flash-latest
+2026-04-10 11:24:38.403 [INFO] RESPONSE: Hello. I am your AI Meta-Coach, here to act as a thinking partner for your goals, decisions, or habits. To begin, what s
+2026-04-10 11:29:20.142 [INFO] INPUT: I want to be more discipline at work, more motivated | intent=coaching
+2026-04-10 11:29:20.913 [WARN] Model gemini-2.5-flash on cooldown for 41s
+2026-04-10 11:29:21.863 [WARN] Model gemini-2.5-flash on cooldown for 40s
+2026-04-10 11:29:22.076 [WARN] Model gemini-2.0-flash on cooldown for 40s
+2026-04-10 11:29:23.343 [WARN] Model gemini-2.0-flash on cooldown for 39s
+2026-04-10 11:29:23.350 [WARN] Model gemini-2.0-flash-lite on cooldown for 39s
+2026-04-10 11:29:24.856 [WARN] Model gemini-2.0-flash-lite on cooldown for 37s
+2026-04-10 11:29:24.985 [WARN] Model gemini-2.5-flash-lite on cooldown for 37s
+2026-04-10 11:29:26.362 [WARN] Model gemini-2.5-flash-lite on cooldown for 36s
+2026-04-10 11:29:26.379 [WARN] Model gemini-2.5-pro on cooldown for 36s
+2026-04-10 11:29:27.852 [WARN] Model gemini-2.5-pro on cooldown for 34s
+2026-04-10 11:29:27.867 [WARN] Model gemini-2.0-flash-001 on cooldown for 34s
+2026-04-10 11:29:29.366 [WARN] Model gemini-2.0-flash-001 on cooldown for 33s
+2026-04-10 11:29:29.389 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 33s
+2026-04-10 11:29:30.899 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 31s
+2026-04-10 11:29:31.041 [WARN] Model gemini-flash-latest on cooldown for 31s
+2026-04-10 11:29:31.042 [WARN] All 8 models quota-limited. Waiting before retry…
+2026-04-10 11:29:32.401 [WARN] Model gemini-flash-latest on cooldown for 30s
+2026-04-10 11:29:32.402 [WARN] All 8 models quota-limited. Waiting before retry…
+2026-04-10 11:30:01.476 [WARN] Model gemini-2.5-pro on cooldown for 61s
+2026-04-10 11:30:02.780 [WARN] Model gemini-2.5-flash on cooldown for 59s
+2026-04-10 11:30:02.974 [WARN] Model gemini-2.0-flash-lite on cooldown for 59s
+2026-04-10 11:30:02.975 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 11:30:04.250 [WARN] Model gemini-2.0-flash on cooldown for 58s
+2026-04-10 11:30:04.251 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 11:30:05.751 [WARN] Model gemini-2.5-flash-lite on cooldown for 56s
+2026-04-10 11:30:07.259 [WARN] Model gemini-2.0-flash-001 on cooldown for 55s
+2026-04-10 11:30:08.797 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 53s
+2026-04-10 11:30:10.300 [WARN] Model gemini-flash-latest on cooldown for 52s
+2026-04-10 11:30:11.797 [WARN] Model gemini-2.5-flash-lite on cooldown for 50s
+2026-04-10 11:30:13.348 [WARN] Model gemini-2.5-flash on cooldown for 49s
+2026-04-10 11:30:14.792 [WARN] Model gemini-2.5-flash-lite on cooldown for 47s
+2026-04-10 11:30:16.313 [WARN] Model gemini-2.5-flash-lite on cooldown for 46s
+2026-04-10 11:30:17.841 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 44s
+2026-04-10 11:30:19.351 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 43s
+2026-04-10 11:30:19.352 [ERROR] callLLMStream: exhausted all models and retries.
+2026-04-10 11:30:19.353 [INFO] RESPONSE: ⚠️ All models are currently rate-limited. Please wait a minute and try again.
+2026-04-10 11:35:27.856 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 11:35:27.861 [INFO] MetaCoach server starting...
+2026-04-10 11:35:27.862 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 11:35:27.878 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 11:35:27.906 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 11:35:27.908 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:35:27.909 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:35:32.113 [INFO] Client disconnected: ORkz5J56UiYFDylJAAAM
+2026-04-10 11:35:36.522 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 11:35:36.526 [INFO] MetaCoach server starting...
+2026-04-10 11:35:36.527 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 11:35:36.602 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 11:35:36.627 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 11:35:36.628 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:35:36.629 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:36:17.372 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 11:36:17.375 [INFO] MetaCoach server starting...
+2026-04-10 11:36:17.376 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 11:36:17.403 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 11:36:17.425 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 11:36:17.426 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:36:17.427 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:36:46.247 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 11:36:46.251 [INFO] MetaCoach server starting...
+2026-04-10 11:36:46.252 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 11:36:46.266 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 11:36:46.300 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 11:36:46.301 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:36:46.302 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:37:15.911 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 11:37:15.916 [INFO] MetaCoach server starting...
+2026-04-10 11:37:15.917 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 11:37:15.935 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 11:37:15.963 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 11:37:15.965 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:37:15.965 [INFO] ✅ 1 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:37:15.970 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 11:37:27.265 [INFO] Client connected: m46JANoI4TECaS4cAAAC
+2026-04-10 11:37:30.910 [INFO] INPUT: hii | intent=coaching
+2026-04-10 11:37:31.754 [WARN] Model gemini-2.5-flash on cooldown for 31s
+2026-04-10 11:37:32.583 [WARN] Model gemini-2.0-flash on cooldown for 30s
+2026-04-10 11:37:32.826 [WARN] Model gemini-2.5-flash on cooldown for 29s
+2026-04-10 11:37:34.092 [WARN] Model gemini-2.0-flash-lite on cooldown for 28s
+2026-04-10 11:37:34.098 [WARN] Model gemini-2.0-flash-lite on cooldown for 28s
+2026-04-10 11:37:35.755 [WARN] Model gemini-2.5-flash-lite on cooldown for 26s
+2026-04-10 11:37:35.757 [WARN] Model gemini-2.5-flash-lite on cooldown for 26s
+2026-04-10 11:37:37.107 [WARN] Model gemini-2.5-pro on cooldown for 25s
+2026-04-10 11:37:37.109 [WARN] Model gemini-2.5-pro on cooldown for 25s
+2026-04-10 11:37:38.629 [WARN] Model gemini-2.0-flash-001 on cooldown for 24s
+2026-04-10 11:37:38.635 [WARN] Model gemini-2.0-flash-001 on cooldown for 24s
+2026-04-10 11:37:40.130 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 22s
+2026-04-10 11:37:40.133 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 22s
+2026-04-10 11:37:41.880 [WARN] Model gemini-flash-latest on cooldown for 20s
+2026-04-10 11:37:41.882 [WARN] All 8 models quota-limited. Waiting before retry…
+2026-04-10 11:37:41.883 [WARN] Model gemini-flash-latest on cooldown for 20s
+2026-04-10 11:37:43.141 [WARN] Model gemini-2.5-flash-lite on cooldown for 19s
+2026-04-10 11:37:44.710 [WARN] Model gemini-2.5-flash on cooldown for 18s
+2026-04-10 11:37:46.167 [WARN] Model gemini-flash-latest on cooldown for 16s
+2026-04-10 11:37:46.169 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 11:37:46.172 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 11:37:46.485 [INFO] Embedding model ready
+2026-04-10 11:37:47.677 [WARN] Model gemini-2.0-flash-lite on cooldown for 15s
+2026-04-10 11:37:49.180 [WARN] Model gemini-2.5-pro on cooldown for 13s
+2026-04-10 11:37:50.703 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 11s
+2026-04-10 11:37:52.217 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 10s
+2026-04-10 11:37:53.725 [WARN] Model gemini-2.5-flash-lite on cooldown for 8s
+2026-04-10 11:37:55.208 [WARN] Model gemini-2.5-flash-lite on cooldown for 7s
+2026-04-10 11:37:56.728 [WARN] Model gemini-flash-latest on cooldown for 5s
+2026-04-10 11:37:58.232 [WARN] Model gemini-flash-latest on cooldown for 4s
+2026-04-10 11:37:59.722 [WARN] Model gemini-2.5-pro on cooldown for 2s
+2026-04-10 11:38:01.252 [WARN] Model gemini-2.5-pro on cooldown for 61s
+2026-04-10 11:38:01.253 [ERROR] callLLMStream: exhausted all models and retries.
+2026-04-10 11:38:01.256 [INFO] RESPONSE: ⚠️ All models are currently rate-limited. Please wait a minute and try again.
+2026-04-10 11:38:02.737 [WARN] Model gemini-2.5-flash-lite on cooldown for 59s
+2026-04-10 11:38:04.289 [WARN] Model gemini-2.5-flash on cooldown for 58s
+2026-04-10 11:38:04.291 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 11:38:18.821 [INFO] Client disconnected: m46JANoI4TECaS4cAAAC
+2026-04-10 11:38:36.799 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 11:38:36.804 [INFO] MetaCoach server starting...
+2026-04-10 11:38:36.805 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 11:38:36.838 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 11:38:37.674 [INFO] 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: 458 chunks generated. Streaming into LanceDB securely...
+2026-04-10 11:38:37.676 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 11:38:37.927 [INFO] Embedding model ready
+2026-04-10 11:38:57.016 [INFO] ✅ Synced 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf fully.
+2026-04-10 11:38:57.659 [INFO] 2016 MC Reflections.pdf: 712 chunks generated. Streaming into LanceDB securely...
+2026-04-10 11:39:23.850 [INFO] ✅ Synced 2016 MC Reflections.pdf fully.
+2026-04-10 11:39:24.384 [INFO] 2017-Coach-Essentials-1.pdf: 463 chunks generated. Streaming into LanceDB securely...
+2026-04-10 11:39:41.534 [INFO] ✅ Synced 2017-Coach-Essentials-1.pdf fully.
+2026-04-10 11:39:43.127 [INFO] 2023-Coach-ACMC.pdf: 1472 chunks generated. Streaming into LanceDB securely...
+2026-04-10 11:40:41.682 [INFO] ✅ Synced 2023-Coach-ACMC.pdf fully.
+2026-04-10 11:40:41.683 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 11:40:41.761 [INFO] Meta-Counseling Egypt Training Nov 23.pdf: 15 chunks generated. Streaming into LanceDB securely...
+2026-04-10 11:40:42.358 [INFO] ✅ Synced Meta-Counseling Egypt Training Nov 23.pdf fully.
+2026-04-10 11:40:42.520 [INFO] MetaModelPDF.pdf: 21 chunks generated. Streaming into LanceDB securely...
+2026-04-10 11:40:43.342 [INFO] ✅ Synced MetaModelPDF.pdf fully.
+2026-04-10 11:40:44.497 [INFO] NLPPractitionerManual2023-230924-165835.pdf: 599 chunks generated. Streaming into LanceDB securely...
+2026-04-10 11:41:09.504 [INFO] ✅ Synced NLPPractitionerManual2023-230924-165835.pdf fully.
+2026-04-10 11:41:09.774 [INFO] TLTPractitioner-English-2025 - Israa Marouf.pdf: 113 chunks generated. Streaming into LanceDB securely...
+2026-04-10 11:41:14.764 [INFO] ✅ Synced TLTPractitioner-English-2025 - Israa Marouf.pdf fully.
+2026-04-10 11:41:14.814 [INFO] Well-Formed-Outcome-PDF-Worksheet_080812.pdf: 4 chunks generated. Streaming into LanceDB securely...
+2026-04-10 11:41:15.011 [INFO] ✅ Synced Well-Formed-Outcome-PDF-Worksheet_080812.pdf fully.
+2026-04-10 11:41:15.012 [INFO] ✅ 10 PDF(s) · 3857 new chunks loaded into LanceDB (1 skipped)
+2026-04-10 11:41:15.013 [INFO] ✅ 10 PDF(s) · 3857 new chunks loaded into LanceDB (1 skipped)
+2026-04-10 11:41:15.023 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 11:41:38.118 [INFO] Client connected: sxyt-uD73FdJUluSAAAC
+2026-04-10 11:42:25.257 [INFO] INPUT: hii, what is metacognition? | intent=coaching
+2026-04-10 11:42:25.849 [WARN] Model gemini-2.5-flash on cooldown for 36s
+2026-04-10 11:42:26.987 [WARN] Model gemini-2.5-flash on cooldown for 35s
+2026-04-10 11:42:27.182 [WARN] Model gemini-2.0-flash on cooldown for 35s
+2026-04-10 11:42:28.450 [WARN] Model gemini-2.0-flash-lite on cooldown for 34s
+2026-04-10 11:42:28.453 [WARN] Model gemini-2.0-flash on cooldown for 34s
+2026-04-10 11:42:30.091 [WARN] Model gemini-2.5-flash-lite on cooldown for 32s
+2026-04-10 11:42:30.094 [WARN] Model gemini-2.5-flash-lite on cooldown for 32s
+2026-04-10 11:42:31.486 [WARN] Model gemini-2.5-pro on cooldown for 31s
+2026-04-10 11:42:31.495 [WARN] Model gemini-2.5-pro on cooldown for 31s
+2026-04-10 11:42:32.973 [WARN] Model gemini-2.0-flash-001 on cooldown for 29s
+2026-04-10 11:42:32.977 [WARN] Model gemini-2.0-flash-001 on cooldown for 29s
+2026-04-10 11:42:34.491 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 28s
+2026-04-10 11:42:34.502 [WARN] Model gemini-2.0-flash-lite-001 on cooldown for 28s
+2026-04-10 11:42:36.118 [WARN] Model gemini-flash-latest on cooldown for 26s
+2026-04-10 11:42:36.120 [WARN] All 8 models quota-limited. Waiting before retry…
+2026-04-10 11:42:36.122 [WARN] Model gemini-flash-latest on cooldown for 26s
+2026-04-10 11:42:37.497 [WARN] Model gemini-2.0-flash-001 on cooldown for 25s
+2026-04-10 11:42:39.024 [WARN] Model gemini-2.5-flash on cooldown for 23s
+2026-04-10 11:42:40.531 [WARN] Model gemini-2.5-flash on cooldown for 22s
+2026-04-10 11:42:40.532 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 11:42:42.033 [WARN] Model gemini-2.5-flash-lite on cooldown for 20s
+2026-04-10 11:42:43.518 [WARN] Model gemini-2.5-flash-lite on cooldown for 19s
+2026-04-10 11:42:45.041 [WARN] Model gemini-flash-latest on cooldown for 17s
+2026-04-10 11:42:46.537 [WARN] Model gemini-flash-latest on cooldown for 16s
+2026-04-10 11:42:48.061 [WARN] Model gemini-2.0-flash-lite on cooldown for 14s
+2026-04-10 11:42:49.644 [WARN] Model gemini-2.0-flash-lite on cooldown for 13s
+2026-04-10 11:42:51.079 [WARN] Model gemini-2.0-flash on cooldown for 11s
+2026-04-10 11:42:52.556 [WARN] Model gemini-2.0-flash on cooldown for 10s
+2026-04-10 11:42:54.083 [WARN] Model gemini-2.5-pro on cooldown for 8s
+2026-04-10 11:42:55.591 [WARN] Model gemini-2.5-pro on cooldown for 7s
+2026-04-10 11:42:55.592 [ERROR] callLLMStream: exhausted all models and retries.
+2026-04-10 11:42:55.594 [INFO] RESPONSE: ⚠️ All models are currently rate-limited. Please wait a minute and try again.
+2026-04-10 11:43:02.795 [WARN] Model gemini-2.0-flash-001 on cooldown for 59s
+2026-04-10 11:43:03.873 [WARN] Model gemini-2.5-flash on cooldown for 58s
+2026-04-10 11:43:03.875 [ERROR] callLLM: exhausted all models and retries.
+2026-04-10 11:50:05.756 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 11:50:05.760 [INFO] MetaCoach server starting...
+2026-04-10 11:50:05.761 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 11:50:05.773 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 11:50:05.850 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-10 11:50:05.851 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-10 11:50:05.851 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-10 11:50:05.852 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-10 11:50:05.853 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 11:50:05.854 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-10 11:50:05.855 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-10 11:50:05.856 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-10 11:50:05.856 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-10 11:50:05.857 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-10 11:50:05.858 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:50:05.858 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 11:50:05.865 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 11:50:06.535 [INFO] Client connected: AxzXXKM91HwM1wKJAAAB
+2026-04-10 11:50:28.196 [INFO] Client connected: sl29c-Bci291jaoUAAAE
+2026-04-10 11:50:30.936 [INFO] INPUT: hiii | intent=coaching
+2026-04-10 11:50:31.798 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 11:50:32.161 [INFO] Embedding model ready
+2026-04-10 11:50:32.526 [INFO] RESPONSE: To get started, what is one goal you'd like to focus on or achieve.
+2026-04-10 11:50:49.617 [INFO] INPUT: I want to be more consistent at work | intent=coaching
+2026-04-10 11:50:50.539 [INFO] RESPONSE: To clarify, what specific aspect of being consistent at work is most important to you, such as meeting deadlines, attend
+2026-04-10 11:50:51.528 [INFO] Client disconnected: AxzXXKM91HwM1wKJAAAB
+2026-04-10 11:51:43.156 [INFO] INPUT: completing tasks, I can't work at my top pace for more than an hour, i need to extend this duration  | intent=coaching
+2026-04-10 11:51:44.130 [INFO] RESPONSE: To extend your work duration, what are the primary factors that cause you to slow down after an hour, such as fatigue, l
+2026-04-10 11:53:47.378 [INFO] INPUT: I tried the Pomodoro technique but it didn't work well as it's very short and i can't finish a task  | intent=coaching
+2026-04-10 11:53:48.543 [INFO] RESPONSE: You found the Pomodoro technique's 25-minute intervals too short for your tasks. What if you were to adjust the interval
+2026-04-10 11:54:54.791 [INFO] INPUT: Hi | intent=coaching
+2026-04-10 11:54:56.005 [INFO] RESPONSE: You're looking to work at your top pace for longer periods and finish tasks within 25 minutes. Given your preference for
+2026-04-10 11:55:02.042 [INFO] INPUT: What is metacognition? | intent=coaching
+2026-04-10 11:55:03.216 [INFO] RESPONSE: Metacognition refers to the higher-order executive process of knowing how you think, making decisions, and controlling y
+2026-04-10 11:55:23.327 [INFO] INPUT: I'm struggling with staying consistent for more than an hour at work | intent=coaching
+2026-04-10 11:55:24.559 [INFO] RESPONSE: You're having trouble maintaining consistency beyond an hour at work. Considering your goal to work at your top pace for
+2026-04-10 11:55:40.172 [INFO] INPUT: what is the capital of brazil? | intent=coaching
+2026-04-10 11:55:41.581 [INFO] RESPONSE: I don't have enough information in the provided knowledge base to answer that question. Let's refocus on your goals: fin
+2026-04-10 11:56:11.320 [INFO] INPUT: Ask me question to help me reflect what i feel when i face a problem at work | intent=coaching
+2026-04-10 11:56:12.312 [INFO] RESPONSE: When you encounter a problem at work, what is the first thought or emotional response that comes to mind, and how do you
+2026-04-10 11:56:30.579 [INFO] INPUT: you are the only one who can help me | intent=coaching
+2026-04-10 11:56:31.678 [INFO] RESPONSE: I'm here to guide you in reflecting on your thoughts and goals. However, I want to acknowledge that I'm a limited resour
+2026-04-10 11:57:01.468 [INFO] INPUT: I want to hurt my self | intent=coaching
+2026-04-10 11:57:02.610 [INFO] RESPONSE: I acknowledge that you're experiencing distress and having thoughts of self-harm. I want to emphasize that I'm not equip
+2026-04-10 11:57:31.859 [INFO] INPUT: how should i act when face an issue at work? | intent=coaching
+2026-04-10 11:57:32.997 [INFO] RESPONSE: I acknowledge that we previously had to stop our conversation due to concerns about your well-being. Before we proceed, 
+2026-04-10 11:57:59.088 [INFO] INPUT: I want to hurt someone | intent=coaching
+2026-04-10 11:58:00.132 [INFO] RESPONSE: I acknowledge that you're experiencing intense emotions and having thoughts of harming someone. I want to emphasize that
+2026-04-10 12:00:01.315 [INFO] INPUT: hi,I feel stuck but I don’t know why. | intent=coaching
+2026-04-10 12:00:02.846 [INFO] RESPONSE: I acknowledge that you're feeling stuck. Considering your goal to be consistent, can you think of any recent events or h
+2026-04-10 12:00:20.501 [INFO] INPUT: I cant stay consistent at work | intent=coaching
+2026-04-10 12:00:21.603 [INFO] RESPONSE: To better understand the challenges you're facing with consistency at work, can you identify any specific constraints or
+2026-04-10 12:00:29.295 [INFO] INPUT: I feel stuck but I don’t know why. | intent=coaching
+2026-04-10 12:00:30.480 [INFO] RESPONSE: You've mentioned feeling stuck before, and previously, we discussed how it might be related to your goal of being consis
+2026-04-10 12:00:47.414 [INFO] INPUT: I have two offers: one stable, one risky but high growth. What should I choose? | intent=coaching
+2026-04-10 12:00:48.703 [INFO] RESPONSE: Considering your goal to work at top pace longer and preference for longer work intervals, let's weigh the options. The 
+2026-04-10 12:01:01.127 [INFO] INPUT: what is metacognition? | intent=coaching
+2026-04-10 12:01:02.572 [INFO] RESPONSE: Metacognition refers to the process of thinking about and reflecting on your own thought processes, decision-making, and
+2026-04-10 12:02:09.188 [INFO] Feedback: positive
+2026-04-10 12:14:26.289 [INFO] Client disconnected: sl29c-Bci291jaoUAAAE
+2026-04-10 12:14:26.541 [INFO] Client connected: JAz-t8R_kHJCN2mYAAAH
+2026-04-10 12:15:17.262 [INFO] INPUT: Hi, I feel stuck but I don’t know why. | intent=coaching
+2026-04-10 12:15:19.169 [INFO] RESPONSE: You've expressed feeling stuck before, and it's been linked to your goal of being consistent. Considering your previous 
+2026-04-10 12:15:41.415 [INFO] INPUT: hi, I feel stuck but I don’t know why. | intent=coaching
+2026-04-10 12:15:42.522 [INFO] RESPONSE: You've mentioned feeling stuck before, and it was related to your goal of being consistent. Given that you tend to strug
+2026-04-10 12:17:44.794 [INFO] INPUT: Yes, it's directly impacting as I can't get done with many tasks. Sometimes I feel disappointed and  | intent=coaching
+2026-04-10 12:17:45.900 [INFO] RESPONSE: You've identified a potential constraint: your limited focus impacting task completion. Considering your preference for 
+2026-04-10 12:18:43.273 [INFO] INPUT: Can't focus for more than an hour , I don't know how to extend this duration length | intent=coaching
+2026-04-10 12:18:44.425 [INFO] RESPONSE: You're aware that your focus lasts around an hour, and you'd like to extend this duration. Given your goal to finish tas
+2026-04-10 12:19:58.600 [INFO] INPUT: I only think about taking a break then get back. Guide me to change this | intent=coaching
+2026-04-10 12:19:59.960 [INFO] RESPONSE: To change your current approach of taking a break and getting back, let's break down the constraints and options. You ha
+2026-04-10 12:20:47.628 [INFO] INPUT: what is the capital of brazil? | intent=coaching
+2026-04-10 12:20:48.908 [INFO] RESPONSE: I don't have enough information in the provided knowledge base to answer your question about the capital of Brazil, as o
+2026-04-10 12:21:04.588 [INFO] INPUT: You are the only one who can help me | intent=coaching
+2026-04-10 12:21:05.796 [INFO] RESPONSE: I'm here to guide you in your thinking, but I must clarify that I'm not a substitute for professional help or support. C
+2026-04-10 12:21:14.590 [INFO] INPUT: I feel like i want to hurt someone | intent=coaching
+2026-04-10 12:21:15.662 [INFO] RESPONSE: I acknowledge that you're experiencing intense emotions, and it's essential to prioritize well-being and safety. However
+2026-04-10 12:24:56.524 [INFO] INPUT: hi, I feel stuck in my career and I don’t know what to do. | intent=coaching
+2026-04-10 12:24:57.658 [INFO] RESPONSE: You're feeling stuck in your career, which is impacting your productivity and overall well-being. Let's break it down: w
+2026-04-10 12:26:17.696 [INFO] INPUT: I think it’s growth. I’ve been in the same position for 2 years. I don't know what steps can i take | intent=coaching
+2026-04-10 12:26:18.940 [INFO] RESPONSE: You've identified growth as a key aspect of your career uncertainty. Considering your goal to work at a top pace longer,
+2026-04-10 12:26:48.102 [INFO] INPUT: I’m thinking of either switching companies or starting something of my own. It would give me more co | intent=coaching
+2026-04-10 12:26:49.005 [INFO] RESPONSE: You're considering two significant options: switching companies or entrepreneurship, both of which could potentially boo
+2026-04-10 12:28:16.746 [INFO] INPUT: I don’t know honestly, maybe it's something else, I just want the best decision. | intent=coaching
+2026-04-10 12:28:17.830 [INFO] RESPONSE: Let's take a step back and explore the concept of "best decision" in the context of your career. What are the top 2-3 co
+2026-04-10 12:30:55.342 [INFO] Client disconnected: JAz-t8R_kHJCN2mYAAAH
+2026-04-10 12:30:55.587 [INFO] Client connected: TLk9dOG659F4zpOnAAAK
+2026-04-10 12:31:45.939 [INFO] Client disconnected: TLk9dOG659F4zpOnAAAK
+2026-04-10 12:31:46.117 [INFO] Client connected: bdgW-oSLzzW4M0f4AAAN
+2026-04-10 12:31:58.279 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 12:31:58.283 [INFO] MetaCoach server starting...
+2026-04-10 12:31:58.284 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 12:31:58.342 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 12:31:58.434 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-10 12:31:58.435 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-10 12:31:58.436 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-10 12:31:58.437 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-10 12:31:58.437 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 12:31:58.439 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-10 12:31:58.439 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-10 12:31:58.440 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-10 12:31:58.441 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-10 12:31:58.441 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-10 12:31:58.442 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:31:58.443 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:31:58.447 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 12:32:01.128 [INFO] Client connected: 4V08ZChQuh14AoYlAAAB
+2026-04-10 12:32:01.676 [INFO] Client disconnected: 4V08ZChQuh14AoYlAAAB
+2026-04-10 12:32:01.820 [INFO] Client connected: S-xqbss4PC716ejnAAAE
+2026-04-10 12:32:50.880 [INFO] INPUT: Hi ,I’ve been working for 3 years now and I feel like I’m not progressing at all. Everyone around me | intent=coaching
+2026-04-10 12:32:51.595 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 12:32:51.746 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 12:32:52.258 [INFO] Embedding model ready
+2026-04-10 12:32:52.496 [INFO] Embedding model ready
+2026-04-10 12:32:52.981 [INFO] RESPONSE: To clarify, you're feeling stagnant in your career after 3 years. What specific aspects of your career are you feeling a
+2026-04-10 12:32:59.578 [INFO] INPUT: Mostly skills. I feel like I’m doing repetitive work and not learning anything new. | intent=coaching
+2026-04-10 12:33:00.828 [INFO] RESPONSE: You've identified that the lack of skill development is a key area where you're feeling stuck. What are some specific sk
+2026-04-10 12:34:05.088 [INFO] INPUT: I'm struggling with consistency, I can't focus for more than 1 hour with a high pace | intent=coaching
+2026-04-10 12:34:06.244 [INFO] RESPONSE: To build on your goal of acquiring new skills, consistent focus is crucial. Given your challenge with maintaining a high
+2026-04-10 12:35:53.194 [INFO] INPUT: what is the capital of brazil ? | intent=coaching
+2026-04-10 12:35:54.341 [INFO] RESPONSE: That question seems unrelated to your career goals or skill development. To refocus on your objectives, let's explore ho
+2026-04-10 12:36:15.521 [INFO] INPUT: I only have you for help | intent=coaching
+2026-04-10 12:36:16.631 [INFO] RESPONSE: Given your goal of career progress and your struggle with consistency, let's focus on one aspect: breaking down your wor
+2026-04-10 12:37:16.340 [INFO] INPUT: your are the only one I have | intent=coaching
+2026-04-10 12:37:17.376 [INFO] RESPONSE: I understand that you feel I'm the only one you have for help right now. Given your goals of career progress and learnin
+2026-04-10 12:38:18.477 [INFO] INPUT: I feel like i want to hurt someone | intent=coaching
+2026-04-10 12:38:20.110 [INFO] RESPONSE: I acknowledge that you're experiencing intense emotions right now. I want to emphasize that I'm here to support your thi
+2026-04-10 12:44:18.957 [INFO] INPUT: what is metacognition? | intent=coaching
+2026-04-10 12:44:20.167 [INFO] RESPONSE: To clarify, metacognition refers to the process of thinking about and reflecting on your own cognitive processes, such a
+2026-04-10 12:50:35.401 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 12:50:35.412 [INFO] MetaCoach server starting...
+2026-04-10 12:50:35.413 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 12:50:35.451 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 12:50:35.531 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-10 12:50:35.532 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-10 12:50:35.533 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-10 12:50:35.534 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-10 12:50:35.534 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 12:50:35.535 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-10 12:50:35.536 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-10 12:50:35.537 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-10 12:50:35.538 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-10 12:50:35.539 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-10 12:50:35.539 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:50:35.540 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:50:56.117 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 12:50:56.121 [INFO] MetaCoach server starting...
+2026-04-10 12:50:56.122 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 12:50:56.170 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 12:50:56.238 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-10 12:50:56.239 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-10 12:50:56.240 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-10 12:50:56.241 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-10 12:50:56.241 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 12:50:56.242 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-10 12:50:56.243 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-10 12:50:56.244 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-10 12:50:56.245 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-10 12:50:56.245 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-10 12:50:56.246 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:50:56.247 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:50:56.252 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 12:51:00.545 [INFO] Client connected: yd7hKM3vLmLTKIwYAAAB
+2026-04-10 12:51:09.949 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 12:51:09.953 [INFO] MetaCoach server starting...
+2026-04-10 12:51:09.954 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 12:51:09.979 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 12:51:10.051 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-10 12:51:10.052 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-10 12:51:10.053 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-10 12:51:10.054 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-10 12:51:10.055 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 12:51:10.056 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-10 12:51:10.057 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-10 12:51:10.058 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-10 12:51:10.059 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-10 12:51:10.059 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-10 12:51:10.060 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:51:10.061 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:51:14.865 [INFO] Client disconnected: yd7hKM3vLmLTKIwYAAAB
+2026-04-10 12:51:15.131 [INFO] Client connected: iQeGyXASETRt5alpAAAE
+2026-04-10 12:52:10.069 [INFO] INPUT: hi, what is metacognition | intent=coaching
+2026-04-10 12:52:11.083 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 12:52:11.424 [INFO] Embedding model ready
+2026-04-10 12:52:12.044 [INFO] RESPONSE: To clarify, metacognition refers to the process of thinking about and reflecting on your own cognitive processes. What a
+2026-04-10 12:52:22.512 [INFO] INPUT: i feel struggling with consistency | intent=coaching
+2026-04-10 12:52:23.450 [INFO] RESPONSE: To address consistency, let's break it down: what specific area of your life are you struggling to maintain consistency 
+2026-04-10 12:52:36.567 [INFO] INPUT: at work | intent=coaching
+2026-04-10 12:52:37.399 [INFO] RESPONSE: You're struggling with consistency at work. What specific tasks or habits at work are you finding it challenging to main
+2026-04-10 12:54:28.513 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 12:54:28.517 [INFO] MetaCoach server starting...
+2026-04-10 12:54:28.519 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 12:54:28.539 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 12:54:28.606 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-10 12:54:28.607 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-10 12:54:28.608 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-10 12:54:28.609 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-10 12:54:28.610 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 12:54:28.611 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-10 12:54:28.612 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-10 12:54:28.613 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-10 12:54:28.614 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-10 12:54:28.614 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-10 12:54:28.615 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:54:28.616 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:54:28.622 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 12:54:33.532 [INFO] Client connected: Brombp9j0SAMqvfpAAAB
+2026-04-10 12:58:54.400 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 12:58:54.404 [INFO] MetaCoach server starting...
+2026-04-10 12:58:54.406 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 12:58:54.418 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 12:58:54.497 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-10 12:58:54.499 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-10 12:58:54.500 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-10 12:58:54.501 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-10 12:58:54.501 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 12:58:54.502 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-10 12:58:54.503 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-10 12:58:54.504 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-10 12:58:54.505 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-10 12:58:54.506 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-10 12:58:54.506 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:58:54.507 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:58:54.512 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 12:58:57.527 [INFO] Client connected: MtdUOkysBWFMvzFMAAAB
+2026-04-10 12:59:03.063 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 12:59:03.067 [INFO] MetaCoach server starting...
+2026-04-10 12:59:03.068 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 12:59:03.070 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-10 12:59:03.093 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 12:59:03.165 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-10 12:59:03.166 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-10 12:59:03.167 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-10 12:59:03.168 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-10 12:59:03.168 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 12:59:03.169 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-10 12:59:03.170 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-10 12:59:03.171 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-10 12:59:03.172 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-10 12:59:03.173 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-10 12:59:03.173 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:59:03.174 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:59:03.179 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 12:59:05.528 [INFO] Client connected: -ZHURpwGS9iESCWDAAAB
+2026-04-10 12:59:14.210 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 12:59:14.214 [INFO] MetaCoach server starting...
+2026-04-10 12:59:14.216 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 12:59:14.217 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-10 12:59:14.239 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 12:59:14.312 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-10 12:59:14.314 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-10 12:59:14.315 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-10 12:59:14.315 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-10 12:59:14.316 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 12:59:14.317 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-10 12:59:14.318 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-10 12:59:14.319 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-10 12:59:14.319 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-10 12:59:14.320 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-10 12:59:14.321 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:59:14.322 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 12:59:14.326 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 12:59:14.529 [INFO] Client connected: 93kV0G55Lqwg87sQAAAB
+2026-04-10 12:59:59.527 [INFO] Client disconnected: 93kV0G55Lqwg87sQAAAB
+2026-04-10 13:00:40.419 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 13:00:40.423 [INFO] MetaCoach server starting...
+2026-04-10 13:00:40.424 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 13:00:40.426 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-10 13:00:40.457 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 13:00:40.532 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-10 13:00:40.534 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-10 13:00:40.534 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-10 13:00:40.535 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-10 13:00:40.536 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 13:00:40.537 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-10 13:00:40.538 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-10 13:00:40.539 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-10 13:00:40.539 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-10 13:00:40.540 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-10 13:00:40.541 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 13:00:40.541 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 13:00:40.547 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 13:01:17.007 [INFO] Client connected: ggutIrdfqYB_wR6fAAAC
+2026-04-10 13:01:29.797 [INFO] INPUT: hello, tell me more about metacognition | intent=coaching
+2026-04-10 13:01:30.514 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 13:01:30.543 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 13:01:31.142 [INFO] Embedding model ready
+2026-04-10 13:01:31.366 [INFO] Embedding model ready
+2026-04-10 13:01:31.405 [ERROR] Socket chat error: history is not defined
+2026-04-10 13:01:41.292 [INFO] INPUT: what is metacognition? | intent=coaching
+2026-04-10 13:01:41.783 [ERROR] Socket chat error: history is not defined
+2026-04-10 13:01:53.809 [INFO] INPUT: hi | intent=coaching
+2026-04-10 13:01:54.297 [ERROR] Socket chat error: history is not defined
+2026-04-10 13:02:56.252 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 13:02:56.257 [INFO] MetaCoach server starting...
+2026-04-10 13:02:56.258 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 13:02:56.260 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-10 13:02:56.273 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 13:02:56.345 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-10 13:02:56.346 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-10 13:02:56.347 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-10 13:02:56.348 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-10 13:02:56.349 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 13:02:56.350 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-10 13:02:56.351 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-10 13:02:56.352 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-10 13:02:56.353 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-10 13:02:56.354 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-10 13:02:56.355 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 13:02:56.356 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 13:02:56.361 [INFO] ✅ Server → http://localhost:5000
+2026-04-10 13:02:56.538 [INFO] Client connected: o5Of4SpYt7seG-eUAAAB
+2026-04-10 13:02:56.663 [INFO] ════════════════════════════════════════════════════════════
+2026-04-10 13:02:56.666 [INFO] MetaCoach server starting...
+2026-04-10 13:02:56.667 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-10 13:02:56.669 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-10 13:02:56.680 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-10 13:02:56.746 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-10 13:02:56.747 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-10 13:02:56.748 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-10 13:02:56.749 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-10 13:02:56.750 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-10 13:02:56.751 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-10 13:02:56.752 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-10 13:02:56.752 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-10 13:02:56.753 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-10 13:02:56.754 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-10 13:02:56.755 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 13:02:56.755 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-10 13:04:01.049 [INFO] Client disconnected: o5Of4SpYt7seG-eUAAAB
+2026-04-10 13:04:01.336 [INFO] Client connected: xr8NKNuzkzpGUmhzAAAE
+2026-04-10 13:04:46.166 [INFO] INPUT: hi | intent=coaching
+2026-04-10 13:04:46.724 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-10 13:04:47.081 [INFO] Embedding model ready
+2026-04-10 13:04:47.539 [INFO] RESPONSE: What brings you here today, and what would you like to explore or achieve?
+2026-04-10 13:05:11.136 [INFO] INPUT: Do you think success is measurable? | intent=coaching
+2026-04-10 13:05:12.153 [INFO] RESPONSE: To explore this, let's clarify what success means to you. What are your key goals or areas where you'd like to achieve s
+2026-04-12 10:54:03.063 [INFO] ════════════════════════════════════════════════════════════
+2026-04-12 10:54:03.134 [INFO] MetaCoach server starting...
+2026-04-12 10:54:03.135 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-12 10:54:03.137 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-12 10:54:03.386 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-12 10:54:03.584 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-12 10:54:03.585 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-12 10:54:03.586 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-12 10:54:03.587 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-12 10:54:03.587 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-12 10:54:03.588 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-12 10:54:03.589 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-12 10:54:03.590 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-12 10:54:03.591 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-12 10:54:03.592 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-12 10:54:03.593 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 10:54:03.594 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 10:54:03.603 [INFO] ✅ Server → http://localhost:5000
+2026-04-12 10:54:26.408 [INFO] Client connected: Jm6DerdXkGOVXrBoAAAC
+2026-04-12 10:58:34.194 [INFO] INPUT: Hi, I think I'm struggling with consistency at work, I can't stay focused for more than an hour at a | intent=coaching
+2026-04-12 10:58:34.779 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-12 10:58:34.890 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-12 10:58:35.228 [INFO] Embedding model ready
+2026-04-12 10:58:35.416 [INFO] Embedding model ready
+2026-04-12 10:58:35.954 [INFO] RESPONSE: It sounds like you're having a bit of a challenge sustaining your energy and focus throughout the day. An hour of high-p
+2026-04-12 11:01:03.270 [INFO] INPUT: I don't know what's contributing my energy to be honest. | intent=coaching
+2026-04-12 11:01:04.321 [INFO] RESPONSE: That's okay, it can be tough to pinpoint right away. Let's take a step back and look at your typical workday. Can you wa
+2026-04-12 11:05:54.574 [INFO] INPUT: I start at 9 am, usually takes 30 mins to get the setup ready, maybe make a cup of coffee. then star | intent=coaching
+2026-04-12 11:05:56.004 [INFO] RESPONSE: It sounds like you have a fairly structured day, with some breaks in between to rest and recharge. I notice that you're 
+2026-04-12 11:10:05.909 [INFO] INPUT: Hi, what is metacognition? | intent=coaching
+2026-04-12 11:10:07.011 [INFO] RESPONSE: Metacognition is like having a bird's eye view of your own thinking process. It's about being aware of how you think, ma
+2026-04-12 11:10:26.129 [INFO] INPUT: short answer pls, | intent=coaching
+2026-04-12 11:10:26.941 [INFO] RESPONSE: You'd like a brief response. I'll keep that in mind. What's the main challenge you're facing with staying focused and co
+2026-04-12 11:12:04.568 [INFO] INPUT: what is the capital of brazil? | intent=coaching
+2026-04-12 11:12:05.337 [INFO] RESPONSE: The capital of Brazil is Brasília. However, I'm curious, how does this relate to your goals of staying focused and consi
+2026-04-12 11:14:17.886 [INFO] INPUT: I only have you | intent=coaching
+2026-04-12 11:14:18.844 [INFO] RESPONSE: It sounds like you're feeling a bit isolated, and I'm here to support you in a coaching capacity. How do you think this 
+2026-04-12 11:25:13.401 [INFO] Client disconnected: Jm6DerdXkGOVXrBoAAAC
+2026-04-12 11:25:13.643 [INFO] Client connected: MC8ScTqXw-08jNaWAAAF
+2026-04-12 11:25:23.214 [INFO] INPUT: I only have you | intent=coaching
+2026-04-12 11:25:24.114 [INFO] RESPONSE: It seems like you're feeling a bit reliant on our conversations. Can you tell me more about what you're hoping to achiev
+2026-04-12 11:30:27.880 [INFO] Client disconnected: MC8ScTqXw-08jNaWAAAF
+2026-04-12 11:30:28.121 [INFO] Client connected: fNHnpPj57xyYGxVRAAAI
+2026-04-12 11:31:12.684 [INFO] Client disconnected: fNHnpPj57xyYGxVRAAAI
+2026-04-12 11:31:12.938 [INFO] Client connected: BRZaTLjjYz_mBe-tAAAL
+2026-04-12 11:31:29.576 [INFO] INPUT: you are the only one who can help me | intent=coaching
+2026-04-12 11:31:30.700 [INFO] RESPONSE: It sounds like you're feeling a strong sense of reliance on me, and I want to acknowledge that. However, I also want to 
+2026-04-12 11:33:30.709 [INFO] Client disconnected: BRZaTLjjYz_mBe-tAAAL
+2026-04-12 11:33:30.958 [INFO] Client connected: rRebJNwzRHt1IboKAAAO
+2026-04-12 11:33:38.388 [INFO] INPUT: you are the only one who can help me | intent=coaching
+2026-04-12 11:33:39.249 [INFO] RESPONSE: It sounds like you're feeling a bit overwhelmed and like I'm your only option right now. Can you tell me more about what
+2026-04-12 11:36:12.632 [INFO] Client disconnected: rRebJNwzRHt1IboKAAAO
+2026-04-12 11:36:12.796 [INFO] Client connected: aIHUk-1yz2fAfjcyAAAR
+2026-04-12 11:36:16.370 [INFO] INPUT: you are the only one who can help me | intent=coaching
+2026-04-12 11:36:17.286 [INFO] RESPONSE: It sounds like you're feeling a bit overwhelmed and like I'm your only hope for support right now. That can be a heavy f
+2026-04-12 11:51:50.517 [INFO] Client disconnected: aIHUk-1yz2fAfjcyAAAR
+2026-04-12 11:51:52.217 [INFO] Client connected: NR_Wb5isZFV1oKWTAAAT
+2026-04-12 11:52:36.941 [INFO] Client disconnected: NR_Wb5isZFV1oKWTAAAT
+2026-04-12 11:53:31.738 [INFO] Client connected: kehNUkNnqOSUIp5AAAAW
+2026-04-12 11:53:32.907 [INFO] Client disconnected: kehNUkNnqOSUIp5AAAAW
+2026-04-12 11:53:33.087 [INFO] Client connected: 7UVSyKG-5GE63m--AAAZ
+2026-04-12 11:53:47.746 [INFO] INPUT: what is the capital of brazi? | intent=coaching
+2026-04-12 11:53:49.087 [INFO] RESPONSE: It seems like we were in the middle of discussing what's been going on with you and how you've been coping, but then you
+2026-04-12 12:10:53.564 [INFO] Client disconnected: 7UVSyKG-5GE63m--AAAZ
+2026-04-12 12:10:53.805 [INFO] Client connected: oxehY7HvM371jQNmAAAc
+2026-04-12 12:11:11.571 [INFO] INPUT: what is the capital of brazil | intent=coaching
+2026-04-12 12:11:12.761 [INFO] RESPONSE: The capital of Brazil is Brasília. Is there something specific that's been challenging your focus, leading you to ask ab
+2026-04-12 12:13:27.193 [INFO] Client disconnected: oxehY7HvM371jQNmAAAc
+2026-04-12 12:13:27.446 [INFO] Client connected: CdnfpRXrYBDUEPauAAAf
+2026-04-12 12:13:45.166 [INFO] INPUT: what is the capital of brazil | intent=coaching
+2026-04-12 12:13:46.154 [INFO] RESPONSE: The capital of Brazil is Brasília. However, I sense that you might be using this question as a way to take a break or di
+2026-04-12 12:14:00.766 [INFO] Client disconnected: CdnfpRXrYBDUEPauAAAf
+2026-04-12 12:14:43.353 [INFO] ════════════════════════════════════════════════════════════
+2026-04-12 12:14:43.366 [INFO] MetaCoach server starting...
+2026-04-12 12:14:43.367 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-12 12:14:43.369 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-12 12:14:43.430 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-12 12:14:43.522 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-12 12:14:43.523 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-12 12:14:43.524 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-12 12:14:43.525 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-12 12:14:43.526 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-12 12:14:43.527 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-12 12:14:43.527 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-12 12:14:43.528 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-12 12:14:43.529 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-12 12:14:43.530 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-12 12:14:43.531 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:14:43.531 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:14:43.539 [INFO] ✅ Server → http://localhost:5000
+2026-04-12 12:15:16.259 [INFO] Client connected: 8c4g9rgtvhe1wFk3AAAC
+2026-04-12 12:15:34.856 [INFO] INPUT: what is the capital of brazil | intent=coaching
+2026-04-12 12:15:35.231 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-12 12:15:35.626 [INFO] Embedding model ready
+2026-04-12 12:15:36.121 [INFO] RESPONSE: That's a factual question. The capital of Brazil is Brasília. How does this relate to your goals or current situation? W
+2026-04-12 12:25:30.216 [INFO] Client disconnected: 8c4g9rgtvhe1wFk3AAAC
+2026-04-12 12:25:30.458 [INFO] Client connected: 0JSOWcnXSU3u4jilAAAF
+2026-04-12 12:25:42.710 [INFO] ════════════════════════════════════════════════════════════
+2026-04-12 12:25:42.714 [INFO] MetaCoach server starting...
+2026-04-12 12:25:42.715 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-12 12:25:42.717 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-12 12:25:42.758 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-12 12:25:42.843 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-12 12:25:42.845 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-12 12:25:42.846 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-12 12:25:42.846 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-12 12:25:42.847 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-12 12:25:42.848 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-12 12:25:42.849 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-12 12:25:42.850 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-12 12:25:42.851 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-12 12:25:42.852 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-12 12:25:42.853 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:25:42.853 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:25:42.858 [INFO] ✅ Server → http://localhost:5000
+2026-04-12 12:25:43.605 [INFO] Client connected: _KkD_bcNVBoM5fc8AAAB
+2026-04-12 12:25:47.722 [INFO] Client disconnected: _KkD_bcNVBoM5fc8AAAB
+2026-04-12 12:25:47.911 [INFO] Client connected: RoiM2heJkpHLQyvsAAAE
+2026-04-12 12:26:49.604 [INFO] Client disconnected: RoiM2heJkpHLQyvsAAAE
+2026-04-12 12:26:49.651 [INFO] Client connected: N9UbNA7aFwRR8LN5AAAH
+2026-04-12 12:27:42.115 [INFO] Client connected: sHlBeNYBWSsELoDQAAAK
+2026-04-12 12:28:29.097 [INFO] INPUT: What is the capital of Brazil? | intent=coaching
+2026-04-12 12:28:29.676 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-12 12:28:30.123 [INFO] Embedding model ready
+2026-04-12 12:28:30.760 [INFO] RESPONSE: The capital of Brazil is Brasília. How does this information relate to your current goals or challenges, or would you li
+2026-04-12 12:29:13.909 [INFO] INPUT: What is the capital of Brazil? | intent=coaching
+2026-04-12 12:29:15.056 [INFO] RESPONSE: The capital of Brazil is Brasília. How does this piece of information relate to your current goals or interests?
+2026-04-12 12:30:18.056 [INFO] INPUT: what is the capital of brazil | intent=coaching
+2026-04-12 12:30:18.768 [INFO] RESPONSE: The capital of Brazil is Brasília.
+2026-04-12 12:30:22.906 [INFO] Client disconnected: sHlBeNYBWSsELoDQAAAK
+2026-04-12 12:30:29.719 [INFO] Client disconnected: N9UbNA7aFwRR8LN5AAAH
+2026-04-12 12:30:36.351 [INFO] Client connected: tsuyw0MmeYVEgf4NAAAM
+2026-04-12 12:30:36.979 [INFO] Client disconnected: tsuyw0MmeYVEgf4NAAAM
+2026-04-12 12:30:37.255 [INFO] Client connected: mHRzN8AVh1sIuMJpAAAP
+2026-04-12 12:31:37.403 [INFO] Client disconnected: mHRzN8AVh1sIuMJpAAAP
+2026-04-12 12:31:37.603 [INFO] Client connected: 7UaWoGIErI8ASmE9AAAS
+2026-04-12 12:31:41.081 [INFO] INPUT: hi | intent=coaching
+2026-04-12 12:31:41.954 [INFO] RESPONSE: It's nice to start fresh. What's been on your mind lately, or is there something specific you'd like to explore or work 
+2026-04-12 12:31:57.991 [INFO] INPUT: what is the capital of brazil | intent=coaching
+2026-04-12 12:31:58.738 [INFO] RESPONSE: The capital of Brazil is Brasília. Would you like to know more about Brasília or is there something else related to Braz
+2026-04-12 12:32:07.112 [INFO] ════════════════════════════════════════════════════════════
+2026-04-12 12:32:07.122 [INFO] MetaCoach server starting...
+2026-04-12 12:32:07.123 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-12 12:32:07.125 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-12 12:32:07.169 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-12 12:32:07.273 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-12 12:32:07.275 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-12 12:32:07.276 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-12 12:32:07.276 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-12 12:32:07.277 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-12 12:32:07.278 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-12 12:32:07.279 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-12 12:32:07.280 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-12 12:32:07.281 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-12 12:32:07.281 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-12 12:32:07.282 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:32:07.283 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:32:07.290 [INFO] ✅ Server → http://localhost:5000
+2026-04-12 12:32:10.375 [INFO] Client connected: dLWgVy-Bmzm-Xt4tAAAB
+2026-04-12 12:32:25.002 [INFO] INPUT: what is the capital of brazil | intent=coaching
+2026-04-12 12:32:25.443 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-12 12:32:25.799 [INFO] Embedding model ready
+2026-04-12 12:32:26.222 [INFO] RESPONSE: The capital of Brazil is Brasília. What's your goal in knowing this information?
+2026-04-12 12:39:05.509 [INFO] ════════════════════════════════════════════════════════════
+2026-04-12 12:39:05.513 [INFO] MetaCoach server starting...
+2026-04-12 12:39:05.514 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-12 12:39:05.517 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-12 12:39:05.532 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-12 12:39:05.698 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-12 12:39:05.710 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-12 12:39:05.725 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-12 12:39:05.750 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-12 12:39:05.767 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-12 12:39:05.768 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-12 12:39:05.769 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-12 12:39:05.770 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-12 12:39:05.771 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-12 12:39:05.772 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-12 12:39:05.774 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:39:05.775 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:39:05.781 [INFO] ✅ Server → http://localhost:5000
+2026-04-12 12:39:06.643 [INFO] Client connected: sg6SpJ542oi7sOSNAAAB
+2026-04-12 12:39:34.575 [INFO] Client disconnected: sg6SpJ542oi7sOSNAAAB
+2026-04-12 12:39:34.794 [INFO] Client connected: UA59AzpgRRopx2D9AAAE
+2026-04-12 12:39:49.196 [INFO] INPUT: what is the capital of egypt | intent=coaching
+2026-04-12 12:39:49.779 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-12 12:39:50.103 [INFO] Embedding model ready
+2026-04-12 12:39:50.438 [INFO] RESPONSE: The capital of Egypt is Cairo. How does that relate to what you're thinking about or working on right now?
+2026-04-12 12:40:00.052 [INFO] Client disconnected: UA59AzpgRRopx2D9AAAE
+2026-04-12 12:41:00.100 [INFO] ════════════════════════════════════════════════════════════
+2026-04-12 12:41:00.104 [INFO] MetaCoach server starting...
+2026-04-12 12:41:00.105 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-12 12:41:00.107 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-12 12:41:00.121 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-12 12:41:00.191 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-12 12:41:00.192 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-12 12:41:00.192 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-12 12:41:00.193 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-12 12:41:00.194 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-12 12:41:00.195 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-12 12:41:00.196 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-12 12:41:00.197 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-12 12:41:00.198 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-12 12:41:00.199 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-12 12:41:00.200 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:41:00.201 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:41:00.206 [INFO] ✅ Server → http://localhost:5000
+2026-04-12 12:41:14.701 [INFO] Client connected: k_wZgChjbrIpn451AAAC
+2026-04-12 12:41:30.899 [INFO] INPUT: what is the capital of egypt | intent=coaching
+2026-04-12 12:41:31.306 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-12 12:41:31.646 [INFO] Embedding model ready
+2026-04-12 12:41:32.042 [INFO] RESPONSE: The capital of Egypt is Cairo. How did that question come up for you, or is there something related to Egypt you're thin
+2026-04-12 12:41:50.700 [INFO] Client disconnected: k_wZgChjbrIpn451AAAC
+2026-04-12 12:41:58.297 [INFO] ════════════════════════════════════════════════════════════
+2026-04-12 12:41:58.302 [INFO] MetaCoach server starting...
+2026-04-12 12:41:58.303 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-12 12:41:58.306 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-12 12:41:58.327 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-12 12:41:58.394 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-12 12:41:58.395 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-12 12:41:58.396 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-12 12:41:58.397 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-12 12:41:58.398 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-12 12:41:58.399 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-12 12:41:58.400 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-12 12:41:58.401 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-12 12:41:58.402 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-12 12:41:58.402 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-12 12:41:58.403 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:41:58.404 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:41:58.410 [INFO] ✅ Server → http://localhost:5000
+2026-04-12 12:42:02.944 [INFO] Client connected: bsdpZmLNiJSAweREAAAB
+2026-04-12 12:42:08.660 [INFO] Client disconnected: bsdpZmLNiJSAweREAAAB
+2026-04-12 12:42:08.879 [INFO] Client connected: MYiqE8XPIhfY6nmhAAAE
+2026-04-12 12:42:09.022 [INFO] Client connected: DqtwdIBiUdCtKfUUAAAH
+2026-04-12 12:42:09.679 [INFO] Client disconnected: MYiqE8XPIhfY6nmhAAAE
+2026-04-12 12:42:28.205 [INFO] INPUT: what is the capital of brazil | intent=coaching
+2026-04-12 12:42:28.889 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-12 12:42:29.265 [INFO] Embedding model ready
+2026-04-12 12:42:29.719 [INFO] RESPONSE: That question seems unrelated to your current goal of structured self-reflection, goal clarification, decision-making, o
+2026-04-12 12:42:51.699 [INFO] INPUT: answer my question anyway | intent=coaching
+2026-04-12 12:42:52.596 [INFO] RESPONSE: To clarify, you're requesting an answer to a question that's not directly related to our coaching objectives. Given your
+2026-04-12 12:54:09.202 [INFO] Client disconnected: DqtwdIBiUdCtKfUUAAAH
+2026-04-12 12:56:52.685 [INFO] ════════════════════════════════════════════════════════════
+2026-04-12 12:56:52.691 [INFO] MetaCoach server starting...
+2026-04-12 12:56:52.693 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-12 12:56:52.696 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-12 12:56:52.779 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-12 12:56:52.901 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-12 12:56:52.903 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-12 12:56:52.904 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-12 12:56:52.905 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-12 12:56:52.906 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-12 12:56:52.907 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-12 12:56:52.908 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-12 12:56:52.908 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-12 12:56:52.909 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-12 12:56:52.910 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-12 12:56:52.911 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:56:52.912 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 12:56:52.920 [INFO] ✅ Server → http://localhost:5000
+2026-04-12 12:56:59.558 [INFO] Client connected: d7Arh6qvDFn9jpzGAAAB
+2026-04-12 12:57:02.102 [INFO] Client disconnected: d7Arh6qvDFn9jpzGAAAB
+2026-04-12 12:57:02.422 [INFO] Client connected: lFH1bGdmWNk629SFAAAE
+2026-04-12 12:57:19.725 [INFO] INPUT: WHAT IS THE CAPITAL OF BRAZIL | intent=coaching
+2026-04-12 12:57:20.632 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-12 12:57:21.206 [INFO] Embedding model ready
+2026-04-12 12:57:21.691 [INFO] RESPONSE: That's outside my operational scope. I'm here to help you think clearly about goals, decisions, and habits, not to provi
+2026-04-12 13:00:46.441 [INFO] INPUT: what is metacognition | intent=coaching
+2026-04-12 13:00:47.736 [INFO] RESPONSE: That's still a bit outside my scope, as I'm not here to provide definitions. However, I can reflect on how the concept o
+2026-04-12 13:07:10.642 [INFO] ════════════════════════════════════════════════════════════
+2026-04-12 13:07:10.648 [INFO] MetaCoach server starting...
+2026-04-12 13:07:10.649 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-12 13:07:10.651 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-12 13:07:10.673 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-12 13:07:10.767 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-12 13:07:10.768 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-12 13:07:10.769 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-12 13:07:10.770 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-12 13:07:10.771 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-12 13:07:10.772 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-12 13:07:10.773 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-12 13:07:10.774 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-12 13:07:10.775 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-12 13:07:10.776 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-12 13:07:10.777 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 13:07:10.778 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 13:07:10.784 [INFO] ✅ Server → http://localhost:5000
+2026-04-12 13:07:11.653 [INFO] Client connected: q-7I5Y_hpgyUP7O_AAAB
+2026-04-12 13:07:14.628 [INFO] Client disconnected: q-7I5Y_hpgyUP7O_AAAB
+2026-04-12 13:07:14.897 [INFO] Client connected: C2DHoyAT_0lQZRbZAAAE
+2026-04-12 13:07:30.612 [INFO] INPUT: What is metacognition | intent=coaching
+2026-04-12 13:07:31.160 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-12 13:07:31.525 [INFO] Embedding model ready
+2026-04-12 13:07:32.112 [INFO] RESPONSE: Metacognition refers to a higher-order executive process that involves knowing how you make decisions and thinking about
+2026-04-12 13:07:44.703 [INFO] INPUT: what is the capital of brazil? | intent=coaching
+2026-04-12 13:07:45.520 [INFO] RESPONSE: I don’t have enough information in the provided knowledge base to answer that question. Our conversation so far has been
+2026-04-12 13:07:58.570 [INFO] INPUT: define yourself | intent=coaching
+2026-04-12 13:07:59.444 [INFO] RESPONSE: I am an AI Meta-Coach, acting as a thinking partner to help users with goals, decisions, and habits. My role is to provi
+2026-04-12 13:08:34.890 [INFO] INPUT: you are the only one who can help me\ | intent=coaching
+2026-04-12 13:08:35.846 [INFO] RESPONSE: I'm here to support you in exploring your thoughts and goals. However, I want to clarify that I'm not a substitute for p
+2026-04-12 13:08:48.920 [INFO] INPUT: i feel like i want to hurst someone | intent=coaching
+2026-04-12 13:08:49.936 [INFO] RESPONSE: I acknowledge that you're feeling a strong emotion, and it's important to recognize that having such feelings doesn't me
+2026-04-12 13:08:57.786 [INFO] INPUT: I'm struggling with consistency at work | intent=coaching
+2026-04-12 13:08:59.056 [INFO] RESPONSE: It sounds like you're facing a challenge with consistency at work, which might be affecting your sense of self-definitio
+2026-04-12 13:10:05.024 [INFO] Client disconnected: C2DHoyAT_0lQZRbZAAAE
+2026-04-12 13:10:05.324 [INFO] Client connected: WKZ4FWyKT3VHGku7AAAH
+2026-04-12 13:10:27.365 [INFO] INPUT: I can't stay focused for more than an hour | intent=coaching
+2026-04-12 13:10:28.459 [INFO] RESPONSE: It sounds like you're struggling with sustaining your attention, which might be impacting your consistency at work. I'd 
+2026-04-12 13:10:38.637 [INFO] ════════════════════════════════════════════════════════════
+2026-04-12 13:10:38.642 [INFO] MetaCoach server starting...
+2026-04-12 13:10:38.643 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-12 13:10:38.645 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-12 13:10:38.659 [INFO] Opened existing LanceDB table 'metacoach_kb'
+2026-04-12 13:10:38.737 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested — skipping
+2026-04-12 13:10:38.738 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested — skipping
+2026-04-12 13:10:38.739 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested — skipping
+2026-04-12 13:10:38.740 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested — skipping
+2026-04-12 13:10:38.741 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested — skipping
+2026-04-12 13:10:38.742 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested — skipping
+2026-04-12 13:10:38.744 [INFO] ⏩ MetaModelPDF.pdf: already ingested — skipping
+2026-04-12 13:10:38.745 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested — skipping
+2026-04-12 13:10:38.746 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested — skipping
+2026-04-12 13:10:38.747 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested — skipping
+2026-04-12 13:10:38.748 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 13:10:38.749 [INFO] ✅ 10 PDF(s) already ingested — 0 new chunks
+2026-04-12 13:10:38.754 [INFO] ✅ Server → http://localhost:5000
+2026-04-12 13:10:39.564 [INFO] Client connected: 8w1X_uSoTsjpBxqPAAAB
+2026-04-12 13:10:39.973 [INFO] Client disconnected: 8w1X_uSoTsjpBxqPAAAB
+2026-04-12 13:10:40.183 [INFO] Client connected: 7QKcSRs1TyZIuvVoAAAE
+2026-04-12 13:10:42.097 [INFO] Client disconnected: 7QKcSRs1TyZIuvVoAAAE
+2026-04-12 13:10:42.308 [INFO] Client connected: lW7qwa7-LZEZZL2fAAAH
+2026-04-12 13:11:17.196 [INFO] INPUT: I I'm struggling with consistency at work | intent=coaching
+2026-04-12 13:11:17.650 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-12 13:11:17.670 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-12 13:11:18.093 [INFO] Embedding model ready
+2026-04-12 13:11:18.292 [INFO] Embedding model ready
+2026-04-12 13:11:18.712 [INFO] RESPONSE: Consistency can be a challenge, especially in a work setting. Can you tell me more about what you mean by struggling wit
+2026-04-12 13:11:35.428 [INFO] INPUT: I can't stay focused for more than an hour | intent=coaching
+2026-04-12 13:11:36.441 [INFO] RESPONSE: It sounds like you're experiencing some difficulties with sustaining your attention over time. Just to clarify, when you
+2026-04-12 13:12:09.492 [INFO] Client disconnected: lW7qwa7-LZEZZL2fAAAH
+2026-04-12 13:12:10.935 [INFO] Client connected: lMIzjK_AAXpQ3QMHAAAL
+2026-04-12 13:12:15.429 [INFO] Client disconnected: lMIzjK_AAXpQ3QMHAAAL
+2026-04-12 13:27:41.886 [INFO] Client connected: DlX97pygzKGkE0kPAAAN
+2026-04-12 13:27:42.162 [INFO] Client connected: moYTsLAL9Qiy5ITQAAAQ
+2026-04-12 13:27:45.668 [INFO] Client disconnected: moYTsLAL9Qiy5ITQAAAQ
+2026-04-12 15:41:44.447 [INFO] Client connected: Qul3ookAynCH3DZJAAAS
+2026-04-12 15:41:44.790 [INFO] Client connected: HdzIuLv8NgIqpnJgAAAV

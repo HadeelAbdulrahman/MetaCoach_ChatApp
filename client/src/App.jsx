@@ -1,61 +1,55 @@
 import { useState, useEffect } from 'react';
-import Chat   from './components/Chat.jsx';
-import Memory from './components/Memory.jsx';
-import Logs   from './components/Logs.jsx';
+import Chat    from './components/Chat.jsx';
+import Memory  from './components/Memory.jsx';
+import Logs    from './components/Logs.jsx';
+import RagEval from './components/RagEval.jsx';
 import { useSocket } from './hooks/useSocket.js';
 
 const TABS = [
-  { id: 'chat',   label: '💬 Chat'   },
-  { id: 'memory', label: '🧠 Memory' },
-  { id: 'logs',   label: '📋 Logs'   },
+  { id: 'chat',    label: '💬 Chat'     },
+  { id: 'memory',  label: '🧠 Memory'   },
+  { id: 'rageval', label: '🔬 RAG Eval' },
+  { id: 'logs',    label: '📋 Logs'     },
 ];
 
 export default function App() {
-  const [tab, setTab] = useState('chat');
-  const [status, setStatus] = useState(null);
-  const [sessions, setSessions] = useState([]);
+  const [tab,              setTab]              = useState('chat');
+  const [sessions,         setSessions]         = useState([]);
   const [currentSessionId, setCurrentSessionId] = useState(null);
-  const [messages, setMessages] = useState([]); // Lifted Chat state
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [messages,         setMessages]         = useState([]);
+  const [isSidebarOpen,    setIsSidebarOpen]    = useState(true);
   const { socket, connected } = useSocket();
 
-  // Load session list on mount
-  useEffect(() => {
-    fetch('/api/status').then(r => r.json()).then(setStatus).catch(() => {});
-    loadSessions();
-  }, []);
+  useEffect(() => { loadSessions(); }, []);
 
   const loadSessions = async () => {
     try {
-      const res = await fetch('/api/sessions');
+      const res  = await fetch('/api/sessions');
       const data = await res.json();
       setSessions(data);
-      // Default to first session if none selected
-      if (data.length > 0 && !currentSessionId) {
-        selectSession(data[0]._id);
-      }
-    } catch (e) {}
+      if (data.length > 0 && !currentSessionId) selectSession(data[0]._id);
+    } catch {}
   };
 
   const selectSession = async (id) => {
     setCurrentSessionId(id);
     setTab('chat');
     try {
-      const res = await fetch(`/api/sessions/${id}`);
+      const res  = await fetch(`/api/sessions/${id}`);
       const data = await res.json();
       setMessages(data.messages || []);
-    } catch (e) {}
+    } catch {}
   };
 
   const createNewChat = async () => {
     try {
-      const res = await fetch('/api/sessions', { method: 'POST' });
+      const res        = await fetch('/api/sessions', { method: 'POST' });
       const newSession = await res.json();
       setSessions([newSession, ...sessions]);
       setCurrentSessionId(newSession._id);
       setMessages([]);
       setTab('chat');
-    } catch (e) {}
+    } catch {}
   };
 
   const deleteSession = async (e, id) => {
@@ -63,32 +57,26 @@ export default function App() {
     try {
       await fetch(`/api/sessions/${id}`, { method: 'DELETE' });
       setSessions(prev => prev.filter(s => s._id !== id));
-      if (currentSessionId === id) {
-        setCurrentSessionId(null);
-        setMessages([]);
-      }
-    } catch (e) {}
+      if (currentSessionId === id) { setCurrentSessionId(null); setMessages([]); }
+    } catch {}
   };
 
   return (
     <div className={`app-container ${!isSidebarOpen ? 'sidebar-closed' : ''}`}>
       <header className="app-header">
-        <button 
-          className="sidebar-toggle-btn" 
+        <button
+          className="sidebar-toggle-btn"
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
           title={isSidebarOpen ? 'Close Menu' : 'Open Menu'}
         >
           {isSidebarOpen ? '✕' : '☰'}
         </button>
-        <span className="header-logo">🧠</span>
-        <div className="header-title">
-          <h1 className="brand-font">AI Meta-Coach</h1>
-          {status && (
-            <p>
-              📚 {status.kbChunks} chunks · {status.vectorDB} · {status.memoryBackend}
-            </p>
-          )}
+
+        <div className="header-brand">
+          <span className="header-logo">🧠</span>
+          <span className="header-title brand-font">Coach</span>
         </div>
+
         <div className="app-nav">
           {TABS.map(t => (
             <button
@@ -100,49 +88,49 @@ export default function App() {
             </button>
           ))}
         </div>
-        <span className="header-status-dot"
-              style={{ color: connected ? '#22c55e' : '#ef4444', backgroundColor: connected ? '#22c55e' : '#ef4444' }}
-              title={connected ? 'Connected' : 'Disconnected'} />
+
+        <span
+          className="header-status-dot"
+          title={connected ? 'Connected' : 'Disconnected'}
+          style={{ backgroundColor: connected ? '#16a34a' : '#ef4444' }}
+        />
       </header>
 
       <aside className="app-sidebar">
         <button className="new-chat-btn" onClick={createNewChat}>
           <span>+</span> New Chat
         </button>
-        
         <div className="sidebar-label">Recently</div>
-        
         <div className="sessions-list">
           {sessions.map(s => (
-            <div 
-              key={s._id} 
+            <div
+              key={s._id}
               className={`session-item ${currentSessionId === s._id ? 'active' : ''}`}
               onClick={() => selectSession(s._id)}
             >
               <span className="session-icon">💬</span>
               <span className="session-title">{s.title || 'New Chat'}</span>
-              <button className="delete-session" onClick={(e) => deleteSession(e, s._id)}>✕</button>
+              <button className="delete-session" onClick={e => deleteSession(e, s._id)}>✕</button>
             </div>
           ))}
         </div>
       </aside>
 
       <main className="app-main">
-        {/* We use hidden instead of conditional rendering for chat to keep it alive or just rely on lifted state */}
         <div style={{ display: tab === 'chat' ? 'flex' : 'none', flex: 1, overflow: 'hidden' }}>
-          <Chat 
-            socket={socket} 
-            connected={connected} 
-            messages={messages} 
-            setMessages={setMessages} 
+          <Chat
+            socket={socket}
+            connected={connected}
+            messages={messages}
+            setMessages={setMessages}
             sessionId={currentSessionId}
-            onMessageSent={loadSessions} // Refresh sessions to update titles
+            onMessageSent={loadSessions}
           />
         </div>
-        {tab === 'memory' && <Memory />}
-        {tab === 'logs'   && <Logs   />}
+        {tab === 'memory'  && <Memory />}
+        {tab === 'rageval' && <RagEval />}
+        {tab === 'logs'    && <Logs />}
       </main>
     </div>
   );
 }
-

@@ -2040,3 +2040,544 @@ Metacognition is a higher-order executive process that involves knowl
 2026-04-12 13:27:45.668 [INFO] Client disconnected: moYTsLAL9Qiy5ITQAAAQ
 2026-04-12 15:41:44.447 [INFO] Client connected: Qul3ookAynCH3DZJAAAS
 2026-04-12 15:41:44.790 [INFO] Client connected: HdzIuLv8NgIqpnJgAAAV
+2026-04-15 09:35:10.724 [INFO] Client connected: OjpZP2Trsp2rencgAAAY
+2026-04-15 09:35:36.198 [INFO] Client disconnected: BIdpAag5CZSfP6vPAAAV
+2026-04-15 09:38:07.131 [INFO] INPUT: what's neuro-semantics coaching way | intent=coaching
+2026-04-15 09:38:08.905 [INFO] RESPONSE: It seems like you're interested in exploring the Neuro-Semantics coaching approach. From what I understand, Neuro-Semant
+2026-04-15 09:38:36.367 [INFO] INPUT: use the wfo questions and help me set a plan | intent=coaching
+2026-04-15 09:38:38.098 [INFO] RESPONSE: To help you set a plan using the WFO (What, For, By) questions, let's break it down. 
+
+What do you want to achieve in te
+2026-04-15 10:08:13.276 [INFO] Client connected: UTRumGxrpIUWOirYAAAb
+2026-04-15 10:08:51.415 [INFO] Client disconnected: OjpZP2Trsp2rencgAAAY
+2026-04-15 10:09:30.320 [INFO] Client disconnected: UTRumGxrpIUWOirYAAAb
+2026-04-15 10:10:17.737 [INFO] ════════════════════════════════════════════════════════════
+2026-04-15 10:10:17.741 [INFO] MetaCoach server starting...
+2026-04-15 10:10:17.742 [INFO] MongoDB disabled — using in-memory dict store
+2026-04-15 10:10:17.744 [INFO] Sessions: Using local file storage (JSONL)
+2026-04-15 10:10:17.791 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-15 10:10:17.955 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-15 10:10:17.956 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-15 10:10:17.957 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-15 10:10:17.957 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-15 10:10:17.958 [INFO] ⏩ 6 1 meta coaching pelez.pdf: already ingested
+2026-04-15 10:10:17.959 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-15 10:10:17.960 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-15 10:10:17.960 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-15 10:10:17.961 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-15 10:10:17.962 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-15 10:10:17.963 [INFO] ✅ All PDFs already ingested (10 skipped)
+2026-04-15 10:10:17.964 [INFO] ✅ All PDFs already ingested (10 skipped)
+2026-04-15 10:10:17.969 [INFO] ✅ Server → http://localhost:5000
+2026-04-15 10:10:31.465 [INFO] Client connected: 6XLJK2PO2hWuIm8JAAAB
+2026-04-15 10:10:34.346 [INFO] Client disconnected: 6XLJK2PO2hWuIm8JAAAB
+2026-04-15 10:10:34.941 [INFO] Client connected: f4ls98wDhJRmjdinAAAE
+2026-04-15 10:11:29.773 [INFO] INPUT: I have plenty of tasks to do in parallel , use the WFO questions and help me set a plan | intent=coaching
+2026-04-15 10:11:29.820 [INFO] KB count: 3987 chunks
+2026-04-15 10:11:30.351 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-15 10:11:30.476 [INFO] rewriteQuery: "I have plenty of tasks to do in parallel , use the" → "task management parallel work planning WFO questio"
+2026-04-15 10:11:30.477 [INFO] QUERY REWRITE: "I have plenty of tasks to do in parallel , use the WFO quest" → "task management parallel work planning WFO questions"
+2026-04-15 10:11:30.479 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-15 10:11:30.850 [INFO] Embedding model ready
+2026-04-15 10:11:31.115 [INFO] Embedding model ready
+2026-04-15 10:11:31.155 [INFO] RAG: "task management parallel work planning WFO questions" → 10 chunks (fallback=false) | top score=0.290
+2026-04-15 10:11:31.156 [INFO] RETRIEVAL: 10 docs found, top score=0.290
+2026-04-15 10:11:31.159 [INFO] CONTEXT SUMMARY: memCtx=0 chars | ragCtx=3841 chars
+2026-04-15 10:11:31.161 [INFO] ORCHESTRATOR: KB context injected into system (3841 chars)
+2026-04-15 10:11:32.752 [INFO] RESPONSE: To set a plan using the **Well-Formed Outcome (WFO) questions**, let's break it down:
+- **What do you want to achieve?**
+2026-04-15 10:11:48.596 [INFO] RAG: "use the wfo questions and help me set a plan" → 10 chunks (fallback=false) | top score=0.636
+2026-04-15 10:27:50.081 [INFO] Client disconnected: f4ls98wDhJRmjdinAAAE
+2026-04-15 10:27:50.326 [INFO] Client connected: qbL-P0uqDjkO8nj6AAAH
+2026-04-15 10:28:08.131 [INFO] INPUT: I have plenty of tasks to do in parallel , use the WFO questions and help me set a plan | intent=coaching
+2026-04-15 10:28:08.225 [INFO] KB count: 3987 chunks
+2026-04-15 10:28:09.010 [INFO] rewriteQuery: "I have plenty of tasks to do in parallel , use the" → "WFO questions task management parallel work planni"
+2026-04-15 10:28:09.012 [INFO] QUERY REWRITE: "I have plenty of tasks to do in parallel , use the WFO quest" → "WFO questions task management parallel work planning"
+2026-04-15 10:28:09.183 [INFO] RAG: "WFO questions task management parallel work planning" → 10 chunks (fallback=false) | top score=0.320
+2026-04-15 10:28:09.184 [INFO] RETRIEVAL: 10 docs found, top score=0.320
+2026-04-15 10:28:09.191 [INFO] CONTEXT SUMMARY: memCtx=17 chars | ragCtx=3884 chars
+2026-04-15 10:28:09.192 [INFO] ORCHESTRATOR: KB context injected into system (3884 chars)
+2026-04-15 10:28:10.205 [INFO] RESPONSE: To set a plan using the **Well-Formed Outcome (WFO) questions**, let's break it down:
+- **What**: What do you want to ac
+2026-04-15 10:37:45.969 [INFO] Client disconnected: qbL-P0uqDjkO8nj6AAAH
+2026-04-15 10:37:46.277 [INFO] Client connected: kXeVQDDDQmbYiq-JAAAK
+2026-04-15 10:37:54.531 [INFO] INPUT: I have plenty of tasks to do in parallel , use the WFO questions and help me set a plan | intent=coaching
+2026-04-15 10:37:54.598 [INFO] KB count: 3987 chunks
+2026-04-15 10:37:55.567 [INFO] rewriteQuery: "I have plenty of tasks to do in parallel , use the" → "task management parallel work planning WFO questio"
+2026-04-15 10:37:55.569 [INFO] QUERY REWRITE: "I have plenty of tasks to do in parallel , use the WFO quest" → "task management parallel work planning WFO questions"
+2026-04-15 10:37:55.764 [INFO] RAG: "task management parallel work planning WFO questions" → 10 chunks (fallback=false) | top score=0.290
+2026-04-15 10:37:55.766 [INFO] RETRIEVAL: 10 docs found, top score=0.290
+2026-04-15 10:37:55.774 [INFO] CONTEXT SUMMARY: memCtx=17 chars | ragCtx=3841 chars
+2026-04-15 10:37:55.776 [INFO] ORCHESTRATOR: KB context injected into system (3841 chars)
+2026-04-15 10:37:56.833 [INFO] RESPONSE: To set a plan using the **Well-Formed Outcome (WFO) questions**, let's break it down:
+- **What do you want**: What is th
+2026-04-15 10:43:56.357 [INFO] Client disconnected: kXeVQDDDQmbYiq-JAAAK
+2026-04-15 10:58:17.759 [INFO] Client connected: OUbDhoi4yfvQCF_HAAAM
+2026-04-15 11:01:32.813 [INFO] Client disconnected: OUbDhoi4yfvQCF_HAAAM
+2026-04-15 11:01:53.218 [INFO] Client connected: FUjPItQKMG8szztrAAAP
+2026-04-15 11:02:13.211 [INFO] INPUT: HIIIII, WHAT'S GOING ON | intent=coaching
+2026-04-15 11:02:13.219 [INFO] KB count: 3987 chunks
+2026-04-15 11:02:13.948 [INFO] rewriteQuery: "HIIIII, WHAT'S GOING ON" → "whats going on"
+2026-04-15 11:02:13.950 [INFO] QUERY REWRITE: "HIIIII, WHAT'S GOING ON" → "whats going on"
+2026-04-15 11:02:13.991 [WARN] RAG FALLBACK: 0 passed threshold (0.1), using top 3 by raw score. Top cosine=-0.193
+2026-04-15 11:02:13.992 [INFO] RAG: "whats going on" → 3 chunks (fallback=true) | top score=-0.193
+2026-04-15 11:02:13.993 [INFO] RETRIEVAL: 3 docs found, top score=-0.193
+2026-04-15 11:02:13.996 [INFO] CONTEXT SUMMARY: memCtx=17 chars | ragCtx=1386 chars
+2026-04-15 11:02:13.997 [INFO] ORCHESTRATOR: KB context injected into system (1386 chars)
+2026-04-15 11:02:15.078 [INFO] RESPONSE: To set a plan, let's break it down:
+- **Identify the goal**: what is the main objective you want to achieve?
+- **Assess 
+2026-04-15 11:02:35.866 [INFO] INPUT: I feel exausted today | intent=coaching
+2026-04-15 11:02:35.878 [INFO] KB count: 3987 chunks
+2026-04-15 11:02:36.378 [INFO] rewriteQuery: "I feel exausted today" → "feeling exhausted today"
+2026-04-15 11:02:36.379 [INFO] QUERY REWRITE: "I feel exausted today" → "feeling exhausted today"
+2026-04-15 11:02:36.403 [INFO] RAG: "feeling exhausted today" → 3 chunks (fallback=false) | top score=0.206
+2026-04-15 11:02:36.404 [INFO] RETRIEVAL: 3 docs found, top score=0.206
+2026-04-15 11:02:36.407 [INFO] CONTEXT SUMMARY: memCtx=17 chars | ragCtx=2067 chars
+2026-04-15 11:02:36.408 [INFO] ORCHESTRATOR: KB context injected into system (2067 chars)
+2026-04-15 11:02:37.256 [INFO] RESPONSE: You're feeling exhausted, which might be impacting your ability to set a plan. 
+- **Acknowledge the state**: recognize h
+2026-04-15 11:06:22.619 [INFO] INPUT: what is the capital of barzil | intent=coaching
+2026-04-15 11:06:22.623 [INFO] KB count: 3987 chunks
+2026-04-15 11:06:23.035 [INFO] rewriteQuery: "what is the capital of barzil" → "capital of Brazil"
+2026-04-15 11:06:23.036 [INFO] QUERY REWRITE: "what is the capital of barzil" → "capital of Brazil"
+2026-04-15 11:06:23.068 [INFO] RAG: "capital of Brazil" → 1 chunks (fallback=false) | top score=0.169
+2026-04-15 11:06:23.069 [INFO] RETRIEVAL: 1 docs found, top score=0.169
+2026-04-15 11:06:23.070 [INFO] CONTEXT SUMMARY: memCtx=45 chars | ragCtx=680 chars
+2026-04-15 11:06:23.071 [INFO] ORCHESTRATOR: KB context injected into system (680 chars)
+2026-04-15 11:06:24.183 [INFO] RESPONSE: To get back on track with setting a plan, let's refocus:
+- **Curiosity state**: try to access a state of **curiosity**, 
+2026-04-15 11:10:37.267 [INFO] Client disconnected: FUjPItQKMG8szztrAAAP
+2026-04-15 11:10:51.932 [INFO] Client connected: 1PHfDp53OQpHNfZeAAAR
+2026-04-15 11:10:53.837 [INFO] Client connected: UQwpgUlCuvSzSy4bAAAU
+2026-04-15 11:11:36.901 [INFO] Client disconnected: 1PHfDp53OQpHNfZeAAAR
+2026-04-15 11:16:02.697 [INFO] Client disconnected: UQwpgUlCuvSzSy4bAAAU
+2026-04-15 11:18:34.377 [INFO] Client connected: wZxRrhKX9f_XlBBeAAAX
+2026-04-15 11:18:35.851 [INFO] Client disconnected: wZxRrhKX9f_XlBBeAAAX
+2026-04-15 13:52:04.804 [INFO] Client connected: hPwyGZ3-GXWASimqAAAb
+2026-04-15 13:57:24.914 [INFO] Client disconnected: hPwyGZ3-GXWASimqAAAb
+2026-04-15 13:57:44.107 [INFO] ════════════════════════════════════════════════════════════
+2026-04-15 13:57:44.111 [INFO] MetaCoach server starting...
+2026-04-15 13:57:44.112 [INFO] MongoDB disabled — using in-memory store
+2026-04-15 13:57:44.114 [INFO] Sessions: local JSONL storage
+2026-04-15 13:57:44.358 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-15 13:57:44.507 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-15 13:57:44.508 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-15 13:57:44.509 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-15 13:57:44.510 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-15 13:57:44.511 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-15 13:57:44.511 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-15 13:57:44.512 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-15 13:57:44.513 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-15 13:57:44.513 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-15 13:57:44.514 [INFO] ✅ All PDFs already ingested (9 skipped)
+2026-04-15 13:57:44.515 [INFO] ✅ All PDFs already ingested (9 skipped)
+2026-04-15 13:57:44.520 [INFO] ✅ Server → http://localhost:5000
+2026-04-15 14:07:05.790 [INFO] Client connected: o-L86VNY2mD93yTKAAAC
+2026-04-15 14:11:35.881 [INFO] Client disconnected: o-L86VNY2mD93yTKAAAC
+2026-04-15 14:18:37.283 [INFO] Client connected: sIcQeJLcekhaVsZyAAAF
+2026-04-15 14:18:39.578 [INFO] Client disconnected: sIcQeJLcekhaVsZyAAAF
+2026-04-15 14:18:39.702 [INFO] Client connected: 1R3O721X95NBvw_qAAAI
+2026-04-15 14:18:59.532 [INFO] Client disconnected: 1R3O721X95NBvw_qAAAI
+2026-04-15 14:19:07.607 [INFO] Client connected: jem7lbtmqg-OkGFXAAAK
+2026-04-15 14:19:09.892 [INFO] Client disconnected: jem7lbtmqg-OkGFXAAAK
+2026-04-15 14:19:10.423 [INFO] Client connected: 9ZfxrENiEp1lBNqMAAAN
+2026-04-15 14:19:55.847 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-15 14:19:56.446 [INFO] Embedding model ready
+2026-04-15 14:19:56.629 [INFO] RAG: "what do you know about WFO" → 10 chunks (fallback=false) | top score=0.474
+2026-04-15 14:20:56.064 [INFO] INPUT: GIVE ME SHORTER ANSWERS | intent=coaching
+2026-04-15 14:20:56.657 [INFO] rewriteQuery: "GIVE ME SHORTER ANSWERS" → "short answers"
+2026-04-15 14:20:56.658 [INFO] Query rewrite: "GIVE ME SHORTER ANSWERS" → "short answers"
+2026-04-15 14:20:56.694 [INFO] RAG: "short answers" → 1 chunks (fallback=false) | top score=0.143
+2026-04-15 14:20:56.695 [INFO] Retrieved 1 chunks, top score=0.143
+2026-04-15 14:20:56.696 [INFO] Context: mem=0c rag=391c
+2026-04-15 14:20:56.701 [INFO] KB context: 391 chars injected
+2026-04-15 14:20:57.561 [INFO] RESPONSE: Let's use **Well-Formed Outcome (WFO) questions**. 
+- What is the desired outcome for your tasks? 
+-
+2026-04-15 14:21:29.188 [INFO] INPUT: I feel overwhelmed by the tasks that should be done in short time | intent=coaching
+2026-04-15 14:21:29.206 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "I feel overwhelmed by the tasks that should be don"
+2026-04-15 14:21:29.775 [INFO] rewriteQuery: "I feel overwhelmed by the tasks that should be don" → "time management tasks overwhelm productivity"
+2026-04-15 14:21:29.776 [INFO] Query rewrite: "I feel overwhelmed by the tasks that should be don" → "time management tasks overwhelm productivity"
+2026-04-15 14:21:29.804 [INFO] RAG: "time management tasks overwhelm productivity" → 10 chunks (fallback=false) | top score=0.533
+2026-04-15 14:21:29.805 [INFO] Retrieved 10 chunks, top score=0.533
+2026-04-15 14:21:29.807 [INFO] Context: mem=0c rag=3758c
+2026-04-15 14:21:29.808 [INFO] KB context: 3758 chars injected
+2026-04-15 14:21:30.521 [INFO] RESPONSE: According to the framework, people in **primary state time (in time)** get lost in time and experien
+2026-04-15 14:22:58.164 [INFO] Client disconnected: 9ZfxrENiEp1lBNqMAAAN
+2026-04-15 14:22:59.858 [INFO] Client connected: zb6eXum3w8kYyIKrAAAP
+2026-04-15 14:28:36.612 [INFO] Client disconnected: zb6eXum3w8kYyIKrAAAP
+2026-04-15 14:28:39.437 [INFO] Client connected: VuvjhwQ0KLyovHL0AAAR
+2026-04-15 14:28:42.136 [INFO] Client disconnected: VuvjhwQ0KLyovHL0AAAR
+2026-04-15 14:28:43.699 [INFO] Client connected: 1tksGjgIqlv_3U_gAAAT
+2026-04-15 14:29:03.182 [INFO] Client connected: QbpIXq5ktdA9nGCCAAAW
+2026-04-15 14:29:28.679 [INFO] Client disconnected: 1tksGjgIqlv_3U_gAAAT
+2026-04-15 14:42:45.231 [INFO] INPUT: hi how are you? | intent=coaching
+2026-04-15 14:42:45.923 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "hi how are you?"
+2026-04-15 14:42:46.533 [INFO] rewriteQuery: "hi how are you?" → "how are you"
+2026-04-15 14:42:46.534 [INFO] Query rewrite: "hi how are you?" → "how are you"
+2026-04-15 14:42:47.317 [INFO] RAG: "how are you" → 1 chunks (fallback=false) | top score=0.154
+2026-04-15 14:42:47.319 [INFO] Retrieved 1 chunks, top score=0.154
+2026-04-15 14:42:47.346 [INFO] Context: mem=0c rag=702c
+2026-04-15 14:42:47.350 [INFO] KB context: 702 chars injected
+2026-04-15 14:42:47.773 [INFO] RESPONSE: I don't have specific material on that in the knowledge base. What specifically would you like to ex
+2026-04-15 14:43:18.403 [INFO] INPUT: i need your help | intent=coaching
+2026-04-15 14:43:18.432 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "i need your help"
+2026-04-15 14:43:18.833 [INFO] rewriteQuery: "i need your help" → "need help"
+2026-04-15 14:43:18.835 [INFO] Query rewrite: "i need your help" → "need help"
+2026-04-15 14:43:18.891 [WARN] RAG FALLBACK: 0 passed threshold (0.1), using top 3 by raw score. Top cosine=-0.032
+2026-04-15 14:43:18.893 [INFO] RAG: "need help" → 3 chunks (fallback=true) | top score=-0.032
+2026-04-15 14:43:18.893 [INFO] Retrieved 3 chunks, top score=-0.032
+2026-04-15 14:43:18.905 [INFO] Context: mem=0c rag=1835c
+2026-04-15 14:43:18.906 [INFO] KB context: 1835 chars injected
+2026-04-15 14:43:19.509 [INFO] RESPONSE: I'd like to understand the context better. Can you tell me what you need help with, so I can see if 
+2026-04-15 14:43:48.484 [INFO] INPUT: how to use the NLP model to take decisions ? | intent=coaching
+2026-04-15 14:43:48.541 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "how to use the NLP model to take decisions ?"
+2026-04-15 14:43:48.993 [INFO] rewriteQuery: "how to use the NLP model to take decisions ?" → "NLP model decision making"
+2026-04-15 14:43:48.995 [INFO] Query rewrite: "how to use the NLP model to take decisions ?" → "NLP model decision making"
+2026-04-15 14:43:49.048 [INFO] RAG: "NLP model decision making" → 10 chunks (fallback=false) | top score=0.661
+2026-04-15 14:43:49.049 [INFO] Retrieved 10 chunks, top score=0.661
+2026-04-15 14:43:49.069 [INFO] Context: mem=0c rag=3981c
+2026-04-15 14:43:49.070 [INFO] KB context: 3981 chars injected
+2026-04-15 14:43:50.068 [INFO] RESPONSE: According to the NLP model, decision-making involves understanding the structure of our thoughts, fe
+2026-04-15 14:44:47.164 [INFO] INPUT: can u help me with decision making using NLP? | intent=coaching
+2026-04-15 14:44:47.201 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "can u help me with decision making using NLP?"
+2026-04-15 14:44:47.553 [INFO] rewriteQuery: "can u help me with decision making using NLP?" → "NLP decision making"
+2026-04-15 14:44:47.554 [INFO] Query rewrite: "can u help me with decision making using NLP?" → "NLP decision making"
+2026-04-15 14:44:47.602 [INFO] RAG: "NLP decision making" → 10 chunks (fallback=false) | top score=0.662
+2026-04-15 14:44:47.603 [INFO] Retrieved 10 chunks, top score=0.662
+2026-04-15 14:44:47.610 [INFO] Context: mem=0c rag=3670c
+2026-04-15 14:44:47.611 [INFO] KB context: 3670 chars injected
+2026-04-15 14:44:48.830 [INFO] RESPONSE: The NLP model provides a framework for decision-making by considering the **STATE** and **GOAL**. Ac
+2026-04-15 14:46:58.482 [INFO] INPUT: i need to decide whether to quit my job or not | intent=coaching
+2026-04-15 14:46:58.520 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "i need to decide whether to quit my job or not"
+2026-04-15 14:46:59.068 [INFO] rewriteQuery: "i need to decide whether to quit my job or not" → "quit job decision making career change"
+2026-04-15 14:46:59.070 [INFO] Query rewrite: "i need to decide whether to quit my job or not" → "quit job decision making career change"
+2026-04-15 14:46:59.118 [INFO] RAG: "quit job decision making career change" → 10 chunks (fallback=false) | top score=0.434
+2026-04-15 14:46:59.119 [INFO] Retrieved 10 chunks, top score=0.434
+2026-04-15 14:46:59.132 [INFO] Context: mem=0c rag=3935c
+2026-04-15 14:46:59.133 [INFO] KB context: 3935 chars injected
+2026-04-15 14:47:00.531 [INFO] RESPONSE: According to the NLP model, making a decision involves **weighing the pros and cons** of each option
+2026-04-15 14:49:04.635 [INFO] INPUT: act as a NLP coach and please ask me question by question | intent=coaching
+2026-04-15 14:49:04.693 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "act as a NLP coach and please ask me question by q"
+2026-04-15 14:49:05.433 [INFO] rewriteQuery: "act as a NLP coach and please ask me question by q" → "NLP coach questions"
+2026-04-15 14:49:05.434 [INFO] Query rewrite: "act as a NLP coach and please ask me question by q" → "NLP coach questions"
+2026-04-15 14:49:05.466 [INFO] RAG: "NLP coach questions" → 10 chunks (fallback=false) | top score=0.824
+2026-04-15 14:49:05.467 [INFO] Retrieved 10 chunks, top score=0.824
+2026-04-15 14:49:05.481 [INFO] Context: mem=0c rag=3997c
+2026-04-15 14:49:05.482 [INFO] KB context: 3997 chars injected
+2026-04-15 14:49:06.736 [INFO] RESPONSE: As your NLP coach, I'll guide you through a process to help you make a decision about your job. Here
+2026-04-15 14:50:07.168 [INFO] INPUT: it is too boring and stressful and i dont do anything usful it is just like donkey work, my performa | intent=coaching
+2026-04-15 14:50:07.221 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "it is too boring and stressful and i dont do anyth"
+2026-04-15 14:50:07.742 [INFO] rewriteQuery: "it is too boring and stressful and i dont do anyth" → "improve focus and productivity at work"
+2026-04-15 14:50:07.743 [INFO] Query rewrite: "it is too boring and stressful and i dont do anyth" → "improve focus and productivity at work"
+2026-04-15 14:50:07.781 [INFO] RAG: "improve focus and productivity at work" → 10 chunks (fallback=false) | top score=0.590
+2026-04-15 14:50:07.784 [INFO] Retrieved 10 chunks, top score=0.590
+2026-04-15 14:50:07.791 [INFO] Context: mem=0c rag=3845c
+2026-04-15 14:50:07.792 [INFO] KB context: 3845 chars injected
+2026-04-15 14:50:08.547 [INFO] RESPONSE: It sounds like you're feeling a sense of **dissatisfaction** and **disconnection** from your work. 
+
+2026-04-15 14:51:32.727 [INFO] INPUT: repetitive tasks, borng people am dealinh with, escelations for small reasons, daily anc constatnt r | intent=coaching
+2026-04-15 14:51:32.798 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "repetitive tasks, borng people am dealinh with, es"
+2026-04-15 14:51:33.147 [INFO] rewriteQuery: "repetitive tasks, borng people am dealinh with, es" → "repetitive tasks stress management feeling disconn"
+2026-04-15 14:51:33.149 [INFO] Query rewrite: "repetitive tasks, borng people am dealinh with, es" → "repetitive tasks stress management feeling disconn"
+2026-04-15 14:51:33.181 [INFO] RAG: "repetitive tasks stress management feeling disconnected and " → 10 chunks (fallback=false) | top score=0.395
+2026-04-15 14:51:33.182 [INFO] Retrieved 10 chunks, top score=0.395
+2026-04-15 14:51:33.190 [INFO] Context: mem=0c rag=3652c
+2026-04-15 14:51:33.191 [INFO] KB context: 3652 chars injected
+2026-04-15 14:51:34.153 [INFO] RESPONSE: It sounds like you're feeling overwhelmed and drained by the demands of your job. 
+
+Let's explore th
+2026-04-15 14:52:16.056 [INFO] INPUT: everything | intent=coaching
+2026-04-15 14:52:16.078 [INFO] MEMORY: 1 relevant entries found (top score=0.287)
+2026-04-15 14:52:16.396 [INFO] rewriteQuery: "everything" → "everything"
+2026-04-15 14:52:16.398 [INFO] Query rewrite: "everything" → "everything"
+2026-04-15 14:52:16.430 [WARN] RAG FALLBACK: 0 passed threshold (0.1), using top 3 by raw score. Top cosine=0.045
+2026-04-15 14:52:16.431 [INFO] RAG: "everything" → 3 chunks (fallback=true) | top score=0.045
+2026-04-15 14:52:16.432 [INFO] Retrieved 3 chunks, top score=0.045
+2026-04-15 14:52:16.433 [INFO] Context: mem=21c rag=1796c
+2026-04-15 14:52:16.434 [INFO] KB context: 1796 chars injected
+2026-04-15 14:52:16.435 [INFO] Memory context injected: 21 chars
+2026-04-15 14:52:17.025 [INFO] RESPONSE: It sounds like you're feeling **overwhelmed** by the thought of quitting your job, and it's affectin
+2026-04-15 14:53:00.352 [INFO] INPUT: i do not know | intent=coaching
+2026-04-15 14:53:00.377 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "i do not know"
+2026-04-15 14:53:00.849 [INFO] rewriteQuery: "i do not know" → "not knowing uncertainty self discovery"
+2026-04-15 14:53:00.851 [INFO] Query rewrite: "i do not know" → "not knowing uncertainty self discovery"
+2026-04-15 14:53:00.908 [INFO] RAG: "not knowing uncertainty self discovery" → 10 chunks (fallback=false) | top score=0.464
+2026-04-15 14:53:00.911 [INFO] Retrieved 10 chunks, top score=0.464
+2026-04-15 14:53:00.929 [INFO] Context: mem=0c rag=3588c
+2026-04-15 14:53:00.931 [INFO] KB context: 3588 chars injected
+2026-04-15 14:53:01.723 [INFO] RESPONSE: According to the NLP model, "I don't know" can be a sign of a **Lack of Information** or **Insuffici
+2026-04-15 14:53:18.174 [INFO] INPUT: yes | intent=coaching
+2026-04-15 14:53:18.196 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "yes"
+2026-04-15 14:53:18.617 [INFO] rewriteQuery: "yes" → "yes"
+2026-04-15 14:53:18.618 [INFO] Query rewrite: "yes" → "yes"
+2026-04-15 14:53:18.645 [WARN] RAG FALLBACK: 0 passed threshold (0.1), using top 3 by raw score. Top cosine=-0.185
+2026-04-15 14:53:18.646 [INFO] RAG: "yes" → 3 chunks (fallback=true) | top score=-0.185
+2026-04-15 14:53:18.646 [INFO] Retrieved 3 chunks, top score=-0.185
+2026-04-15 14:53:18.648 [INFO] Context: mem=0c rag=1224c
+2026-04-15 14:53:18.648 [INFO] KB context: 1224 chars injected
+2026-04-15 14:53:19.253 [INFO] RESPONSE: It seems like you're leaning towards quitting your job. Here's my next question:
+
+What is the main r
+2026-04-15 14:53:46.741 [INFO] INPUT: it is too boring and stressful and i dont do anything usful it is just like donkey work, my performa | intent=coaching
+2026-04-15 14:53:46.801 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "it is too boring and stressful and i dont do anyth"
+2026-04-15 14:53:47.344 [INFO] rewriteQuery: "it is too boring and stressful and i dont do anyth" → "improve focus and productivity at work"
+2026-04-15 14:53:47.345 [INFO] Query rewrite: "it is too boring and stressful and i dont do anyth" → "improve focus and productivity at work"
+2026-04-15 14:53:47.373 [INFO] RAG: "improve focus and productivity at work" → 10 chunks (fallback=false) | top score=0.590
+2026-04-15 14:53:47.374 [INFO] Retrieved 10 chunks, top score=0.590
+2026-04-15 14:53:47.377 [INFO] Context: mem=0c rag=3845c
+2026-04-15 14:53:47.378 [INFO] KB context: 3845 chars injected
+2026-04-15 14:53:48.463 [INFO] RESPONSE: It sounds like you're feeling a sense of **dissatisfaction** with your current job. 
+
+Let's break th
+2026-04-15 14:54:09.877 [INFO] INPUT: work itself | intent=coaching
+2026-04-15 14:54:09.899 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "work itself"
+2026-04-15 14:54:10.520 [INFO] rewriteQuery: "work itself" → "work itself"
+2026-04-15 14:54:10.521 [INFO] Query rewrite: "work itself" → "work itself"
+2026-04-15 14:54:10.547 [INFO] RAG: "work itself" → 9 chunks (fallback=false) | top score=0.201
+2026-04-15 14:54:10.548 [INFO] Retrieved 9 chunks, top score=0.201
+2026-04-15 14:54:10.550 [INFO] Context: mem=0c rag=3448c
+2026-04-15 14:54:10.551 [INFO] KB context: 3448 chars injected
+2026-04-15 14:54:11.183 [INFO] RESPONSE: The **work itself** is a significant aspect of your job. Here's my next question:
+
+What specifically
+2026-04-15 14:54:46.443 [INFO] INPUT: tasks and work environment | intent=coaching
+2026-04-15 14:54:46.463 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "tasks and work environment"
+2026-04-15 14:54:46.896 [INFO] rewriteQuery: "tasks and work environment" → "tasks work environment"
+2026-04-15 14:54:46.897 [INFO] Query rewrite: "tasks and work environment" → "tasks work environment"
+2026-04-15 14:54:46.924 [INFO] RAG: "tasks work environment" → 10 chunks (fallback=false) | top score=0.346
+2026-04-15 14:54:46.925 [INFO] Retrieved 10 chunks, top score=0.346
+2026-04-15 14:54:46.928 [INFO] Context: mem=0c rag=3844c
+2026-04-15 14:54:46.929 [INFO] KB context: 3844 chars injected
+2026-04-15 14:54:47.609 [INFO] RESPONSE: So, the tasks and work environment are significant factors for you. 
+
+Here's my next question:
+
+What
+2026-04-15 14:59:10.874 [INFO] INPUT: what are the refernces you have? | intent=coaching
+2026-04-15 14:59:10.959 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "what are the refernces you have?"
+2026-04-15 14:59:11.296 [INFO] rewriteQuery: "what are the refernces you have?" → "references"
+2026-04-15 14:59:11.297 [INFO] Query rewrite: "what are the refernces you have?" → "references"
+2026-04-15 14:59:11.337 [INFO] RAG: "references" → 2 chunks (fallback=false) | top score=0.161
+2026-04-15 14:59:11.339 [INFO] Retrieved 2 chunks, top score=0.161
+2026-04-15 14:59:11.343 [INFO] Context: mem=0c rag=1404c
+2026-04-15 14:59:11.343 [INFO] KB context: 1404 chars injected
+2026-04-15 14:59:12.348 [INFO] RESPONSE: As your NLP coach, I'm referencing the NLP frameworks and concepts from the provided knowledge base,
+2026-04-15 15:04:11.093 [INFO] RAG: "what is the meta models?" → 10 chunks (fallback=false) | top score=0.813
+2026-04-15 15:17:21.647 [INFO] Client disconnected: QbpIXq5ktdA9nGCCAAAW
+2026-04-15 15:23:31.317 [INFO] ════════════════════════════════════════════════════════════
+2026-04-15 15:23:31.334 [INFO] MetaCoach server starting...
+2026-04-15 15:23:31.335 [INFO] MongoDB disabled — using in-memory store
+2026-04-15 15:23:31.338 [INFO] Sessions: local JSONL storage
+2026-04-15 15:23:31.449 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-15 15:23:31.662 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-15 15:23:31.663 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-15 15:23:31.664 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-15 15:23:32.493 [INFO] 2023 Assist Team Leaders Manual (1).pdf: 277 chunks → LanceDB...
+2026-04-15 15:23:32.495 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-15 15:23:32.914 [INFO] Embedding model ready
+2026-04-15 15:23:49.303 [INFO] ✅ 2023 Assist Team Leaders Manual (1).pdf synced
+2026-04-15 15:23:49.304 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-15 15:23:49.305 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-15 15:23:50.288 [INFO] Meta-Trance-Master-Prac-1.pdf: 439 chunks → LanceDB...
+2026-04-15 15:24:15.100 [INFO] ✅ Meta-Trance-Master-Prac-1.pdf synced
+2026-04-15 15:24:15.101 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-15 15:24:15.102 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-15 15:24:15.945 [INFO] Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: 395 chunks → LanceDB...
+2026-04-15 15:24:53.457 [INFO] ✅ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf synced
+2026-04-15 15:24:54.536 [INFO] Reframing-Genius-Training-Manual-2018-r38em1.pdf: 446 chunks → LanceDB...
+2026-04-15 15:25:23.772 [INFO] ✅ Reframing-Genius-Training-Manual-2018-r38em1.pdf synced
+2026-04-15 15:25:23.774 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-15 15:25:23.775 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-15 15:25:23.776 [INFO] ✅ 1557 new chunks from 13 PDF(s) (9 skipped)
+2026-04-15 15:25:23.777 [INFO] ✅ 1557 new chunks from 13 PDF(s) (9 skipped)
+2026-04-15 15:25:23.808 [INFO] ✅ Server → http://localhost:5000
+2026-04-15 15:29:09.720 [INFO] Client connected: -tTqdfH-Bxr1fZgDAAAB
+2026-04-15 15:31:43.870 [INFO] Client disconnected: -tTqdfH-Bxr1fZgDAAAB
+2026-04-15 15:31:44.903 [INFO] Client connected: hfkVy1Uo9FfCTBnbAAAE
+2026-04-15 15:39:35.105 [INFO] Client disconnected: hfkVy1Uo9FfCTBnbAAAE
+2026-04-15 15:43:00.068 [INFO] ════════════════════════════════════════════════════════════
+2026-04-15 15:43:00.087 [INFO] MetaCoach server starting...
+2026-04-15 15:43:00.088 [INFO] MongoDB disabled — using in-memory store
+2026-04-15 15:43:00.094 [INFO] Sessions: local JSONL storage
+2026-04-15 15:43:00.236 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-15 15:43:00.548 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-15 15:43:00.549 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-15 15:43:00.550 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-15 15:43:00.551 [INFO] ⏩ 2023 Assist Team Leaders Manual (1).pdf: already ingested
+2026-04-15 15:43:00.552 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-15 15:43:00.553 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-15 15:43:00.554 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-15 15:43:00.555 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-15 15:43:00.556 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-15 15:43:00.558 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-15 15:43:00.559 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-15 15:43:00.560 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-15 15:43:00.561 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-15 15:43:00.562 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-15 15:43:00.563 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-15 15:43:00.574 [INFO] ✅ Server → http://localhost:5000
+2026-04-15 15:43:09.176 [INFO] Client connected: bUpgc7_aC8qDnOukAAAB
+2026-04-15 15:45:02.099 [INFO] INPUT: hi how are you? | intent=coaching
+2026-04-15 15:45:02.784 [INFO] rewriteQuery: "hi how are you?" → "how are you"
+2026-04-15 15:45:02.786 [INFO] Query rewrite: "hi how are you?" → "how are you"
+2026-04-15 15:45:02.789 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-15 15:45:03.332 [INFO] Embedding model ready
+2026-04-15 15:45:03.403 [INFO] RAG: "how are you" → 4 chunks (fallback=false) | top score=0.166
+2026-04-15 15:45:03.404 [INFO] Retrieved 4 chunks, top score=0.166
+2026-04-15 15:45:03.407 [INFO] Context: mem=0c rag=2460c
+2026-04-15 15:45:03.408 [INFO] KB context: 2460 chars injected
+2026-04-15 15:45:04.334 [INFO] RESPONSE: I'm here to facilitate a coaching conversation, and I'm ready when you are. Before we begin, I want 
+2026-04-15 15:45:50.175 [INFO] INPUT: i want to quit my job | intent=coaching
+2026-04-15 15:45:50.735 [INFO] rewriteQuery: "i want to quit my job" → "quit job career change resignation"
+2026-04-15 15:45:50.737 [INFO] Query rewrite: "i want to quit my job" → "quit job career change resignation"
+2026-04-15 15:45:50.786 [INFO] RAG: "quit job career change resignation" → 6 chunks (fallback=false) | top score=0.205
+2026-04-15 15:45:50.787 [INFO] Retrieved 6 chunks, top score=0.205
+2026-04-15 15:45:50.789 [INFO] Context: mem=0c rag=3247c
+2026-04-15 15:45:50.790 [INFO] KB context: 3247 chars injected
+2026-04-15 15:45:51.357 [INFO] RESPONSE: You're considering a significant change. What is it about your current job that's leading you to fee
+2026-04-15 15:46:08.643 [INFO] INPUT: i do not know | intent=coaching
+2026-04-15 15:46:08.688 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "i do not know"
+2026-04-15 15:46:09.684 [INFO] rewriteQuery: "i do not know" → "self discovery uncertainty life purpose"
+2026-04-15 15:46:09.686 [INFO] Query rewrite: "i do not know" → "self discovery uncertainty life purpose"
+2026-04-15 15:46:09.722 [INFO] RAG: "self discovery uncertainty life purpose" → 10 chunks (fallback=false) | top score=0.418
+2026-04-15 15:46:09.723 [INFO] Retrieved 10 chunks, top score=0.418
+2026-04-15 15:46:09.727 [INFO] Context: mem=0c rag=3464c
+2026-04-15 15:46:09.728 [INFO] KB context: 3464 chars injected
+2026-04-15 15:46:10.805 [INFO] RESPONSE: Sometimes our feelings and desires can be complex and not immediately clear. Let's explore this furt
+2026-04-15 15:47:10.468 [INFO] INPUT: can u please ask question by question so i can focus | intent=coaching
+2026-04-15 15:47:10.498 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "can u please ask question by question so i can foc"
+2026-04-15 15:47:10.881 [INFO] rewriteQuery: "can u please ask question by question so i can foc" → "ask questions one by one focus"
+2026-04-15 15:47:10.882 [INFO] Query rewrite: "can u please ask question by question so i can foc" → "ask questions one by one focus"
+2026-04-15 15:47:10.924 [INFO] RAG: "ask questions one by one focus" → 10 chunks (fallback=false) | top score=0.525
+2026-04-15 15:47:10.925 [INFO] Retrieved 10 chunks, top score=0.525
+2026-04-15 15:47:10.928 [INFO] Context: mem=0c rag=3488c
+2026-04-15 15:47:10.929 [INFO] KB context: 3488 chars injected
+2026-04-15 15:47:11.634 [INFO] RESPONSE: Let's take it one question at a time. Here's my next question: What is the first thing that comes to
+2026-04-15 15:47:25.608 [INFO] INPUT: stressful and boring | intent=coaching
+2026-04-15 15:47:25.637 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "stressful and boring"
+2026-04-15 15:47:26.057 [INFO] rewriteQuery: "stressful and boring" → "stressful boring"
+2026-04-15 15:47:26.059 [INFO] Query rewrite: "stressful and boring" → "stressful boring"
+2026-04-15 15:47:26.097 [INFO] RAG: "stressful boring" → 10 chunks (fallback=false) | top score=0.449
+2026-04-15 15:47:26.099 [INFO] Retrieved 10 chunks, top score=0.449
+2026-04-15 15:47:26.101 [INFO] Context: mem=0c rag=3896c
+2026-04-15 15:47:26.102 [INFO] KB context: 3896 chars injected
+2026-04-15 15:47:26.691 [INFO] RESPONSE: It sounds like your job is feeling overwhelming and unfulfilling to you. Can you tell me, what is it
+2026-04-15 15:47:37.045 [INFO] INPUT: tasks | intent=coaching
+2026-04-15 15:47:37.063 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "tasks"
+2026-04-15 15:47:37.522 [INFO] rewriteQuery: "tasks" → "tasks management productivity organization"
+2026-04-15 15:47:37.523 [INFO] Query rewrite: "tasks" → "tasks management productivity organization"
+2026-04-15 15:47:37.559 [INFO] RAG: "tasks management productivity organization" → 10 chunks (fallback=false) | top score=0.450
+2026-04-15 15:47:37.560 [INFO] Retrieved 10 chunks, top score=0.450
+2026-04-15 15:47:37.564 [INFO] Context: mem=0c rag=3737c
+2026-04-15 15:47:37.570 [INFO] KB context: 3737 chars injected
+2026-04-15 15:47:38.879 [INFO] RESPONSE: The tasks themselves are feeling uninteresting and unengaging to you. What would need to happen for 
+2026-04-15 15:48:04.890 [INFO] INPUT: can u refreame the question | intent=coaching
+2026-04-15 15:48:04.919 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "can u refreame the question"
+2026-04-15 15:48:05.241 [INFO] rewriteQuery: "can u refreame the question" → "reframe question"
+2026-04-15 15:48:05.243 [INFO] Query rewrite: "can u refreame the question" → "reframe question"
+2026-04-15 15:48:05.275 [INFO] RAG: "reframe question" → 10 chunks (fallback=false) | top score=0.625
+2026-04-15 15:48:05.276 [INFO] Retrieved 10 chunks, top score=0.625
+2026-04-15 15:48:05.282 [INFO] Context: mem=0c rag=3561c
+2026-04-15 15:48:05.284 [INFO] KB context: 3561 chars injected
+2026-04-15 15:48:05.988 [INFO] RESPONSE: Instead of thinking about what's missing, let's try to reframe your perspective: What if your curren
+2026-04-15 15:48:52.708 [INFO] INPUT: i need a more natural dialogue | intent=coaching
+2026-04-15 15:48:52.732 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "i need a more natural dialogue"
+2026-04-15 15:48:53.280 [INFO] rewriteQuery: "i need a more natural dialogue" → "natural dialogue techniques"
+2026-04-15 15:48:53.281 [INFO] Query rewrite: "i need a more natural dialogue" → "natural dialogue techniques"
+2026-04-15 15:48:53.317 [INFO] RAG: "natural dialogue techniques" → 10 chunks (fallback=false) | top score=0.459
+2026-04-15 15:48:53.318 [INFO] Retrieved 10 chunks, top score=0.459
+2026-04-15 15:48:53.321 [INFO] Context: mem=0c rag=3973c
+2026-04-15 15:48:53.323 [INFO] KB context: 3973 chars injected
+2026-04-15 15:48:53.941 [INFO] RESPONSE: Let me try to make our conversation feel more natural. So, you're feeling like your tasks are boring
+2026-04-15 15:58:29.637 [INFO] Client disconnected: bUpgc7_aC8qDnOukAAAB
+2026-04-15 15:59:27.205 [INFO] Client connected: Cpp27KmG-jCYWyX7AAAD
+2026-04-15 18:24:28.925 [INFO] ════════════════════════════════════════════════════════════
+2026-04-15 18:24:28.933 [INFO] MetaCoach server starting...
+2026-04-15 18:24:28.934 [INFO] MongoDB disabled — using in-memory store
+2026-04-15 18:24:28.937 [INFO] Sessions: local JSONL storage
+2026-04-15 18:24:28.996 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-15 18:24:29.220 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-15 18:24:29.221 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-15 18:24:29.222 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-15 18:24:29.223 [INFO] ⏩ 2023 Assist Team Leaders Manual (1).pdf: already ingested
+2026-04-15 18:24:29.224 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-15 18:24:29.225 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-15 18:24:29.226 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-15 18:24:29.226 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-15 18:24:29.227 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-15 18:24:29.228 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-15 18:24:29.229 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-15 18:24:29.230 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-15 18:24:29.231 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-15 18:24:29.231 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-15 18:24:29.232 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-15 18:24:29.238 [INFO] ✅ Server → http://localhost:5000
+2026-04-15 18:24:48.189 [INFO] Client connected: Nr_wjcUs4JBeZAyaAAAC
+2026-04-15 18:26:00.988 [INFO] INPUT: hiii, how are you | intent=coaching
+2026-04-15 18:26:01.892 [INFO] rewriteQuery: "hiii, how are you" → "how are you"
+2026-04-15 18:26:01.893 [INFO] Query rewrite: "hiii, how are you" → "how are you"
+2026-04-15 18:26:01.896 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-15 18:26:02.335 [INFO] Embedding model ready
+2026-04-15 18:26:02.395 [INFO] RAG: "how are you" → 4 chunks (fallback=false) | top score=0.166
+2026-04-15 18:26:02.396 [INFO] Retrieved 4 chunks, top score=0.166
+2026-04-15 18:26:02.398 [INFO] Context: mem=0c rag=2460c
+2026-04-15 18:26:02.399 [INFO] KB context: 2460 chars injected
+2026-04-15 18:26:03.502 [INFO] RESPONSE: It sounds like you're checking in and wanting to connect. As your Meta-Coach, I'm here to facilitate
+2026-04-15 18:31:02.844 [INFO] Client disconnected: Nr_wjcUs4JBeZAyaAAAC
+2026-04-15 18:31:03.096 [INFO] Client connected: zeDYPxJ5zKirCv-xAAAF
+2026-04-15 18:31:22.200 [INFO] INPUT: hiii, how are you | intent=coaching
+2026-04-15 18:31:22.910 [INFO] rewriteQuery: "hiii, how are you" → "how are you"
+2026-04-15 18:31:22.911 [INFO] Query rewrite: "hiii, how are you" → "how are you"
+2026-04-15 18:31:22.947 [INFO] RAG: "how are you" → 4 chunks (fallback=false) | top score=0.166
+2026-04-15 18:31:22.949 [INFO] Retrieved 4 chunks, top score=0.166
+2026-04-15 18:31:22.950 [INFO] Context: mem=0c rag=2460c
+2026-04-15 18:31:22.951 [INFO] KB context: 2460 chars injected
+2026-04-15 18:31:24.038 [INFO] RESPONSE: It sounds like you're checking in and wanting to connect. As your Meta-Coach, I'm here to facilitate
+2026-04-15 18:31:43.966 [INFO] ════════════════════════════════════════════════════════════
+2026-04-15 18:31:43.971 [INFO] MetaCoach server starting...
+2026-04-15 18:31:43.972 [INFO] MongoDB disabled — using in-memory store
+2026-04-15 18:31:43.974 [INFO] Sessions: local JSONL storage
+2026-04-15 18:31:43.986 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-15 18:31:44.073 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-15 18:31:44.075 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-15 18:31:44.076 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-15 18:31:44.077 [INFO] ⏩ 2023 Assist Team Leaders Manual (1).pdf: already ingested
+2026-04-15 18:31:44.077 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-15 18:31:44.078 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-15 18:31:44.079 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-15 18:31:44.080 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-15 18:31:44.081 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-15 18:31:44.082 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-15 18:31:44.083 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-15 18:31:44.084 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-15 18:31:44.084 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-15 18:31:44.085 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-15 18:31:44.086 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-15 18:31:44.091 [INFO] ✅ Server → http://localhost:5000
+2026-04-15 18:31:47.001 [INFO] Client connected: m62G9zYWxyMvPSWCAAAC
+2026-04-15 18:31:55.093 [INFO] Client disconnected: m62G9zYWxyMvPSWCAAAC
+2026-04-15 18:32:05.659 [INFO] Client connected: zVsZWHJmcISsLjiZAAAE
+2026-04-15 18:32:07.074 [INFO] Client connected: t8SdkcrPIrF5Pr8_AAAH
+2026-04-15 18:32:21.215 [INFO] INPUT: hiii, how are you | intent=coaching
+2026-04-15 18:32:22.003 [INFO] rewriteQuery: "hiii, how are you" → "how are you"
+2026-04-15 18:32:22.005 [INFO] Query rewrite: "hiii, how are you" → "how are you"
+2026-04-15 18:32:22.007 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-15 18:32:22.424 [INFO] Embedding model ready
+2026-04-15 18:32:22.466 [INFO] RAG: "how are you" → 4 chunks (fallback=false) | top score=0.166
+2026-04-15 18:32:22.467 [INFO] Retrieved 4 chunks, top score=0.166
+2026-04-15 18:32:22.469 [INFO] Context: mem=0c rag=2460c
+2026-04-15 18:32:22.470 [INFO] KB context: 2460 chars injected
+2026-04-15 18:32:23.012 [INFO] RESPONSE: I'm doing well, thanks for asking. How about you, what's been on your mind lately?
+2026-04-15 18:32:50.653 [INFO] Client disconnected: zVsZWHJmcISsLjiZAAAE
+2026-04-15 18:38:35.427 [INFO] Client disconnected: t8SdkcrPIrF5Pr8_AAAH
+2026-04-15 18:38:40.064 [INFO] Client connected: gNdz5mc8lbACGslMAAAK
+2026-04-15 18:38:53.022 [INFO] INPUT: hiiii, how are you | intent=coaching
+2026-04-15 18:38:53.643 [INFO] rewriteQuery: "hiiii, how are you" → "how are you"
+2026-04-15 18:38:53.644 [INFO] Query rewrite: "hiiii, how are you" → "how are you"
+2026-04-15 18:38:53.678 [INFO] RAG: "how are you" → 4 chunks (fallback=false) | top score=0.166
+2026-04-15 18:38:53.679 [INFO] Retrieved 4 chunks, top score=0.166
+2026-04-15 18:38:53.681 [INFO] Context: mem=0c rag=2460c
+2026-04-15 18:38:53.681 [INFO] KB context: 2460 chars injected
+2026-04-15 18:38:54.281 [INFO] RESPONSE: It's nice to connect with you. I'm doing well, thanks for asking. How about you, what brings you her

@@ -1,262 +1,209 @@
-// ── RAG Module — LanceDB (embedded, no server) + Semantic Chunking ─
+// ── RAG Module v2 — LanceDB + Score Fix + Guaranteed Fallback ────
 //
-// VECTOR DB CHOICE: LanceDB
-//   Python original used Qdrant in-memory.
-//   Node.js port uses @lancedb/lancedb — an embedded columnar vector DB
-//   backed by Apache Arrow + Lance format. Key advantages over Qdrant/FAISS:
-//     • Zero server process (embedded, like SQLite)
-//     • Persists to disk automatically (./lancedb_store/)
-//     • Native cosine + dot-product support
-//     • ~10x faster than FAISS on recall@10 benchmarks
-//     • First-class Node.js / TypeScript SDK
+// SCORE FIX: LanceDB returns L2 distance. For normalized vectors:
+//   cosine_similarity = 1 - (L2² / 2)
+// Original used (1 - L2) which silently discarded all valid chunks.
 //
-// RERANKER: BM25-style term-overlap score (replaces CrossEncoder).
-//   Cross-encoders have no mature JS port. BM25 gives 85-90% of the
-//   quality at near-zero cost. Swap in an HF API call if you need more.
+// GUARANTEED FALLBACK: If nothing passes the threshold, return the
+// top 3 by raw score anyway. KB context is always better than nothing.
 
 import * as lancedb from '@lancedb/lancedb';
-import { Field, FixedSizeList, Float32, Schema, Utf8, Int32 } from 'apache-arrow';
-import pdfParse            from 'pdf-parse';
-import fs                  from 'fs';
-import path                from 'path';
-import { encode, cosineSim, EMBED_DIM } from './embeddings.js';
-import { logger }          from './logger.js';
+import pdfParse     from 'pdf-parse';
+import fs           from 'fs';
+import path         from 'path';
+import { encode, EMBED_DIM } from './embeddings.js';
+import { logger }            from './logger.js';
 
-const DB_PATH   = './lancedb_store';
-const TABLE     = 'metacoach_kb';
-const TOP_K     = 4;
-const SIM_THR   = 0.35;
+const DB_PATH  = './lancedb_store';
+const TABLE    = 'metacoach_kb';
+const TOP_K    = 10;
+const SIM_THR  = 0.10;   // soft threshold — fallback bypasses this anyway
+const FALLBACK_K = 3;    // guaranteed top-K even if below threshold
 
 let _db    = null;
 let _table = null;
+let _lastRetrieval = null;
 
-// ── LanceDB init ────────────────────────────────────────────────
+export function getLastRetrieval() { return _lastRetrieval; }
+
 async function getTable() {
   if (_table) return _table;
-
   _db = await lancedb.connect(DB_PATH);
-
-  const tableNames = await _db.tableNames();
-
-  if (tableNames.includes(TABLE)) {
+  const names = await _db.tableNames();
+  if (names.includes(TABLE)) {
     _table = await _db.openTable(TABLE);
-    logger.info(`Opened existing LanceDB table '${TABLE}'`);
+    logger.info(`Opened LanceDB table '${TABLE}'`);
   } else {
-    // Create with a dummy record so schema is established
-    const dummy = {
-      id:        0,
-      text:      '__init__',
-      source:    '',
-      chunkIdx:  0,
-      vector:    Array(EMBED_DIM).fill(0),
-    };
+    const dummy = { id: 0, text: '__init__', source: '', chunkIdx: 0, vector: Array(EMBED_DIM).fill(0) };
     _table = await _db.createTable(TABLE, [dummy]);
-    // Remove dummy
     await _table.delete('id = 0');
     logger.info(`Created LanceDB table '${TABLE}'`);
   }
-
   return _table;
 }
 
-// ── High-Speed Recursive Chunker ────────────────────────────────
+// ── Chunker ──────────────────────────────────────────────────────
 function semanticChunk(text, { chunkSize = 700, chunkOverlap = 150 } = {}) {
   const separators = ['\n\n', '\n', '.', '?', '!', ' '];
   const chunks = [];
-  
   function splitText(str) {
-    if (str.length <= chunkSize) {
-      if (str.trim().length > 20) chunks.push(str.trim());
-      return;
-    }
-
+    if (str.length <= chunkSize) { if (str.trim().length > 20) chunks.push(str.trim()); return; }
     let splitAt = -1;
     for (const sep of separators) {
       const idx = str.lastIndexOf(sep, chunkSize);
-      // Ensure we don't pick a tiny fragmented separator at the very beginning
-      if (idx !== -1 && idx > chunkSize * 0.3) {
-        splitAt = idx + sep.length;
-        break;
-      }
+      if (idx !== -1 && idx > chunkSize * 0.3) { splitAt = idx + sep.length; break; }
     }
-
     if (splitAt === -1) splitAt = chunkSize;
-
     const chunk = str.substring(0, splitAt).trim();
     if (chunk.length > 20) chunks.push(chunk);
-
     const remainder = str.substring(Math.max(0, splitAt - chunkOverlap)).trim();
-    if (remainder.length > 0 && remainder !== str.trim()) {
-       splitText(remainder);
-    }
+    if (remainder.length > 0 && remainder !== str.trim()) splitText(remainder);
   }
-
   splitText(text);
   return chunks;
 }
 
-// ── PDF ingestion ───────────────────────────────────────────────
+// ── PDF ingestion ────────────────────────────────────────────────
 export async function loadPDFsFromFolder(folder = process.env.PDF_FOLDER ?? './material') {
   const tbl = await getTable();
-
-  if (!fs.existsSync(folder)) {
-    const msg = `❌ Folder not found: '${folder}' — update PDF_FOLDER in .env`;
-    logger.warn(msg);
-    return msg;
-  }
-
+  if (!fs.existsSync(folder)) { const m = `❌ Folder not found: '${folder}'`; logger.warn(m); return m; }
   const pdfs = fs.readdirSync(folder, { recursive: true })
     .filter(f => f.endsWith('.pdf'))
     .map(f => path.join(folder, f));
+  if (!pdfs.length) { const m = `⚠️  No PDFs in '${folder}'`; logger.warn(m); return m; }
 
-  if (!pdfs.length) {
-    const msg = `⚠️  No PDFs found in '${folder}'`;
-    logger.warn(msg);
-    return msg;
-  }
-
-  // ── Deduplication: find which PDFs are already ingested ────────
   let existingSources = new Set();
   try {
-    const existing = await tbl.search(Array(EMBED_DIM).fill(0))
-      .select(['source'])
-      .limit(100_000)
-      .toArray();
+    const existing = await tbl.search(Array(EMBED_DIM).fill(0)).select(['source']).limit(100_000).toArray();
     existingSources = new Set(existing.map(r => r.source));
-  } catch {
-    // Table might be empty — that's fine, ingest everything
-  }
+  } catch {}
 
-  const rows       = [];
-  let   pointId    = Date.now();   // unique base ID across restarts
-  let   totalChunks = 0;
-  let   skipped     = 0;
-
+  let pointId = Date.now(), totalChunks = 0, skipped = 0;
   for (const pdfPath of pdfs) {
     const name = path.basename(pdfPath);
-
-    // Skip if already in the table
-    if (existingSources.has(name)) {
-      logger.info(`⏩ ${name}: already ingested — skipping`);
-      skipped++;
-      continue;
-    }
-
+    if (existingSources.has(name)) { logger.info(`⏩ ${name}: already ingested`); skipped++; continue; }
     try {
-      const buffer   = fs.readFileSync(pdfPath);
-      const parsed   = await pdfParse(buffer);
-      const fullText = parsed.text;
-      
-      // Extremely fast synchronous chunking without model interference
-      const chunks   = semanticChunk(fullText);
-
-      logger.info(`${name}: ${chunks.length} chunks generated. Streaming into LanceDB securely...`);
-
-      // ── Event-Loop Friendly Stream-Batching ──
-      const BATCH_SIZE = 120; // safe chunk size for CPU inference
-      
-      for (let i = 0; i < chunks.length; i += BATCH_SIZE) {
-        const batchChunks = chunks.slice(i, i + BATCH_SIZE);
-        
-        // Encode only this tiny batch
-        const vecs = await encode(batchChunks); 
-        
-        const batchRows = [];
-        for (let j = 0; j < batchChunks.length; j++) {
-           batchRows.push({
-             id:       pointId++,
-             text:     batchChunks[j],
-             source:   name,
-             chunkIdx: i + j,
-             vector:   Array.from(vecs[j])
-           });
-        }
-        
-        // Stream directly to DB
-        await tbl.add(batchRows);
-        totalChunks += batchChunks.length;
-        
-        // Micro-sleep to prevent Event Loop starvation so API doesn't disconnect!
-        await new Promise(r => setTimeout(r, 20)); 
+      const buffer = fs.readFileSync(pdfPath);
+      const parsed = await pdfParse(buffer);
+      const chunks = semanticChunk(parsed.text);
+      logger.info(`${name}: ${chunks.length} chunks → LanceDB...`);
+      const BATCH = 120;
+      for (let i = 0; i < chunks.length; i += BATCH) {
+        const batch = chunks.slice(i, i + BATCH);
+        const vecs  = await encode(batch);
+        await tbl.add(batch.map((c, j) => ({ id: pointId++, text: c, source: name, chunkIdx: i + j, vector: Array.from(vecs[j]) })));
+        totalChunks += batch.length;
+        await new Promise(r => setTimeout(r, 20));
       }
-      
-      logger.info(`✅ Synced ${name} fully.`);
-    } catch (e) {
-      logger.error(`Failed: ${name}: ${e.message}`);
-    }
+      logger.info(`✅ ${name} synced`);
+    } catch (e) { logger.error(`Failed ${name}: ${e.message}`); }
   }
-
   const msg = skipped && !totalChunks
-    ? `✅ ${pdfs.length} PDF(s) already ingested — 0 new chunks`
-    : `✅ ${pdfs.length} PDF(s) · ${totalChunks} new chunks loaded into LanceDB (${skipped} skipped)`;
+    ? `✅ All PDFs already ingested (${skipped} skipped)`
+    : `✅ ${totalChunks} new chunks from ${pdfs.length} PDF(s) (${skipped} skipped)`;
   logger.info(msg);
   return msg;
 }
 
-// ── Retrieval ───────────────────────────────────────────────────
+// ── L2 distance → cosine similarity (for normalized vectors) ────
+// cosine_sim = 1 - (L2² / 2)   range: [-1, 1] but practically [0, 1]
+function l2ToCosine(l2) { return 1 - (l2 * l2) / 2; }
+
+// ── Retrieval ────────────────────────────────────────────────────
 export async function retrieve(query) {
   const tbl   = await getTable();
   const count = await tbl.countRows();
-  if (!count) return [];
+  if (!count) { logger.warn('RAG: table is empty'); return []; }
 
-  const qVec = (await encode([query]))[0];
+  const qVec    = (await encode([query]))[0];
+  const results = await tbl.vectorSearch(Array.from(qVec)).limit(TOP_K * 3).toArray();
 
-  const results = await tbl
-    .vectorSearch(Array.from(qVec))
-    .limit(TOP_K * 3)
-    .toArray();
-
-  const seen    = new Set();
-  const output  = [];
+  const seen     = new Set();
+  const passed   = [];   // above threshold
+  const allScored = [];  // all for fallback + debug
 
   for (const row of results) {
-    const chunk       = row.text;
-    const score       = row._distance ? (1 - row._distance) : 0; // LanceDB returns L2 dist; cosine gives similarity
-    const fingerprint = chunk.slice(0, 120).toLowerCase().replace(/\s+/g, ' ');
+    const l2    = row._distance ?? 0;
+    const score = l2ToCosine(l2);
+    const fp    = row.text.slice(0, 120).toLowerCase().replace(/\s+/g, ' ');
+    if (seen.has(fp)) continue;
+    seen.add(fp);
 
-    if (seen.has(fingerprint)) continue;
-    if (score < SIM_THR) continue;
-
-    seen.add(fingerprint);
-    output.push({ text: chunk, score });
-    if (output.length >= TOP_K) break;
+    const entry = { text: row.text, score, source: row.source, l2: l2.toFixed(3) };
+    allScored.push(entry);
+    if (score >= SIM_THR && passed.length < TOP_K) passed.push(entry);
   }
 
+  // ── Guaranteed fallback: if nothing passed threshold, return top-K ─
+  let output = passed;
+  if (output.length === 0 && allScored.length > 0) {
+    output = allScored.slice(0, FALLBACK_K);
+    logger.warn(`RAG FALLBACK: 0 passed threshold (${SIM_THR}), using top ${output.length} by raw score. Top cosine=${output[0]?.score?.toFixed(3)}`);
+  }
+
+  // ── Store debug snapshot ─────────────────────────────────────
+  _lastRetrieval = {
+    query, timestamp: new Date().toISOString(),
+    retrieved: output.length, usedFallback: passed.length === 0 && output.length > 0,
+    threshold: SIM_THR,
+    topResults: output.map(d => ({ source: d.source, score: d.score.toFixed(3), preview: d.text.slice(0, 150) })),
+    allCandidates: allScored.map(d => ({ text: d.text.slice(0, 100), source: d.source, l2: d.l2, cosine: d.score.toFixed(3) }))
+  };
+
+  logger.info(`RAG: "${query.slice(0, 60)}" → ${output.length} chunks (fallback=${passed.length === 0}) | top score=${output[0]?.score?.toFixed(3) ?? 'N/A'}`);
   return output;
 }
 
-// ── BM25-style reranker (replaces CrossEncoder) ─────────────────
-function bm25Score(query, doc, k1 = 1.5, b = 0.75, avgDocLen = 300) {
-  const qTerms  = new Set(query.toLowerCase().split(/\W+/).filter(Boolean));
-  const docTerms = doc.toLowerCase().split(/\W+/).filter(Boolean);
-  const docLen  = docTerms.length;
-  const tf      = {};
-
-  for (const t of docTerms) tf[t] = (tf[t] ?? 0) + 1;
-
+// ── BM25-style reranker ──────────────────────────────────────────
+function bm25Score(query, doc, k1 = 1.5, b = 0.75, avgLen = 300) {
+  const qTerms = new Set(query.toLowerCase().split(/\W+/).filter(Boolean));
+  const terms  = doc.toLowerCase().split(/\W+/).filter(Boolean);
+  const tf     = {};
+  for (const t of terms) tf[t] = (tf[t] ?? 0) + 1;
   let score = 0;
   for (const term of qTerms) {
-    const f  = tf[term] ?? 0;
-    score += (f * (k1 + 1)) / (f + k1 * (1 - b + b * (docLen / avgDocLen)));
+    const f = tf[term] ?? 0;
+    score += (f * (k1 + 1)) / (f + k1 * (1 - b + b * (terms.length / avgLen)));
   }
   return score;
 }
 
-export function rerankAndFilter(query, docs, maxChars = 1800) {
+export function rerankAndFilter(query, docs, maxChars = 4000) {
   if (!docs.length) return '';
-
-  const scored = docs
-    .map(d => ({ ...d, rerank: bm25Score(query, d.text) }))
-    .sort((a, b) => b.rerank - a.rerank);
-
-  let context = '';
-  for (const { text } of scored) {
-    if (context.length + text.length < maxChars) context += text + '\n';
+  const scored = docs.map(d => ({ ...d, bm25: bm25Score(query, d.text) })).sort((a, b) => b.bm25 - a.bm25);
+  let ctx = '';
+  for (const { text, source } of scored) {
+    const entry = `[Source: ${source}]\n${text}\n`;
+    if (ctx.length + entry.length < maxChars) ctx += entry + '\n';
   }
-  return context.trim();
+  return ctx.trim();
 }
 
 export async function getKBCount() {
   const tbl = await getTable();
   return tbl.countRows();
+}
+
+// ── RAG Eval Runner ──────────────────────────────────────────────
+export async function runRagEval(testQueries) {
+  const results = [];
+  for (const { query, expectedKeywords = [], expectedSource = null } of testQueries) {
+    const docs    = await retrieve(query);
+    const context = rerankAndFilter(query, docs);
+    const hits    = expectedKeywords.filter(kw => context.toLowerCase().includes(kw.toLowerCase()));
+    const srcHit  = expectedSource ? docs.some(d => d.source?.toLowerCase().includes(expectedSource.toLowerCase())) : null;
+    results.push({
+      query, chunksRetrieved: docs.length,
+      topScore: docs[0]?.score?.toFixed(3) ?? 'N/A',
+      topSource: docs[0]?.source ?? 'none',
+      keywordRecall: expectedKeywords.length ? `${hits.length}/${expectedKeywords.length} (${Math.round(hits.length / expectedKeywords.length * 100)}%)` : 'N/A',
+      keywordsFound: hits,
+      keywordsMissed: expectedKeywords.filter(k => !hits.includes(k)),
+      sourceMatch: srcHit,
+      contextPreview: context.slice(0, 300),
+      pass: docs.length > 0 && (expectedKeywords.length === 0 || hits.length > 0)
+    });
+  }
+  const passed = results.filter(r => r.pass).length;
+  return { summary: { total: results.length, passed, failed: results.length - passed, passRate: `${Math.round(passed / results.length * 100)}%` }, results };
 }

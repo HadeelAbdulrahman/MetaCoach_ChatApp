@@ -1,48 +1,80 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 
 export default function Logs() {
-  const [logs,    setLogs]    = useState('');
-  const [loading, setLoading] = useState(false);
+  const [logs,     setLogs]     = useState([]);
+  const [loading,  setLoading]  = useState(false);
+  const [filter,   setFilter]   = useState('');
+  const [autoLoad, setAutoLoad] = useState(false);
+  const intervalRef = useRef(null);
+  const bottomRef   = useRef(null);
 
-  const load = async () => {
-    setLoading(true);
-    const res  = await fetch('/api/logs');
-    const data = await res.json();
-    setLogs(data.logs);
-    setLoading(false);
+  const load = async (silent = false) => {
+    if (!silent) setLoading(true);
+    try {
+      const res  = await fetch('/api/logs');
+      const data = await res.json();
+      const lines = (data.logs || '').split('\n').filter(Boolean);
+      setLogs(lines);
+      if (!silent) setTimeout(() => bottomRef.current?.scrollIntoView({ behavior: 'smooth' }), 100);
+    } catch (e) {}
+    if (!silent) setLoading(false);
+  };
+
+  useEffect(() => {
+    if (autoLoad) {
+      load();
+      intervalRef.current = setInterval(() => load(true), 3000);
+    } else {
+      clearInterval(intervalRef.current);
+    }
+    return () => clearInterval(intervalRef.current);
+  }, [autoLoad]);
+
+  const filtered = filter
+    ? logs.filter(l => l.toLowerCase().includes(filter.toLowerCase()))
+    : logs;
+
+  const levelClass = (line) => {
+    const l = line.toLowerCase();
+    if (l.includes('error') || l.includes('❌')) return 'log-error';
+    if (l.includes('warn')  || l.includes('⚠️')) return 'log-warn';
+    if (l.includes('✅'))                         return 'log-success';
+    if (l.includes('rag:'))                       return 'log-rag';
+    return 'log-info';
   };
 
   return (
-    <div style={S.wrap}>
-      <h2 style={S.heading}>📋 Server Logs</h2>
-      <button style={S.btn} onClick={load} disabled={loading}>
-        {loading ? '⏳ Loading…' : 'Load last 60 lines'}
-      </button>
-      <textarea
-        style={S.output}
-        readOnly
-        value={logs}
-        placeholder="Click 'Load' to fetch server logs…"
-      />
+    <div className="logs-wrap">
+      <h2 className="tab-heading">📋 Server Logs</h2>
+      <p className="tab-desc">Live view of server activity, RAG retrieval results, and errors.</p>
+
+      <div className="tab-controls">
+        <input
+          className="eval-input"
+          value={filter}
+          onChange={e => setFilter(e.target.value)}
+          placeholder="Filter logs…"
+        />
+        <button className="eval-btn primary" onClick={() => load()} disabled={loading}>
+          {loading ? 'Loading…' : '↻ Refresh'}
+        </button>
+        <label className="auto-toggle">
+          <input type="checkbox" checked={autoLoad} onChange={e => setAutoLoad(e.target.checked)} />
+          Auto-refresh (3s)
+        </label>
+      </div>
+
+      <div className="log-box">
+        {filtered.length === 0 && (
+          <div className="tab-empty">No logs yet — click Refresh or send a chat message.</div>
+        )}
+        {filtered.map((line, i) => (
+          <div key={i} className={`log-line ${levelClass(line)}`}>
+            <span className="log-text">{line}</span>
+          </div>
+        ))}
+        <div ref={bottomRef} />
+      </div>
     </div>
   );
 }
-
-const S = {
-  wrap: {
-    maxWidth: 860, margin: '0 auto', padding: '24px 20px',
-    display: 'flex', flexDirection: 'column', gap: 14, flex: 1,
-  },
-  heading: { fontSize: '1.1rem', fontWeight: 700, color: '#f1f5f9' },
-  btn: {
-    alignSelf: 'flex-start', padding: '10px 20px', borderRadius: 10,
-    border: 'none', background: '#6366f1', color: '#fff',
-    cursor: 'pointer', fontWeight: 600, fontSize: '0.88rem',
-  },
-  output: {
-    flex: 1, minHeight: 380, padding: '14px', borderRadius: 10,
-    border: '1.5px solid #334155', background: '#0f172a',
-    color: '#4ade80', fontSize: '0.78rem', fontFamily: 'monospace',
-    resize: 'vertical', lineHeight: 1.7,
-  },
-};

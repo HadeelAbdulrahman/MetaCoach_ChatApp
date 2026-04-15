@@ -10,7 +10,7 @@ import { fileURLToPath } from 'url';
 
 import { logger }                                       from './logger.js';
 import { initMemory, retrieveMemoryContext, isMongoOK } from './memory.js';
-import { loadPDFsFromFolder, getKBCount }               from './rag.js';
+import { loadPDFsFromFolder, getKBCount, retrieve, rerankAndFilter, runRagEval, getLastRetrieval } from './rag.js';
 import { orchestrator, clearHistory, getHistory }       from './orchestrator.js';
 import { logFeedback }                                  from './analyzer.js';
 import { initSessions, getSessions, getSession, createSession, deleteSession } from './sessions.js';
@@ -25,11 +25,9 @@ const io     = new Server(server, {
   cors: { origin: CLIENT, methods: ['GET', 'POST'] },
 });
 
-// ── Middleware ───────────────────────────────────────────────────
 app.use(cors({ origin: CLIENT }));
 app.use(express.json());
 
-// ── File upload (drag-and-drop PDFs) ────────────────────────────
 const upload = multer({ dest: process.env.PDF_FOLDER ?? './material' });
 
 app.post('/api/upload', upload.array('pdfs'), async (req, res) => {
@@ -37,14 +35,13 @@ app.post('/api/upload', upload.array('pdfs'), async (req, res) => {
   res.json({ message: result });
 });
 
-// ── REST API ─────────────────────────────────────────────────────
 app.get('/api/status', async (_req, res) => {
   const kbChunks = await getKBCount();
   res.json({
     kbChunks,
     pdfFolder:     process.env.PDF_FOLDER ?? './material',
     memoryBackend: isMongoOK() ? 'MongoDB' : 'in-memory',
-    model:         'mistralai/Mistral-7B-Instruct-v0.3',
+    model:         'llama-3.3-70b-versatile',
     vectorDB:      'LanceDB',
   });
 });
@@ -90,6 +87,46 @@ app.delete('/api/sessions/:id', async (req, res) => {
   res.json({ ok: true });
 });
 
+// ── RAG Debug — last retrieval snapshot ─────────────────────────
+app.get('/api/rag-debug', (_req, res) => {
+  const last = getLastRetrieval();
+  if (!last) return res.json({ message: 'No retrieval yet. Send a chat message first.' });
+  res.json(last);
+});
+
+// ── RAG Eval — run a test suite against the vector store ─────────
+app.post('/api/rag-eval', async (req, res) => {
+  try {
+    const { queries } = req.body;
+    if (!queries || !Array.isArray(queries)) {
+      return res.status(400).json({ error: 'Body must be { queries: [{ query, expectedKeywords?, expectedSource? }] }' });
+    }
+    const evalResult = await runRagEval(queries);
+    res.json(evalResult);
+  } catch (e) {
+    logger.error(`RAG eval error: ${e.message}`);
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ── RAG Quick Probe — test a single query retrieval ─────────────
+app.get('/api/rag-probe', async (req, res) => {
+  try {
+    const query = req.query.q;
+    if (!query) return res.status(400).json({ error: 'Pass ?q=your+query' });
+    const docs = await retrieve(query);
+    const context = rerankAndFilter(query, docs);
+    res.json({
+      query,
+      chunksFound: docs.length,
+      chunks: docs.map(d => ({ source: d.source, score: d.score.toFixed(3), preview: d.text.slice(0, 200) })),
+      fullContext: context.slice(0, 1000)
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
 // ── Socket.io — streaming ────────────────────────────────────────
 io.on('connection', (socket) => {
   logger.info(`Client connected: ${socket.id}`);
@@ -130,14 +167,3 @@ async function main() {
 }
 
 main().catch(e => { logger.error(e.message); process.exit(1); });
-
-// // ── Graceful Shutdown for node --watch ───────────────────────────
-// function shutdown() {
-//   logger.info('Shutting down server, releasing port...');
-//   server.close(() => {
-//     process.exit(0);
-//   });
-// }
-
-// process.on('SIGINT', shutdown);
-// process.on('SIGTERM', shutdown);

@@ -13,11 +13,12 @@ import fs           from 'fs';
 import path         from 'path';
 import { encode, EMBED_DIM } from './embeddings.js';
 import { logger }            from './logger.js';
+import { callLLM }           from './llm.js';
 
 const DB_PATH  = './lancedb_store';
 const TABLE    = 'metacoach_kb';
-const TOP_K    = 10;
-const SIM_THR  = 0.10;   // soft threshold — fallback bypasses this anyway
+const TOP_K    = 4;
+const SIM_THR  = 0.75;   // soft threshold — fallback bypasses this anyway
 const FALLBACK_K = 3;    // guaranteed top-K even if below threshold
 
 let _db    = null;
@@ -168,7 +169,19 @@ function bm25Score(query, doc, k1 = 1.5, b = 0.75, avgLen = 300) {
   return score;
 }
 
-export function rerankAndFilter(query, docs, maxChars = 4000) {
+export async function summarizeChunks(query, chunksText, maxChars = 1500) {
+  if (!chunksText.trim()) return '';
+  const prompt = `Synthesize the following retrieved chunks into a core, concise summary relevant to resolving this question: "${query}". Keep it dense and under ${maxChars} characters.\n\nChunks:\n${chunksText}`;
+  try {
+    const summary = await callLLM(prompt, { temperature: 0.1, max_tokens: 400 });
+    return summary || chunksText.slice(0, maxChars);
+  } catch (e) {
+    logger.error('failed to summarize chunks');
+    return chunksText.slice(0, maxChars); // fallback
+  }
+}
+
+export function rerankAndFilter(query, docs, maxChars = 1500) {
   if (!docs.length) return '';
   const scored = docs.map(d => ({ ...d, bm25: bm25Score(query, d.text) })).sort((a, b) => b.bm25 - a.bm25);
   let ctx = '';
@@ -189,7 +202,7 @@ export async function runRagEval(testQueries) {
   const results = [];
   for (const { query, expectedKeywords = [], expectedSource = null } of testQueries) {
     const docs    = await retrieve(query);
-    const context = rerankAndFilter(query, docs);
+    const context = await rerankAndFilter(query, docs);
     const hits    = expectedKeywords.filter(kw => context.toLowerCase().includes(kw.toLowerCase()));
     const srcHit  = expectedSource ? docs.some(d => d.source?.toLowerCase().includes(expectedSource.toLowerCase())) : null;
     results.push({

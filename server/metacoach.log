@@ -2581,3 +2581,1115 @@ What
 2026-04-15 18:38:53.681 [INFO] Context: mem=0c rag=2460c
 2026-04-15 18:38:53.681 [INFO] KB context: 2460 chars injected
 2026-04-15 18:38:54.281 [INFO] RESPONSE: It's nice to connect with you. I'm doing well, thanks for asking. How about you, what brings you her
+2026-04-17 08:17:39.042 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 08:17:39.047 [INFO] MetaCoach server starting...
+2026-04-17 08:17:39.048 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 08:17:39.049 [INFO] Sessions: local JSONL storage
+2026-04-17 08:17:39.284 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 08:17:39.423 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 08:17:39.424 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 08:17:39.424 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 08:17:39.424 [INFO] ⏩ 2023 Assist Team Leaders Manual (1).pdf: already ingested
+2026-04-17 08:17:39.762 [INFO] 2023 Assist Team Leaders Manual.pdf: 277 chunks → LanceDB...
+2026-04-17 08:17:39.763 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 08:17:39.977 [INFO] Embedding model ready
+2026-04-17 08:17:48.119 [INFO] ✅ 2023 Assist Team Leaders Manual.pdf synced
+2026-04-17 08:17:48.120 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 08:17:48.120 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 08:17:48.121 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 08:17:48.121 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 08:17:48.121 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 08:17:48.122 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 08:17:48.122 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 08:17:48.122 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 08:17:48.123 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 08:17:48.123 [INFO] ✅ 277 new chunks from 14 PDF(s) (13 skipped)
+2026-04-17 08:17:48.123 [INFO] ✅ 277 new chunks from 14 PDF(s) (13 skipped)
+2026-04-17 08:17:48.128 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 08:18:04.128 [INFO] Client connected: pHZg_-doE_4MAfKkAAAC
+2026-04-17 08:18:16.849 [INFO] Client connected: j4MEQgJe5EMxga6bAAAF
+2026-04-17 08:18:38.967 [INFO] INPUT: hi how are you? | intent=coaching
+2026-04-17 08:18:39.547 [INFO] rewriteQuery: "hi how are you?" → "how are you"
+2026-04-17 08:18:39.547 [INFO] Query rewrite: "hi how are you?" → "how are you"
+2026-04-17 08:18:39.587 [INFO] RAG: "how are you" → 4 chunks (fallback=false) | top score=0.166
+2026-04-17 08:18:39.588 [INFO] Retrieved 4 chunks, top score=0.166
+2026-04-17 08:18:39.589 [INFO] Context: mem=0c rag=2460c
+2026-04-17 08:18:39.589 [INFO] KB context: 2460 chars injected
+2026-04-17 08:18:40.039 [INFO] RESPONSE: I'm here and ready to help. How can I assist you today in exploring your thoughts, goals, or decisio
+2026-04-17 08:19:01.893 [INFO] INPUT: i want to quit my job | intent=coaching
+2026-04-17 08:19:02.360 [INFO] rewriteQuery: "i want to quit my job" → "quit job career change resignation"
+2026-04-17 08:19:02.361 [INFO] Query rewrite: "i want to quit my job" → "quit job career change resignation"
+2026-04-17 08:19:02.380 [INFO] RAG: "quit job career change resignation" → 6 chunks (fallback=false) | top score=0.205
+2026-04-17 08:19:02.380 [INFO] Retrieved 6 chunks, top score=0.205
+2026-04-17 08:19:02.381 [INFO] Context: mem=0c rag=3247c
+2026-04-17 08:19:02.382 [INFO] KB context: 3247 chars injected
+2026-04-17 08:19:02.988 [INFO] RESPONSE: So you're considering quitting your job. According to the Neuro-Semantics framework, this could be a
+2026-04-17 08:24:39.265 [INFO] Client disconnected: pHZg_-doE_4MAfKkAAAC
+2026-04-17 08:25:57.292 [INFO] Client connected: tPcFRuY76QRInsPtAAAH
+2026-04-17 08:26:31.989 [INFO] Client disconnected: j4MEQgJe5EMxga6bAAAF
+2026-04-17 08:35:27.488 [INFO] Client disconnected: tPcFRuY76QRInsPtAAAH
+2026-04-17 08:43:17.437 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 08:43:17.446 [INFO] MetaCoach server starting...
+2026-04-17 08:43:17.446 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 08:43:17.447 [INFO] Sessions: local JSONL storage
+2026-04-17 08:43:17.690 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 08:43:17.848 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 08:43:17.848 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 08:43:17.849 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 08:43:17.849 [INFO] ⏩ 2023 Assist Team Leaders Manual (1).pdf: already ingested
+2026-04-17 08:43:17.850 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 08:43:17.850 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 08:43:17.850 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 08:43:17.850 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 08:43:17.851 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 08:43:17.851 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 08:43:17.851 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 08:43:17.852 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 08:43:17.852 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 08:43:17.852 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 08:43:17.853 [INFO] ✅ All PDFs already ingested (14 skipped)
+2026-04-17 08:43:17.853 [INFO] ✅ All PDFs already ingested (14 skipped)
+2026-04-17 08:43:17.856 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 08:43:22.909 [INFO] Client connected: Xz-b8mJmiPjpKzbgAAAB
+2026-04-17 08:43:49.290 [INFO] INPUT: hi, how are you | intent=coaching
+2026-04-17 08:43:50.034 [INFO] rewriteQuery: "hi, how are you" → "how are you"
+2026-04-17 08:43:50.035 [INFO] Query rewrite: "hi, how are you" → "how are you"
+2026-04-17 08:43:50.037 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 08:43:50.269 [INFO] Embedding model ready
+2026-04-17 08:43:50.306 [INFO] RAG: "how are you" → 4 chunks (fallback=false) | top score=0.166
+2026-04-17 08:43:50.306 [INFO] Retrieved 4 chunks, top score=0.166
+2026-04-17 08:43:50.307 [INFO] Context: mem=0c rag=2460c
+2026-04-17 08:43:50.308 [INFO] KB context: 2460 chars injected
+2026-04-17 08:43:51.169 [INFO] RESPONSE: Look at the frame you just used to initiate our conversation - a typical greeting. According to the 
+2026-04-17 08:44:02.112 [INFO] Client disconnected: Xz-b8mJmiPjpKzbgAAAB
+2026-04-17 08:44:02.231 [INFO] Client connected: Aa1TzTUNDxOq5zGfAAAE
+2026-04-17 08:44:14.536 [INFO] INPUT: hiii how are you | intent=coaching
+2026-04-17 08:44:14.892 [INFO] rewriteQuery: "hiii how are you" → "how are you"
+2026-04-17 08:44:14.893 [INFO] Query rewrite: "hiii how are you" → "how are you"
+2026-04-17 08:44:14.909 [INFO] RAG: "how are you" → 4 chunks (fallback=false) | top score=0.166
+2026-04-17 08:44:14.909 [INFO] Retrieved 4 chunks, top score=0.166
+2026-04-17 08:44:14.910 [INFO] Context: mem=0c rag=2460c
+2026-04-17 08:44:14.910 [INFO] KB context: 2460 chars injected
+2026-04-17 08:44:15.487 [INFO] RESPONSE: Look at the frame you're using to initiate our conversation - a focus on social niceties. According 
+2026-04-17 08:44:18.651 [INFO] Client disconnected: Aa1TzTUNDxOq5zGfAAAE
+2026-04-17 08:44:19.629 [INFO] Client connected: dzbhDWzUyt8rVU6MAAAG
+2026-04-17 08:47:09.676 [INFO] Client disconnected: dzbhDWzUyt8rVU6MAAAG
+2026-04-17 08:58:54.750 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 08:58:54.753 [INFO] MetaCoach server starting...
+2026-04-17 08:58:54.753 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 08:58:54.754 [INFO] Sessions: local JSONL storage
+2026-04-17 08:58:54.960 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 08:58:55.016 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 08:58:55.016 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 08:58:55.017 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 08:58:55.017 [INFO] ⏩ 2023 Assist Team Leaders Manual (1).pdf: already ingested
+2026-04-17 08:58:55.017 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 08:58:55.017 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 08:58:55.018 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 08:58:55.018 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 08:58:55.018 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 08:58:55.019 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 08:58:55.019 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 08:58:55.019 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 08:58:55.019 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 08:58:55.020 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 08:58:55.020 [INFO] ✅ All PDFs already ingested (14 skipped)
+2026-04-17 08:58:55.020 [INFO] ✅ All PDFs already ingested (14 skipped)
+2026-04-17 08:58:55.022 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 08:59:12.648 [INFO] Client connected: il6OExdhbrNImtR9AAAC
+2026-04-17 08:59:13.394 [INFO] Client connected: ue33qjepXXAiwf1pAAAF
+2026-04-17 08:59:14.361 [INFO] Client disconnected: ue33qjepXXAiwf1pAAAF
+2026-04-17 08:59:37.035 [INFO] INPUT: hiii how are you | intent=coaching
+2026-04-17 08:59:37.625 [INFO] rewriteQuery: "hiii how are you" → "how are you"
+2026-04-17 08:59:37.626 [INFO] Query rewrite: "hiii how are you" → "how are you"
+2026-04-17 08:59:37.627 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 08:59:37.772 [INFO] Embedding model ready
+2026-04-17 08:59:37.796 [INFO] RAG: "how are you" → 4 chunks (fallback=false) | top score=0.166
+2026-04-17 08:59:37.796 [INFO] Retrieved 4 chunks, top score=0.166
+2026-04-17 08:59:37.797 [INFO] Context: mem=0c rag=2460c
+2026-04-17 08:59:37.798 [INFO] KB context: 2460 chars injected
+2026-04-17 08:59:38.208 [INFO] RESPONSE: I don't have specific material on that in the knowledge base. What specifically would you like to ex
+2026-04-17 08:59:45.762 [INFO] INPUT: hiii how are you | intent=coaching
+2026-04-17 08:59:46.133 [INFO] rewriteQuery: "hiii how are you" → "how are you"
+2026-04-17 08:59:46.133 [INFO] Query rewrite: "hiii how are you" → "how are you"
+2026-04-17 08:59:46.146 [INFO] RAG: "how are you" → 4 chunks (fallback=false) | top score=0.166
+2026-04-17 08:59:46.146 [INFO] Retrieved 4 chunks, top score=0.166
+2026-04-17 08:59:46.147 [INFO] Context: mem=0c rag=2460c
+2026-04-17 08:59:46.147 [INFO] KB context: 2460 chars injected
+2026-04-17 08:59:46.539 [INFO] RESPONSE: I don't have specific material on that in the knowledge base. What specifically would you like to ex
+2026-04-17 09:04:47.188 [INFO] INPUT: hiiii how are you | intent=coaching
+2026-04-17 09:04:47.652 [INFO] rewriteQuery: "hiiii how are you" → "how are you"
+2026-04-17 09:04:47.652 [INFO] Query rewrite: "hiiii how are you" → "how are you"
+2026-04-17 09:04:47.668 [INFO] RAG: "how are you" → 4 chunks (fallback=false) | top score=0.166
+2026-04-17 09:04:47.669 [INFO] Retrieved 4 chunks, top score=0.166
+2026-04-17 09:04:47.669 [INFO] Context: mem=0c rag=2460c
+2026-04-17 09:04:47.670 [INFO] KB context: 2460 chars injected
+2026-04-17 09:04:48.026 [INFO] RESPONSE: I don't have specific material on that in the knowledge base. What specifically would you like to ex
+2026-04-17 09:06:05.656 [INFO] INPUT: I need your help | intent=coaching
+2026-04-17 09:06:06.148 [INFO] rewriteQuery: "I need your help" → "need help"
+2026-04-17 09:06:06.149 [INFO] Query rewrite: "I need your help" → "need help"
+2026-04-17 09:06:06.164 [WARN] RAG FALLBACK: 0 passed threshold (0.1), using top 3 by raw score. Top cosine=-0.032
+2026-04-17 09:06:06.165 [INFO] RAG: "need help" → 3 chunks (fallback=true) | top score=-0.032
+2026-04-17 09:06:06.165 [INFO] Retrieved 3 chunks, top score=-0.032
+2026-04-17 09:06:06.166 [INFO] Context: mem=0c rag=1835c
+2026-04-17 09:06:06.166 [INFO] KB context: 1835 chars injected
+2026-04-17 09:06:06.941 [INFO] RESPONSE: The material describes various NLP techniques for personal growth and development. According to the 
+2026-04-17 09:06:17.273 [INFO] INPUT: i want to quit my job | intent=coaching
+2026-04-17 09:06:17.657 [INFO] rewriteQuery: "i want to quit my job" → "quit job career change resignation"
+2026-04-17 09:06:17.657 [INFO] Query rewrite: "i want to quit my job" → "quit job career change resignation"
+2026-04-17 09:06:17.670 [INFO] RAG: "quit job career change resignation" → 6 chunks (fallback=false) | top score=0.205
+2026-04-17 09:06:17.671 [INFO] Retrieved 6 chunks, top score=0.205
+2026-04-17 09:06:17.672 [INFO] Context: mem=0c rag=3247c
+2026-04-17 09:06:17.672 [INFO] KB context: 3247 chars injected
+2026-04-17 09:06:18.260 [INFO] RESPONSE: The material describes the Axes of Change model, which outlines how people navigate different kinds 
+2026-04-17 09:37:28.457 [INFO] Client disconnected: il6OExdhbrNImtR9AAAC
+2026-04-17 10:19:54.693 [INFO] Client connected: 0lJHuFa5YAk9SAvxAAAH
+2026-04-17 10:20:10.618 [INFO] Client disconnected: 0lJHuFa5YAk9SAvxAAAH
+2026-04-17 10:20:18.801 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 10:20:18.806 [INFO] MetaCoach server starting...
+2026-04-17 10:20:18.807 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 10:20:18.809 [INFO] Sessions: local JSONL storage
+2026-04-17 10:20:18.882 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 10:20:19.107 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 10:20:19.108 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 10:20:19.109 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 10:20:19.110 [INFO] ⏩ 2023 Assist Team Leaders Manual (1).pdf: already ingested
+2026-04-17 10:20:19.112 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 10:20:19.112 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 10:20:19.113 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 10:20:19.114 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 10:20:19.115 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 10:20:19.116 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 10:20:19.116 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 10:20:19.117 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 10:20:19.118 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 10:20:19.119 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 10:20:19.120 [INFO] ✅ All PDFs already ingested (14 skipped)
+2026-04-17 10:20:19.121 [INFO] ✅ All PDFs already ingested (14 skipped)
+2026-04-17 10:20:19.126 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 10:20:30.811 [INFO] Client connected: lE6v36LRC-EQaNtPAAAB
+2026-04-17 10:20:31.619 [INFO] Client connected: -5dlmFtvyNCGYJ8HAAAE
+2026-04-17 10:20:31.791 [INFO] Client connected: j4rIVhAl28sGMbu9AAAH
+2026-04-17 10:20:55.180 [INFO] INPUT: hi, how are you? | intent=coaching
+2026-04-17 10:20:55.989 [INFO] rewriteQuery: "hi, how are you?" → "hello greeting introduction"
+2026-04-17 10:20:55.990 [INFO] Query rewrite: "hi, how are you?" → "hello greeting introduction"
+2026-04-17 10:20:55.993 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 10:20:56.482 [INFO] Embedding model ready
+2026-04-17 10:20:56.539 [INFO] RAG: "hello greeting introduction" → 10 chunks (fallback=false) | top score=0.328
+2026-04-17 10:20:56.541 [INFO] Retrieved 10 chunks, top score=0.328
+2026-04-17 10:20:56.544 [INFO] Context: mem=0c rag=3468c
+2026-04-17 10:20:56.545 [INFO] KB context: 3468 chars injected
+2026-04-17 10:20:56.928 [INFO] RESPONSE: I'm doing well, thanks for asking. It's great to connect with you. How about you, what brings you he
+2026-04-17 10:21:08.496 [INFO] INPUT: I want to quit my job | intent=coaching
+2026-04-17 10:21:09.205 [INFO] rewriteQuery: "I want to quit my job" → "quit job career change resignation"
+2026-04-17 10:21:09.206 [INFO] Query rewrite: "I want to quit my job" → "quit job career change resignation"
+2026-04-17 10:21:09.243 [INFO] RAG: "quit job career change resignation" → 6 chunks (fallback=false) | top score=0.205
+2026-04-17 10:21:09.244 [INFO] Retrieved 6 chunks, top score=0.205
+2026-04-17 10:21:09.246 [INFO] Context: mem=0c rag=3247c
+2026-04-17 10:21:09.247 [INFO] KB context: 3247 chars injected
+2026-04-17 10:21:10.092 [INFO] RESPONSE: What's driving that desire to quit your job? What is it about your current situation that's making y
+2026-04-17 10:21:14.702 [INFO] Client disconnected: lE6v36LRC-EQaNtPAAAB
+2026-04-17 10:21:56.737 [INFO] INPUT: It's boring and it's giving me stress due to the workload | intent=coaching
+2026-04-17 10:21:56.762 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "It's boring and it's giving me stress due to the w"
+2026-04-17 10:21:57.268 [INFO] rewriteQuery: "It's boring and it's giving me stress due to the w" → "boring stress workload"
+2026-04-17 10:21:57.270 [INFO] Query rewrite: "It's boring and it's giving me stress due to the w" → "boring stress workload"
+2026-04-17 10:21:57.303 [INFO] RAG: "boring stress workload" → 10 chunks (fallback=false) | top score=0.468
+2026-04-17 10:21:57.304 [INFO] Retrieved 10 chunks, top score=0.468
+2026-04-17 10:21:57.308 [INFO] Context: mem=0c rag=3579c
+2026-04-17 10:21:57.309 [INFO] KB context: 3579 chars injected
+2026-04-17 10:21:57.921 [INFO] RESPONSE: It sounds like the stress and boredom are really getting to you. What does it mean to you if you don
+2026-04-17 10:23:00.147 [INFO] INPUT: I really don't know | intent=coaching
+2026-04-17 10:23:00.165 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "I really don't know"
+2026-04-17 10:23:00.935 [INFO] rewriteQuery: "I really don't know" → "self discovery personal growth uncertainty"
+2026-04-17 10:23:00.936 [INFO] Query rewrite: "I really don't know" → "self discovery personal growth uncertainty"
+2026-04-17 10:23:00.970 [INFO] RAG: "self discovery personal growth uncertainty" → 10 chunks (fallback=false) | top score=0.498
+2026-04-17 10:23:00.973 [INFO] Retrieved 10 chunks, top score=0.498
+2026-04-17 10:23:00.975 [INFO] Context: mem=0c rag=3867c
+2026-04-17 10:23:00.981 [INFO] KB context: 3867 chars injected
+2026-04-17 10:23:01.762 [INFO] RESPONSE: That's okay, let's explore it together. If you were to stay in this job and the boredom and stress c
+2026-04-17 10:23:54.437 [INFO] INPUT: I'll not be able to innovate like I used to do, and it will just start feeling meaningless | intent=coaching
+2026-04-17 10:23:54.468 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "I'll not be able to innovate like I used to do, an"
+2026-04-17 10:23:55.254 [INFO] rewriteQuery: "I'll not be able to innovate like I used to do, an" → "innovation motivation loss feeling meaningless"
+2026-04-17 10:23:55.256 [INFO] Query rewrite: "I'll not be able to innovate like I used to do, an" → "innovation motivation loss feeling meaningless"
+2026-04-17 10:23:55.293 [INFO] RAG: "innovation motivation loss feeling meaningless" → 10 chunks (fallback=false) | top score=0.585
+2026-04-17 10:23:55.295 [INFO] Retrieved 10 chunks, top score=0.585
+2026-04-17 10:23:55.299 [INFO] Context: mem=0c rag=3582c
+2026-04-17 10:23:55.300 [INFO] KB context: 3582 chars injected
+2026-04-17 10:23:55.790 [INFO] RESPONSE: So the thought of staying in this job and not being able to innovate or find meaning in your work is
+2026-04-17 10:25:05.509 [INFO] INPUT: It's about introducing new solutions to the world, not just a temporary ordinary one. I want to leav | intent=coaching
+2026-04-17 10:25:05.539 [INFO] MEMORY: 1 relevant entries found (top score=0.319)
+2026-04-17 10:25:06.043 [INFO] rewriteQuery: "It's about introducing new solutions to the world," → "introducing new solutions leaving impact"
+2026-04-17 10:25:06.044 [INFO] Query rewrite: "It's about introducing new solutions to the world," → "introducing new solutions leaving impact"
+2026-04-17 10:25:06.087 [INFO] RAG: "introducing new solutions leaving impact" → 10 chunks (fallback=false) | top score=0.278
+2026-04-17 10:25:06.089 [INFO] Retrieved 10 chunks, top score=0.278
+2026-04-17 10:25:06.092 [INFO] Context: mem=35c rag=3886c
+2026-04-17 10:25:06.093 [INFO] KB context: 3886 chars injected
+2026-04-17 10:25:06.094 [INFO] Memory context injected: 35 chars
+2026-04-17 10:25:06.817 [INFO] RESPONSE: It's almost as if you're driven by a desire to create something that will outlast you, to leave a la
+2026-04-17 10:25:40.505 [INFO] INPUT: can u help me with decision making using NLP? | intent=coaching
+2026-04-17 10:25:40.525 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "can u help me with decision making using NLP?"
+2026-04-17 10:25:41.365 [INFO] rewriteQuery: "can u help me with decision making using NLP?" → "NLP decision making"
+2026-04-17 10:25:41.366 [INFO] Query rewrite: "can u help me with decision making using NLP?" → "NLP decision making"
+2026-04-17 10:25:41.393 [INFO] RAG: "NLP decision making" → 10 chunks (fallback=false) | top score=0.662
+2026-04-17 10:25:41.394 [INFO] Retrieved 10 chunks, top score=0.662
+2026-04-17 10:25:41.396 [INFO] Context: mem=0c rag=3618c
+2026-04-17 10:25:41.397 [INFO] KB context: 3618 chars injected
+2026-04-17 10:25:42.083 [INFO] RESPONSE: I can help you explore your decision using NLP. Let's use the Decision Framing pattern. Is quitting 
+2026-04-17 10:25:56.374 [INFO] RAG: "can u help me with decision making using NLP?" → 10 chunks (fallback=false) | top score=0.605
+2026-04-17 10:30:08.043 [INFO] INPUT: I'm not certain because I don't want to take such a decision under stress, yet I'm sure I don't like | intent=coaching
+2026-04-17 10:30:08.079 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "I'm not certain because I don't want to take such "
+2026-04-17 10:30:08.672 [INFO] rewriteQuery: "I'm not certain because I don't want to take such " → "decision making under stress"
+2026-04-17 10:30:08.673 [INFO] Query rewrite: "I'm not certain because I don't want to take such " → "decision making under stress"
+2026-04-17 10:30:08.711 [INFO] RAG: "decision making under stress" → 10 chunks (fallback=false) | top score=0.525
+2026-04-17 10:30:08.712 [INFO] Retrieved 10 chunks, top score=0.525
+2026-04-17 10:30:08.715 [INFO] Context: mem=0c rag=3588c
+2026-04-17 10:30:08.716 [INFO] KB context: 3588 chars injected
+2026-04-17 10:30:09.540 [INFO] RESPONSE: You want to make a decision that's not driven by stress, but rather by a clear sense of what you wan
+2026-04-17 10:35:52.082 [INFO] Client disconnected: j4rIVhAl28sGMbu9AAAH
+2026-04-17 10:38:18.689 [INFO] Client disconnected: -5dlmFtvyNCGYJ8HAAAE
+2026-04-17 10:38:40.034 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 10:38:40.038 [INFO] MetaCoach server starting...
+2026-04-17 10:38:40.039 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 10:38:40.041 [INFO] Sessions: local JSONL storage
+2026-04-17 10:38:40.055 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 10:38:40.245 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 10:38:40.246 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 10:38:40.247 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 10:38:40.248 [INFO] ⏩ 2023 Assist Team Leaders Manual (1).pdf: already ingested
+2026-04-17 10:38:40.249 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 10:38:40.250 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 10:38:40.251 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 10:38:40.252 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 10:38:40.252 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 10:38:40.253 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 10:38:40.254 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 10:38:40.255 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 10:38:40.255 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 10:38:40.256 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 10:38:40.257 [INFO] ✅ All PDFs already ingested (14 skipped)
+2026-04-17 10:38:40.258 [INFO] ✅ All PDFs already ingested (14 skipped)
+2026-04-17 10:38:40.263 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 10:38:46.661 [INFO] Client connected: Z1HX6G-cbVvjW6pEAAAB
+2026-04-17 10:38:51.549 [INFO] Client disconnected: Z1HX6G-cbVvjW6pEAAAB
+2026-04-17 10:38:52.331 [INFO] Client connected: YyqW2VLXPbeZGWtkAAAE
+2026-04-17 10:39:02.374 [INFO] Client connected: 1RbD8-jIjOeJB7orAAAH
+2026-04-17 10:39:34.960 [INFO] INPUT: hi, how are you? | intent=coaching
+2026-04-17 10:39:35.564 [INFO] rewriteQuery: "hi, how are you?" → "none"
+2026-04-17 10:39:35.566 [INFO] Query rewrite: "hi, how are you?" → "none"
+2026-04-17 10:39:35.568 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 10:39:36.002 [INFO] Embedding model ready
+2026-04-17 10:39:36.062 [WARN] RAG FALLBACK: 0 passed threshold (0.1), using top 3 by raw score. Top cosine=-0.088
+2026-04-17 10:39:36.064 [INFO] RAG: "none" → 3 chunks (fallback=true) | top score=-0.088
+2026-04-17 10:39:36.065 [INFO] Retrieved 3 chunks, top score=-0.088
+2026-04-17 10:39:36.066 [INFO] Context: mem=0c rag=1621c
+2026-04-17 10:39:36.068 [INFO] KB context: 1621 chars injected
+2026-04-17 10:39:36.964 [INFO] RESPONSE: I'm doing well, thanks for asking. It's great to connect with you. How about you, what brings you he
+2026-04-17 10:39:47.051 [INFO] INPUT: I want to quit my job | intent=coaching
+2026-04-17 10:39:47.687 [INFO] rewriteQuery: "I want to quit my job" → "quit job career change resignation"
+2026-04-17 10:39:47.688 [INFO] Query rewrite: "I want to quit my job" → "quit job career change resignation"
+2026-04-17 10:39:47.728 [INFO] RAG: "quit job career change resignation" → 6 chunks (fallback=false) | top score=0.205
+2026-04-17 10:39:47.729 [INFO] Retrieved 6 chunks, top score=0.205
+2026-04-17 10:39:47.732 [INFO] Context: mem=0c rag=3247c
+2026-04-17 10:39:47.733 [INFO] KB context: 3247 chars injected
+2026-04-17 10:39:48.445 [INFO] RESPONSE: What's driving that desire to quit your job - is it something specific that's happening at work, or 
+2026-04-17 10:40:02.857 [INFO] INPUT: it's boring and it's giving me stress due to the workload | intent=coaching
+2026-04-17 10:40:02.885 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "it's boring and it's giving me stress due to the w"
+2026-04-17 10:40:03.293 [INFO] rewriteQuery: "it's boring and it's giving me stress due to the w" → "boring stress workload"
+2026-04-17 10:40:03.295 [INFO] Query rewrite: "it's boring and it's giving me stress due to the w" → "boring stress workload"
+2026-04-17 10:40:03.329 [INFO] RAG: "boring stress workload" → 10 chunks (fallback=false) | top score=0.468
+2026-04-17 10:40:03.330 [INFO] Retrieved 10 chunks, top score=0.468
+2026-04-17 10:40:03.332 [INFO] Context: mem=0c rag=3579c
+2026-04-17 10:40:03.333 [INFO] KB context: 3579 chars injected
+2026-04-17 10:40:04.070 [INFO] RESPONSE: So the boredom and stress from the workload are really getting to you. What does it mean to you if y
+2026-04-17 10:40:27.906 [INFO] INPUT: I really don't know | intent=coaching
+2026-04-17 10:40:27.930 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "I really don't know"
+2026-04-17 10:40:28.454 [INFO] rewriteQuery: "I really don't know" → "self discovery personal growth uncertainty"
+2026-04-17 10:40:28.455 [INFO] Query rewrite: "I really don't know" → "self discovery personal growth uncertainty"
+2026-04-17 10:40:28.486 [INFO] RAG: "self discovery personal growth uncertainty" → 10 chunks (fallback=false) | top score=0.498
+2026-04-17 10:40:28.487 [INFO] Retrieved 10 chunks, top score=0.498
+2026-04-17 10:40:28.491 [INFO] Context: mem=0c rag=3867c
+2026-04-17 10:40:28.491 [INFO] KB context: 3867 chars injected
+2026-04-17 10:40:29.114 [INFO] RESPONSE: It can be hard to think about the long-term implications when you're feeling overwhelmed in the pres
+2026-04-17 10:42:50.907 [INFO] INPUT: innovation and creative work. I hope the next job would encourage these parts | intent=coaching
+2026-04-17 10:42:50.937 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "innovation and creative work. I hope the next job "
+2026-04-17 10:42:51.333 [INFO] rewriteQuery: "innovation and creative work. I hope the next job " → "innovation creative work job encouragement"
+2026-04-17 10:42:51.335 [INFO] Query rewrite: "innovation and creative work. I hope the next job " → "innovation creative work job encouragement"
+2026-04-17 10:42:51.367 [INFO] RAG: "innovation creative work job encouragement" → 10 chunks (fallback=false) | top score=0.599
+2026-04-17 10:42:51.368 [INFO] Retrieved 10 chunks, top score=0.599
+2026-04-17 10:42:51.370 [INFO] Context: mem=0c rag=3875c
+2026-04-17 10:42:51.371 [INFO] KB context: 3875 chars injected
+2026-04-17 10:42:51.968 [INFO] RESPONSE: Innovation and creative work are important to you, and you're hoping to find a job that will nurture
+2026-04-17 10:43:51.831 [INFO] INPUT: what is the capital of brazil? | intent=coaching
+2026-04-17 10:43:51.849 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "what is the capital of brazil?"
+2026-04-17 10:43:52.371 [INFO] rewriteQuery: "what is the capital of brazil?" → "Brazil capital"
+2026-04-17 10:43:52.372 [INFO] Query rewrite: "what is the capital of brazil?" → "Brazil capital"
+2026-04-17 10:43:52.409 [INFO] RAG: "Brazil capital" → 1 chunks (fallback=false) | top score=0.196
+2026-04-17 10:43:52.410 [INFO] Retrieved 1 chunks, top score=0.196
+2026-04-17 10:43:52.411 [INFO] Context: mem=0c rag=680c
+2026-04-17 10:43:52.412 [INFO] KB context: 680 chars injected
+2026-04-17 10:43:52.707 [INFO] RESPONSE: I don't have enough material on that to coach you well right now. What else is on your mind?
+2026-04-17 10:45:05.318 [INFO] INPUT: act as a NLP coach , ask me question by question and help me take the decision. | intent=coaching
+2026-04-17 10:45:05.344 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "act as a NLP coach , ask me question by question a"
+2026-04-17 10:45:05.928 [INFO] rewriteQuery: "act as a NLP coach , ask me question by question a" → "NLP coach decision making guidance"
+2026-04-17 10:45:05.929 [INFO] Query rewrite: "act as a NLP coach , ask me question by question a" → "NLP coach decision making guidance"
+2026-04-17 10:45:05.965 [INFO] RAG: "NLP coach decision making guidance" → 10 chunks (fallback=false) | top score=0.772
+2026-04-17 10:45:05.966 [INFO] Retrieved 10 chunks, top score=0.772
+2026-04-17 10:45:05.968 [INFO] Context: mem=0c rag=3757c
+2026-04-17 10:45:05.969 [INFO] KB context: 3757 chars injected
+2026-04-17 10:45:06.801 [INFO] RESPONSE: Let's start fresh. As your NLP coach, I'd like to ask: What is the specific outcome you want to achi
+2026-04-17 10:46:14.347 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 10:46:14.351 [INFO] MetaCoach server starting...
+2026-04-17 10:46:14.353 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 10:46:14.355 [INFO] Sessions: local JSONL storage
+2026-04-17 10:46:14.365 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 10:46:14.456 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 10:46:14.457 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 10:46:14.459 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 10:46:14.459 [INFO] ⏩ 2023 Assist Team Leaders Manual (1).pdf: already ingested
+2026-04-17 10:46:14.460 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 10:46:14.461 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 10:46:14.462 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 10:46:14.463 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 10:46:14.464 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 10:46:14.465 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 10:46:14.466 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 10:46:14.467 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 10:46:14.468 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 10:46:14.469 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 10:46:14.470 [INFO] ✅ All PDFs already ingested (14 skipped)
+2026-04-17 10:46:14.470 [INFO] ✅ All PDFs already ingested (14 skipped)
+2026-04-17 10:46:14.476 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 10:46:15.636 [INFO] Client connected: mofhS58JWApj56-NAAAB
+2026-04-17 10:46:16.800 [INFO] Client connected: KtLdr1qAavmwuXwtAAAF
+2026-04-17 10:47:30.795 [INFO] INPUT: hiii , I'm dealing with some anger issues | intent=coaching
+2026-04-17 10:47:31.331 [INFO] rewriteQuery: "hiii , I'm dealing with some anger issues" → "anger issues management techniques"
+2026-04-17 10:47:31.333 [INFO] Query rewrite: "hiii , I'm dealing with some anger issues" → "anger issues management techniques"
+2026-04-17 10:47:31.336 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 10:47:31.476 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 10:47:31.888 [INFO] Embedding model ready
+2026-04-17 10:47:32.155 [INFO] Embedding model ready
+2026-04-17 10:47:32.169 [INFO] RAG: "anger issues management techniques" → 10 chunks (fallback=false) | top score=0.712
+2026-04-17 10:47:32.170 [INFO] Retrieved 10 chunks, top score=0.712
+2026-04-17 10:47:32.173 [INFO] Context: mem=0c rag=3845c
+2026-04-17 10:47:32.174 [INFO] KB context: 3845 chars injected
+2026-04-17 10:47:32.876 [INFO] RESPONSE: It can be really tough to navigate anger. Can you tell me, what do you believe about anger - is it s
+2026-04-17 10:48:31.868 [INFO] INPUT: I believe it's happening to me however I should be able to control my actions, tone and words | intent=coaching
+2026-04-17 10:48:31.898 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "I believe it's happening to me however I should be"
+2026-04-17 10:48:32.362 [INFO] rewriteQuery: "I believe it's happening to me however I should be" → "controlling actions tone words"
+2026-04-17 10:48:32.363 [INFO] Query rewrite: "I believe it's happening to me however I should be" → "controlling actions tone words"
+2026-04-17 10:48:32.398 [INFO] RAG: "controlling actions tone words" → 10 chunks (fallback=false) | top score=0.688
+2026-04-17 10:48:32.399 [INFO] Retrieved 10 chunks, top score=0.688
+2026-04-17 10:48:32.402 [INFO] Context: mem=0c rag=3604c
+2026-04-17 10:48:32.402 [INFO] KB context: 3604 chars injected
+2026-04-17 10:48:33.022 [INFO] RESPONSE: So there's a sense of responsibility around how you express your anger, even if the feeling itself f
+2026-04-17 10:49:00.670 [INFO] INPUT: i really don't know, help me | intent=coaching
+2026-04-17 10:49:00.699 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "i really don't know, help me"
+2026-04-17 10:49:01.754 [INFO] rewriteQuery: "i really don't know, help me" → "life coaching personal help guidance support"
+2026-04-17 10:49:01.756 [INFO] Query rewrite: "i really don't know, help me" → "life coaching personal help guidance support"
+2026-04-17 10:49:01.793 [INFO] RAG: "life coaching personal help guidance support" → 10 chunks (fallback=false) | top score=0.751
+2026-04-17 10:49:01.794 [INFO] Retrieved 10 chunks, top score=0.751
+2026-04-17 10:49:01.798 [INFO] Context: mem=0c rag=3474c
+2026-04-17 10:49:01.799 [INFO] KB context: 3474 chars injected
+2026-04-17 10:49:02.832 [INFO] RESPONSE: I don't have enough material on that to coach you well right now. What else is on your mind?
+2026-04-17 10:50:45.743 [INFO] Client disconnected: mofhS58JWApj56-NAAAB
+2026-04-17 10:51:25.645 [INFO] INPUT: what is nlp? | intent=coaching
+2026-04-17 10:51:25.668 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "what is nlp?"
+2026-04-17 10:51:26.665 [INFO] rewriteQuery: "what is nlp?" → "nlp definition neuro linguistic programming"
+2026-04-17 10:51:26.666 [INFO] Query rewrite: "what is nlp?" → "nlp definition neuro linguistic programming"
+2026-04-17 10:51:26.700 [INFO] RAG: "nlp definition neuro linguistic programming" → 10 chunks (fallback=false) | top score=0.852
+2026-04-17 10:51:26.702 [INFO] Retrieved 10 chunks, top score=0.852
+2026-04-17 10:51:26.705 [INFO] Context: mem=0c rag=3772c
+2026-04-17 10:51:26.707 [INFO] KB context: 3772 chars injected
+2026-04-17 10:51:27.760 [INFO] RESPONSE: NLP, or Neuro-Linguistic Programming, is a model of how we communicate to ourselves and others. It's
+2026-04-17 10:54:05.357 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 10:54:05.361 [INFO] MetaCoach server starting...
+2026-04-17 10:54:05.362 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 10:54:05.364 [INFO] Sessions: local JSONL storage
+2026-04-17 10:54:05.374 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 10:54:05.464 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 10:54:05.465 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 10:54:05.466 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 10:54:05.467 [INFO] ⏩ 2023 Assist Team Leaders Manual (1).pdf: already ingested
+2026-04-17 10:54:05.468 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 10:54:05.469 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 10:54:05.469 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 10:54:05.470 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 10:54:05.471 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 10:54:05.472 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 10:54:05.473 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 10:54:05.473 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 10:54:05.474 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 10:54:05.475 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 10:54:05.476 [INFO] ✅ All PDFs already ingested (14 skipped)
+2026-04-17 10:54:05.477 [INFO] ✅ All PDFs already ingested (14 skipped)
+2026-04-17 10:54:05.481 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 10:54:08.226 [INFO] Client connected: a46dOKGrCBQoc3B_AAAC
+2026-04-17 10:54:14.564 [INFO] Client connected: Z_n5pkZvIfN7XQF1AAAE
+2026-04-17 10:54:54.799 [INFO] Client disconnected: a46dOKGrCBQoc3B_AAAC
+2026-04-17 10:54:55.000 [INFO] Client connected: BLZT5BP3TapryNh9AAAH
+2026-04-17 10:56:13.814 [INFO] INPUT: back to my anger issues, your Q :What tone do you think you would need to use, in order to express y | intent=coaching
+2026-04-17 10:56:14.300 [INFO] rewriteQuery: "back to my anger issues, your Q :What tone do you " → "expressing anger intentionally managing reactive e"
+2026-04-17 10:56:14.301 [INFO] Query rewrite: "back to my anger issues, your Q :What tone do you " → "expressing anger intentionally managing reactive e"
+2026-04-17 10:56:14.304 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 10:56:14.442 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 10:56:14.873 [INFO] Embedding model ready
+2026-04-17 10:56:15.154 [INFO] Embedding model ready
+2026-04-17 10:56:15.192 [INFO] RAG: "expressing anger intentionally managing reactive emotions" → 10 chunks (fallback=false) | top score=0.748
+2026-04-17 10:56:15.193 [INFO] Retrieved 10 chunks, top score=0.748
+2026-04-17 10:56:15.197 [INFO] Context: mem=0c rag=3949c
+2026-04-17 10:56:15.198 [INFO] KB context: 3949 chars injected
+2026-04-17 10:56:16.097 [INFO] RESPONSE: That's okay, sometimes not knowing is exactly the right place to be. If you were to give yourself pe
+2026-04-17 10:58:04.287 [INFO] INPUT: It will help be think clearer and listen more than I talk , it will boost the active listening skill | intent=coaching
+2026-04-17 10:58:04.322 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "It will help be think clearer and listen more than"
+2026-04-17 10:58:05.067 [INFO] rewriteQuery: "It will help be think clearer and listen more than" → "active listening skills anger management"
+2026-04-17 10:58:05.069 [INFO] Query rewrite: "It will help be think clearer and listen more than" → "active listening skills anger management"
+2026-04-17 10:58:05.107 [INFO] RAG: "active listening skills anger management" → 10 chunks (fallback=false) | top score=0.566
+2026-04-17 10:58:05.108 [INFO] Retrieved 10 chunks, top score=0.566
+2026-04-17 10:58:05.111 [INFO] Context: mem=0c rag=3913c
+2026-04-17 10:58:05.112 [INFO] KB context: 3913 chars injected
+2026-04-17 10:58:06.085 [INFO] RESPONSE: So, giving yourself permission to feel anger in a more intentional way could help you respond more t
+2026-04-17 10:58:54.237 [INFO] RAG: "I'm dealing with some anger issues" → 10 chunks (fallback=false) | top score=0.731
+2026-04-17 11:06:39.814 [INFO] Client disconnected: Z_n5pkZvIfN7XQF1AAAE
+2026-04-17 11:06:52.762 [INFO] INPUT: It will help me see better through their intentions and reduce the judge and investigation tone that | intent=coaching
+2026-04-17 11:06:52.797 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "It will help me see better through their intention"
+2026-04-17 11:06:53.587 [INFO] rewriteQuery: "It will help me see better through their intention" → "improving communication reducing judgmental tone c"
+2026-04-17 11:06:53.589 [INFO] Query rewrite: "It will help me see better through their intention" → "improving communication reducing judgmental tone c"
+2026-04-17 11:06:53.627 [INFO] RAG: "improving communication reducing judgmental tone caring abou" → 10 chunks (fallback=false) | top score=0.577
+2026-04-17 11:06:53.628 [INFO] Retrieved 10 chunks, top score=0.577
+2026-04-17 11:06:53.632 [INFO] Context: mem=0c rag=3933c
+2026-04-17 11:06:53.633 [INFO] KB context: 3933 chars injected
+2026-04-17 11:06:54.590 [INFO] RESPONSE: That's a beautiful shift. By accessing a state of calm anger, you're able to see beyond your initial
+2026-04-17 11:08:31.111 [INFO] Client connected: rchUZOdcxlj-CJBGAAAJ
+2026-04-17 11:08:36.479 [INFO] Client disconnected: rchUZOdcxlj-CJBGAAAJ
+2026-04-17 11:11:55.394 [INFO] Client disconnected: BLZT5BP3TapryNh9AAAH
+2026-04-17 11:14:28.757 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 11:14:28.761 [INFO] MetaCoach server starting...
+2026-04-17 11:14:28.763 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 11:14:28.765 [INFO] Sessions: local JSONL storage
+2026-04-17 11:14:28.776 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 11:14:28.900 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 11:14:28.901 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 11:14:28.902 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 11:14:28.903 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 11:14:28.904 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 11:14:28.905 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 11:14:28.906 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 11:14:28.907 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 11:14:28.908 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 11:14:28.909 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 11:14:28.910 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 11:14:28.911 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 11:14:28.912 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 11:14:28.914 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 11:14:28.915 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 11:14:28.921 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 11:14:32.322 [INFO] Client connected: Q7_1DDV01glXceiEAAAC
+2026-04-17 11:16:48.122 [INFO] INPUT: I don't know, how should I frame anger? and how can I get into the meta-state of calm anger? | intent=coaching
+2026-04-17 11:16:49.107 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 11:16:49.259 [INFO] rewriteQuery: "I don't know, how should I frame anger? and how ca" → "calm anger management framing techniques"
+2026-04-17 11:16:49.269 [INFO] Query rewrite: "I don't know, how should I frame anger? and how ca" → "calm anger management framing techniques"
+2026-04-17 11:16:49.272 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 11:16:49.700 [INFO] Embedding model ready
+2026-04-17 11:16:49.963 [INFO] Embedding model ready
+2026-04-17 11:16:50.014 [INFO] RAG: "calm anger management framing techniques" → 10 chunks (fallback=false) | top score=0.777
+2026-04-17 11:16:50.015 [INFO] Retrieved 10 chunks, top score=0.777
+2026-04-17 11:16:50.017 [INFO] Context: mem=0c rag=3839c
+2026-04-17 11:16:50.018 [INFO] KB context: 3839 chars injected
+2026-04-17 11:16:51.389 [INFO] RESPONSE: Framing anger as a signal that something is violating your values or boundaries can be a useful star
+2026-04-17 11:19:42.938 [INFO] INPUT: At that point, I start predicting the worse case scenarios aside with the good ones. also I start au | intent=coaching
+2026-04-17 11:19:42.980 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "At that point, I start predicting the worse case s"
+2026-04-17 11:19:43.497 [INFO] rewriteQuery: "At that point, I start predicting the worse case s" → "predicting worst case scenarios strict tone acknow"
+2026-04-17 11:19:43.498 [INFO] Query rewrite: "At that point, I start predicting the worse case s" → "predicting worst case scenarios strict tone acknow"
+2026-04-17 11:19:43.534 [INFO] RAG: "predicting worst case scenarios strict tone acknowledgments" → 10 chunks (fallback=false) | top score=0.345
+2026-04-17 11:19:43.536 [INFO] Retrieved 10 chunks, top score=0.345
+2026-04-17 11:19:43.538 [INFO] Context: mem=0c rag=3871c
+2026-04-17 11:19:43.539 [INFO] KB context: 3871 chars injected
+2026-04-17 11:19:44.281 [INFO] RESPONSE: It sounds like you're already noticing a shift in your thinking, considering both worst-case and bes
+2026-04-17 11:20:50.866 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 11:20:50.870 [INFO] MetaCoach server starting...
+2026-04-17 11:20:50.871 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 11:20:50.873 [INFO] Sessions: local JSONL storage
+2026-04-17 11:20:50.885 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 11:20:50.977 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 11:20:50.978 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 11:20:50.979 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 11:20:50.980 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 11:20:50.981 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 11:20:50.982 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 11:20:50.983 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 11:20:50.983 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 11:20:50.984 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 11:20:50.985 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 11:20:50.986 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 11:20:50.987 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 11:20:50.987 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 11:20:50.988 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 11:20:50.989 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 11:20:50.994 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 11:20:53.638 [INFO] Client connected: _XpD-LEeUlI8SDm6AAAB
+2026-04-17 11:21:01.996 [INFO] Client disconnected: _XpD-LEeUlI8SDm6AAAB
+2026-04-17 11:21:07.634 [INFO] Client connected: Z3nI5oNl5QVhEeRKAAAD
+2026-04-17 11:21:12.074 [INFO] Client disconnected: Z3nI5oNl5QVhEeRKAAAD
+2026-04-17 11:21:12.834 [INFO] Client connected: CPixoBLUwlCrCHuqAAAG
+2026-04-17 11:22:54.792 [INFO] INPUT: I don't know how should I frame anger? what is  meta-state of calm anger and how can i get into it? | intent=coaching
+2026-04-17 11:22:55.700 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 11:22:56.013 [INFO] Embedding model ready
+2026-04-17 11:22:56.033 [INFO] rewriteQuery: "I don't know how should I frame anger? what is  me" → "calm anger management meta state framing anger tec"
+2026-04-17 11:22:56.034 [INFO] Query rewrite: "I don't know how should I frame anger? what is  me" → "calm anger management meta state framing anger tec"
+2026-04-17 11:22:56.065 [INFO] RAG: "calm anger management meta state framing anger techniques" → 10 chunks (fallback=false) | top score=0.888
+2026-04-17 11:22:56.067 [INFO] Retrieved 10 chunks, top score=0.888
+2026-04-17 11:22:56.069 [INFO] Context: mem=0c rag=3820c
+2026-04-17 11:22:56.070 [INFO] KB context: 3820 chars injected
+2026-04-17 11:22:56.932 [INFO] RESPONSE: A meta-state of calm anger would be a state where you're still feeling the energy and passion of ang
+2026-04-17 11:23:38.766 [INFO] INPUT: how should i frame anger? | intent=coaching
+2026-04-17 11:23:38.786 [INFO] MEMORY: 1 relevant entries found (top score=0.283)
+2026-04-17 11:23:39.400 [INFO] rewriteQuery: "how should i frame anger?" → "managing anger framing emotions"
+2026-04-17 11:23:39.402 [INFO] Query rewrite: "how should i frame anger?" → "managing anger framing emotions"
+2026-04-17 11:23:39.432 [INFO] RAG: "managing anger framing emotions" → 10 chunks (fallback=false) | top score=0.747
+2026-04-17 11:23:39.433 [INFO] Retrieved 10 chunks, top score=0.747
+2026-04-17 11:23:39.435 [INFO] Context: mem=22c rag=3851c
+2026-04-17 11:23:39.436 [INFO] KB context: 3851 chars injected
+2026-04-17 11:23:39.437 [INFO] Memory context injected: 22 chars
+2026-04-17 11:23:40.452 [INFO] RESPONSE: Could you frame anger as a signal that something is violating one of your values, rather than as a t
+2026-04-17 11:26:34.419 [INFO] INPUT: when i get into that point of anger, i start automatically a strict sharp tone that makes the conver | intent=coaching
+2026-04-17 11:26:34.462 [INFO] MEMORY: 1 relevant entries found (top score=0.294)
+2026-04-17 11:26:34.903 [INFO] rewriteQuery: "when i get into that point of anger, i start autom" → "anger management tone conversation investigation a"
+2026-04-17 11:26:34.905 [INFO] Query rewrite: "when i get into that point of anger, i start autom" → "anger management tone conversation investigation a"
+2026-04-17 11:26:34.945 [INFO] RAG: "anger management tone conversation investigation assumptions" → 10 chunks (fallback=false) | top score=0.700
+2026-04-17 11:26:34.946 [INFO] Retrieved 10 chunks, top score=0.700
+2026-04-17 11:26:34.949 [INFO] Context: mem=22c rag=3949c
+2026-04-17 11:26:34.950 [INFO] KB context: 3949 chars injected
+2026-04-17 11:26:34.951 [INFO] Memory context injected: 22 chars
+2026-04-17 11:26:35.156 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97612, Requested 3375. Please try again in 14m12.768s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 11:26:35.157 [ERROR] Socket chat error: Groq API 429
+2026-04-17 11:26:44.762 [INFO] INPUT: when i get into that point of anger, i start automatically a strict sharp tone that makes the conver | intent=coaching
+2026-04-17 11:26:44.800 [INFO] MEMORY: 1 relevant entries found (top score=0.294)
+2026-04-17 11:26:45.359 [INFO] rewriteQuery: "when i get into that point of anger, i start autom" → "anger management tone conversation investigation a"
+2026-04-17 11:26:45.360 [INFO] Query rewrite: "when i get into that point of anger, i start autom" → "anger management tone conversation investigation a"
+2026-04-17 11:26:45.389 [INFO] RAG: "anger management tone conversation investigation assumptions" → 10 chunks (fallback=false) | top score=0.700
+2026-04-17 11:26:45.391 [INFO] Retrieved 10 chunks, top score=0.700
+2026-04-17 11:26:45.394 [INFO] Context: mem=22c rag=3953c
+2026-04-17 11:26:45.395 [INFO] KB context: 3953 chars injected
+2026-04-17 11:26:45.395 [INFO] Memory context injected: 22 chars
+2026-04-17 11:26:45.599 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97991, Requested 3296. Please try again in 18m31.967999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 11:26:45.601 [ERROR] Socket chat error: Groq API 429
+2026-04-17 11:34:53.150 [INFO] Client disconnected: CPixoBLUwlCrCHuqAAAG
+2026-04-17 11:35:41.909 [INFO] Client connected: Bo2HtaNvtm8CGlAsAAAI
+2026-04-17 11:53:47.968 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 11:53:47.978 [INFO] MetaCoach server starting...
+2026-04-17 11:53:47.979 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 11:53:47.982 [INFO] Sessions: local JSONL storage
+2026-04-17 11:53:48.040 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 11:53:48.328 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 11:53:48.329 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 11:53:48.331 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 11:53:48.331 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 11:53:48.332 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 11:53:48.333 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 11:53:48.334 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 11:53:48.335 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 11:53:48.335 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 11:53:48.336 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 11:53:48.336 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 11:53:48.337 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 11:53:48.338 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 11:53:48.338 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 11:53:48.339 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 11:53:48.349 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 11:54:49.339 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 11:54:49.347 [INFO] MetaCoach server starting...
+2026-04-17 11:54:49.348 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 11:54:49.351 [INFO] Sessions: local JSONL storage
+2026-04-17 11:54:49.364 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 11:54:49.469 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 11:54:49.470 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 11:54:49.471 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 11:54:49.472 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 11:54:49.473 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 11:54:49.474 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 11:54:49.474 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 11:54:49.475 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 11:54:49.476 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 11:54:49.477 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 11:54:49.478 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 11:54:49.478 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 11:54:49.479 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 11:54:49.480 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 11:54:49.481 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 11:55:55.022 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 11:55:55.025 [INFO] MetaCoach server starting...
+2026-04-17 11:55:55.026 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 11:55:55.028 [INFO] Sessions: local JSONL storage
+2026-04-17 11:55:55.038 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 11:55:55.134 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 11:55:55.135 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 11:55:55.136 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 11:55:55.136 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 11:55:55.137 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 11:55:55.138 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 11:55:55.138 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 11:55:55.139 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 11:55:55.139 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 11:55:55.140 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 11:55:55.140 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 11:55:55.141 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 11:55:55.144 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 11:55:55.145 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 11:55:55.145 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 11:55:55.150 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 11:56:18.772 [INFO] Client connected: HvAYOS71NccXtBnkAAAC
+2026-04-17 11:56:54.076 [INFO] Client disconnected: HvAYOS71NccXtBnkAAAC
+2026-04-17 11:56:54.319 [INFO] Client connected: orpacmu3tokIRo3XAAAF
+2026-04-17 11:57:32.261 [INFO] INPUT: I don't know how should i frame anger. what is a meta-state of calm anger and how can i get into it? | intent=coaching
+2026-04-17 11:57:33.004 [INFO] rewriteQuery: "I don't know how should i frame anger. what is a m" → "calm anger management meta state framing technique"
+2026-04-17 11:57:33.005 [INFO] Query rewrite: "I don't know how should i frame anger. what is a m" → "calm anger management meta state framing technique"
+2026-04-17 11:57:33.008 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 11:57:33.148 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 11:57:33.667 [INFO] Embedding model ready
+2026-04-17 11:57:33.940 [INFO] Embedding model ready
+2026-04-17 11:57:33.963 [INFO] RAG: "calm anger management meta state framing techniques" → 3 chunks (fallback=false) | top score=0.878
+2026-04-17 11:57:33.964 [INFO] Retrieved 3 chunks, top score=0.878
+2026-04-17 11:57:34.682 [INFO] Context: mem=0c rag=352c
+2026-04-17 11:57:34.684 [INFO] KB context: 352 chars injected
+2026-04-17 11:57:34.809 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97300, Requested 3569. Please try again in 12m30.816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 11:57:34.824 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 11:57:35.758 [ERROR] Socket chat error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:streamGenerateContent?alt=sse: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-17 12:00:42.695 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 12:00:42.699 [INFO] MetaCoach server starting...
+2026-04-17 12:00:42.701 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 12:00:42.702 [INFO] Sessions: local JSONL storage
+2026-04-17 12:00:42.714 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 12:00:42.811 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 12:00:42.812 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 12:00:42.813 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 12:00:42.814 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 12:00:42.815 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 12:00:42.816 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 12:00:42.817 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 12:00:42.818 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 12:00:42.819 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 12:00:42.819 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 12:00:42.820 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 12:00:42.821 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 12:00:42.822 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 12:00:42.823 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 12:00:42.823 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 12:00:42.830 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 12:00:43.642 [INFO] Client connected: lSW_m2o8llsj4GNVAAAB
+2026-04-17 12:00:49.192 [INFO] Client disconnected: lSW_m2o8llsj4GNVAAAB
+2026-04-17 12:00:54.639 [INFO] Client connected: GeBK0Sp54HI-g2LBAAAD
+2026-04-17 12:00:56.764 [INFO] Client disconnected: GeBK0Sp54HI-g2LBAAAD
+2026-04-17 12:00:56.960 [INFO] Client connected: Nqo7r7KBJqkJ8RV6AAAG
+2026-04-17 12:00:57.045 [INFO] Client connected: SjQU76p_oYigkiyMAAAJ
+2026-04-17 12:01:00.064 [INFO] Client disconnected: Nqo7r7KBJqkJ8RV6AAAG
+2026-04-17 12:01:06.009 [INFO] Client connected: q55XL-_mRbzH0hOCAAAM
+2026-04-17 12:02:24.316 [INFO] INPUT: I don't know how to frame anger. what is a meta-state of calm anger and how to get into it? | intent=coaching
+2026-04-17 12:02:24.867 [INFO] rewriteQuery: "I don't know how to frame anger. what is a meta-st" → "calm anger management meta state framing technique"
+2026-04-17 12:02:24.868 [INFO] Query rewrite: "I don't know how to frame anger. what is a meta-st" → "calm anger management meta state framing technique"
+2026-04-17 12:02:24.871 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 12:02:25.267 [INFO] Embedding model ready
+2026-04-17 12:02:25.313 [INFO] RAG: "calm anger management meta state framing techniques" → 3 chunks (fallback=false) | top score=0.878
+2026-04-17 12:02:25.315 [INFO] Retrieved 3 chunks, top score=0.878
+2026-04-17 12:02:26.417 [INFO] Context: mem=0c rag=357c
+2026-04-17 12:02:26.419 [INFO] KB context: 357 chars injected
+2026-04-17 12:02:26.544 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98324, Requested 2142. Please try again in 6m42.624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:02:26.545 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:02:27.361 [ERROR] Socket chat error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 32.685791815s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"32s"}]
+2026-04-17 12:06:01.057 [INFO] Client disconnected: q55XL-_mRbzH0hOCAAAM
+2026-04-17 12:10:21.186 [INFO] Client disconnected: SjQU76p_oYigkiyMAAAJ
+2026-04-17 12:10:27.976 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 12:10:27.981 [INFO] MetaCoach server starting...
+2026-04-17 12:10:27.982 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 12:10:27.984 [INFO] Sessions: local JSONL storage
+2026-04-17 12:10:27.999 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 12:10:28.111 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 12:10:28.113 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 12:10:28.114 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 12:10:28.114 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 12:10:28.115 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 12:10:28.116 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 12:10:28.117 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 12:10:28.118 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 12:10:28.118 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 12:10:28.119 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 12:10:28.120 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 12:10:28.121 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 12:10:28.121 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 12:10:28.122 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 12:10:28.123 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 12:10:28.129 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 12:10:34.672 [INFO] Client connected: fbb1HfhRNXuUnJKTAAAB
+2026-04-17 12:10:36.311 [INFO] Client disconnected: fbb1HfhRNXuUnJKTAAAB
+2026-04-17 12:10:37.883 [INFO] Client connected: X8VvcSTmDoUPF9zrAAAE
+2026-04-17 12:10:51.825 [INFO] INPUT: I don't know how to frame anger. what is a meta-state of calm anger and how to get into it? | intent=coaching
+2026-04-17 12:10:52.453 [INFO] rewriteQuery: "I don't know how to frame anger. what is a meta-st" → "calm anger management meta state framing technique"
+2026-04-17 12:10:52.454 [INFO] Query rewrite: "I don't know how to frame anger. what is a meta-st" → "calm anger management meta state framing technique"
+2026-04-17 12:10:52.458 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 12:10:52.468 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 12:10:52.980 [INFO] Embedding model ready
+2026-04-17 12:10:53.230 [INFO] Embedding model ready
+2026-04-17 12:10:53.266 [INFO] RAG: "calm anger management meta state framing techniques" → 3 chunks (fallback=false) | top score=0.878
+2026-04-17 12:10:53.267 [INFO] Retrieved 3 chunks, top score=0.878
+2026-04-17 12:10:54.343 [INFO] Context: mem=0c rag=357c
+2026-04-17 12:10:54.345 [INFO] KB context: 357 chars injected
+2026-04-17 12:10:54.468 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99098, Requested 3563. Please try again in 38m19.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:10:54.469 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:10:59.630 [INFO] RESPONSE: You get there by first accessing a feeling of calmness within yourself and then bringing that calm s
+2026-04-17 12:13:41.483 [INFO] INPUT: I think my tone would sound less aggressive not to let the conversation sounds like an investigation | intent=coaching
+2026-04-17 12:13:41.516 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "I think my tone would sound less aggressive not to"
+2026-04-17 12:13:42.280 [INFO] rewriteQuery: "I think my tone would sound less aggressive not to" → "non aggressive tone conversation skills"
+2026-04-17 12:13:42.282 [INFO] Query rewrite: "I think my tone would sound less aggressive not to" → "non aggressive tone conversation skills"
+2026-04-17 12:13:42.329 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.585
+2026-04-17 12:13:42.331 [INFO] RAG: "non aggressive tone conversation skills" → 3 chunks (fallback=true) | top score=0.585
+2026-04-17 12:13:42.332 [INFO] Retrieved 3 chunks, top score=0.585
+2026-04-17 12:13:42.977 [INFO] Context: mem=0c rag=311c
+2026-04-17 12:13:42.978 [INFO] KB context: 311 chars injected
+2026-04-17 12:13:43.100 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99638, Requested 2113. Please try again in 25m12.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:13:43.102 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:13:58.357 [INFO] RESPONSE: What happens to the urge to investigate when you intentionally slow down the pace of the conversatio
+2026-04-17 12:15:01.059 [INFO] INPUT: the urge slightly fades away yet, internally I'm still angry | intent=coaching
+2026-04-17 12:15:01.092 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "the urge slightly fades away yet, internally I'm s"
+2026-04-17 12:15:02.142 [INFO] rewriteQuery: "the urge slightly fades away yet, internally I'm s" → "anger management internal conflict emotional fade"
+2026-04-17 12:15:02.143 [INFO] Query rewrite: "the urge slightly fades away yet, internally I'm s" → "anger management internal conflict emotional fade"
+2026-04-17 12:15:02.179 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.690
+2026-04-17 12:15:02.180 [INFO] RAG: "anger management internal conflict emotional fade" → 3 chunks (fallback=true) | top score=0.690
+2026-04-17 12:15:02.181 [INFO] Retrieved 3 chunks, top score=0.690
+2026-04-17 12:15:02.303 [ERROR] Groq error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99831, Requested 492. Please try again in 4m39.072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:15:02.304 [WARN] Fallback to Gemini Base due to 429
+2026-04-17 12:15:14.953 [INFO] Context: mem=0c rag=103c
+2026-04-17 12:15:14.956 [INFO] KB context: 103 chars injected
+2026-04-17 12:15:15.257 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99816, Requested 2024. Please try again in 26m29.76s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:15:15.259 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:15:21.152 [INFO] RESPONSE: Since the urge to react has quieted down, what is the internal anger actually trying to communicate 
+2026-04-17 12:16:23.417 [INFO] INPUT: I don't understand your question | intent=coaching
+2026-04-17 12:16:23.440 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "I don't understand your question"
+2026-04-17 12:16:23.827 [ERROR] Groq error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99984, Requested 106. Please try again in 1m17.759999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:16:23.829 [WARN] Fallback to Gemini Base due to 429
+2026-04-17 12:16:26.238 [INFO] rewriteQuery: "I don't understand your question" → "clarification"
+2026-04-17 12:16:26.239 [INFO] Query rewrite: "I don't understand your question" → "clarification"
+2026-04-17 12:16:26.275 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.055
+2026-04-17 12:16:26.276 [INFO] RAG: "clarification" → 3 chunks (fallback=true) | top score=0.055
+2026-04-17 12:16:26.277 [INFO] Retrieved 3 chunks, top score=0.055
+2026-04-17 12:16:26.395 [ERROR] Groq error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99909, Requested 498. Please try again in 5m51.647999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:16:26.396 [WARN] Fallback to Gemini Base due to 429
+2026-04-17 12:16:29.301 [INFO] Context: mem=0c rag=56c
+2026-04-17 12:16:29.302 [INFO] KB context: 56 chars injected
+2026-04-17 12:16:29.423 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99905, Requested 2058. Please try again in 28m16.032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:16:29.425 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:16:56.178 [INFO] RESPONSE: Let's look at it as having two layers: the anger is what you're feeling about the situation, but you
+2026-04-17 12:17:56.461 [INFO] INPUT: I'll be calmer and the other person would be able to explain his point of view feeling that he has a | intent=coaching
+2026-04-17 12:17:56.487 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "I'll be calmer and the other person would be able "
+2026-04-17 12:17:56.782 [ERROR] Groq error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99931, Requested 224. Please try again in 2m13.919999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:17:56.784 [WARN] Fallback to Gemini Base due to 429
+2026-04-17 12:17:57.085 [INFO] rewriteQuery: "I'll be calmer and the other person would be able " → "calmer safe space effective communication active l"
+2026-04-17 12:17:57.087 [INFO] Query rewrite: "I'll be calmer and the other person would be able " → "calmer safe space effective communication active l"
+2026-04-17 12:17:57.140 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.317
+2026-04-17 12:17:57.141 [INFO] RAG: "calmer safe space effective communication active listening" → 3 chunks (fallback=true) | top score=0.317
+2026-04-17 12:17:57.142 [INFO] Retrieved 3 chunks, top score=0.317
+2026-04-17 12:17:57.261 [ERROR] Groq error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99910, Requested 444. Please try again in 5m5.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:17:57.263 [WARN] Fallback to Gemini Base due to 429
+2026-04-17 12:18:00.949 [INFO] Context: mem=0c rag=73c
+2026-04-17 12:18:00.951 [INFO] KB context: 73 chars injected
+2026-04-17 12:18:01.071 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99906, Requested 2039. Please try again in 28m0.479999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:18:01.072 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:18:19.797 [INFO] RESPONSE: What is the core value you’re honoring when you choose to prioritize that safe space for them over t
+2026-04-17 12:20:06.098 [INFO] INPUT: It shows the other person that i care about him more than proving my point of view | intent=coaching
+2026-04-17 12:20:06.122 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "It shows the other person that i care about him mo"
+2026-04-17 12:20:06.419 [ERROR] Groq error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99878, Requested 258. Please try again in 1m57.504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:20:06.420 [WARN] Fallback to Gemini Base due to 429
+2026-04-17 12:20:06.548 [INFO] rewriteQuery: "It shows the other person that i care about him mo" → "active listening effective communication caring re"
+2026-04-17 12:20:06.549 [INFO] Query rewrite: "It shows the other person that i care about him mo" → "active listening effective communication caring re"
+2026-04-17 12:20:06.585 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.571
+2026-04-17 12:20:06.586 [INFO] RAG: "active listening effective communication caring relationship" → 3 chunks (fallback=true) | top score=0.571
+2026-04-17 12:20:06.587 [INFO] Retrieved 3 chunks, top score=0.571
+2026-04-17 12:20:06.707 [ERROR] Groq error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99855, Requested 481. Please try again in 4m50.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:20:06.708 [WARN] Fallback to Gemini Base due to 429
+2026-04-17 12:20:20.654 [INFO] Context: mem=0c rag=58c
+2026-04-17 12:20:20.655 [INFO] KB context: 58 chars injected
+2026-04-17 12:20:20.957 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99839, Requested 2069. Please try again in 27m28.512s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:20:20.958 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:20:36.239 [INFO] RESPONSE: What changes in your body when the value of the relationship becomes the primary frame for your ange
+2026-04-17 12:21:54.114 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 12:21:54.119 [INFO] MetaCoach server starting...
+2026-04-17 12:21:54.120 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 12:21:54.122 [INFO] Sessions: local JSONL storage
+2026-04-17 12:21:54.149 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 12:21:54.241 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 12:21:54.242 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 12:21:54.243 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 12:21:54.244 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 12:21:54.245 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 12:21:54.246 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 12:21:54.246 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 12:21:54.247 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 12:21:54.248 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 12:21:54.249 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 12:21:54.250 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 12:21:54.250 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 12:21:54.251 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 12:21:54.252 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 12:21:54.253 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 12:21:54.258 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 12:21:54.631 [INFO] Client connected: Rmq6ElONcQYY843bAAAB
+2026-04-17 12:22:35.213 [INFO] INPUT: Coach me how should I frame anger and deal with it | intent=coaching
+2026-04-17 12:22:35.254 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 12:22:35.645 [INFO] Embedding model ready
+2026-04-17 12:22:35.690 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.620
+2026-04-17 12:22:35.692 [INFO] RAG: "Coach me how should I frame anger and deal with it" → 3 chunks (fallback=true) | top score=0.620
+2026-04-17 12:22:35.693 [INFO] Retrieved 3 chunks, top score=0.620
+2026-04-17 12:22:35.695 [INFO] Context: mem=0c rag=1284c
+2026-04-17 12:22:35.696 [INFO] KB context: 1284 chars injected
+2026-04-17 12:22:36.008 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99935, Requested 2288. Please try again in 32m0.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:22:36.011 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:22:41.149 [INFO] RESPONSE: What moral judgments or beliefs do you currently hold about the experience of anger that make it fee
+2026-04-17 12:22:56.945 [INFO] INPUT: what is a meta-state of calm anger and how to get into it? | intent=coaching
+2026-04-17 12:22:56.977 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "what is a meta-state of calm anger and how to get "
+2026-04-17 12:22:57.014 [INFO] RAG: "what is a meta-state of calm anger and how to get into it?" → 4 chunks (fallback=false) | top score=0.896
+2026-04-17 12:22:57.016 [INFO] Retrieved 4 chunks, top score=0.896
+2026-04-17 12:22:57.018 [INFO] Context: mem=0c rag=1261c
+2026-04-17 12:22:57.018 [INFO] KB context: 1261 chars injected
+2026-04-17 12:22:57.291 [ERROR] Groq error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99866, Requested 211. Please try again in 1m6.527999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:22:57.292 [WARN] Fallback to Gemini Base due to 429
+2026-04-17 12:22:57.318 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99866, Requested 2317. Please try again in 31m26.111999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:22:57.320 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:23:12.601 [INFO] RESPONSE: A meta-state of calm anger is what happens when you take a resourceful state, like calmness, and lay
+2026-04-17 12:24:00.718 [INFO] INPUT: Q: What moral judgments or beliefs do you currently hold about the experience of anger that make it  | intent=coaching
+2026-04-17 12:24:00.764 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "Q: What moral judgments or beliefs do you currentl"
+2026-04-17 12:24:00.814 [INFO] RAG: "Q: What moral judgments or beliefs do you currently hold abo" → 1 chunks (fallback=false) | top score=0.789
+2026-04-17 12:24:00.816 [INFO] Retrieved 1 chunks, top score=0.789
+2026-04-17 12:24:00.817 [INFO] Context: mem=0c rag=739c
+2026-04-17 12:24:00.817 [INFO] KB context: 739 chars injected
+2026-04-17 12:24:01.112 [ERROR] Groq error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99792, Requested 413. Please try again in 2m57.12s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:24:01.114 [WARN] Fallback to Gemini Base due to 429
+2026-04-17 12:24:01.121 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99792, Requested 3675. Please try again in 49m55.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:24:01.122 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:24:06.726 [INFO] RESPONSE: That's okay—sometimes not knowing is exactly the right place to be. If you look back at your persona
+2026-04-17 12:31:58.407 [INFO] INPUT: I get angry on simple things, it feels like an urge I can't control, sometimes I can feel it even in | intent=coaching
+2026-04-17 12:31:58.446 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "I get angry on simple things, it feels like an urg"
+2026-04-17 12:31:58.494 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.617
+2026-04-17 12:31:58.496 [INFO] RAG: "I get angry on simple things, it feels like an urge I can't " → 3 chunks (fallback=true) | top score=0.617
+2026-04-17 12:31:58.497 [INFO] Retrieved 3 chunks, top score=0.617
+2026-04-17 12:31:58.498 [INFO] Context: mem=0c rag=1417c
+2026-04-17 12:31:58.499 [INFO] KB context: 1417 chars injected
+2026-04-17 12:31:58.883 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99647, Requested 3835. Please try again in 50m8.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:31:58.884 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:32:16.023 [INFO] RESPONSE: What do you believe about anger that makes it feel like an uncontrollable urge rather than a signal 
+2026-04-17 12:34:24.422 [INFO] INPUT: I feel lost now , can you reframe what we are talking about | intent=coaching
+2026-04-17 12:34:24.432 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "I feel lost now , can you reframe what we are talk"
+2026-04-17 12:34:24.450 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.390
+2026-04-17 12:34:24.451 [INFO] RAG: "I feel lost now , can you reframe what we are talking about" → 3 chunks (fallback=true) | top score=0.390
+2026-04-17 12:34:24.452 [INFO] Retrieved 3 chunks, top score=0.390
+2026-04-17 12:34:24.452 [INFO] Context: mem=0c rag=1424c
+2026-04-17 12:34:24.453 [INFO] KB context: 1424 chars injected
+2026-04-17 12:34:24.746 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99904, Requested 3859. Please try again in 54m11.231999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:34:24.747 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:34:30.691 [INFO] RESPONSE: This isn't about stopping the anger, but about changing what the anger means to you: it's not a loss
+2026-04-17 12:35:25.127 [INFO] Client connected: HHpuK3HNlH8jZT_QAAAE
+2026-04-17 12:42:00.248 [INFO] Client disconnected: HHpuK3HNlH8jZT_QAAAE
+2026-04-17 12:49:42.630 [INFO] INPUT: Hi today i feel that i am distracted and i need to plan my day because it is totally overwhelmin | intent=coaching
+2026-04-17 12:49:42.641 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "Hi today i feel that i am distracted and i need to"
+2026-04-17 12:49:42.661 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.377
+2026-04-17 12:49:42.662 [INFO] RAG: "Hi today i feel that i am distracted and i need to plan my d" → 3 chunks (fallback=true) | top score=0.377
+2026-04-17 12:49:42.662 [INFO] Retrieved 3 chunks, top score=0.377
+2026-04-17 12:49:42.663 [INFO] Context: mem=0c rag=1432c
+2026-04-17 12:49:42.664 [INFO] KB context: 1432 chars injected
+2026-04-17 12:49:43.024 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98859, Requested 3614. Please try again in 35m36.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:49:43.025 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:49:58.613 [INFO] RESPONSE: Take a moment to just notice the sights and sounds in the room around you, allowing yourself to sett
+2026-04-17 12:50:53.735 [INFO] INPUT: can u give me a menu list? | intent=coaching
+2026-04-17 12:50:53.742 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "can u give me a menu list?"
+2026-04-17 12:50:53.757 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=-0.053
+2026-04-17 12:50:53.757 [INFO] RAG: "can u give me a menu list?" → 3 chunks (fallback=true) | top score=-0.053
+2026-04-17 12:50:53.758 [INFO] Retrieved 3 chunks, top score=-0.053
+2026-04-17 12:50:53.759 [INFO] Context: mem=0c rag=1390c
+2026-04-17 12:50:53.759 [INFO] KB context: 1390 chars injected
+2026-04-17 12:50:54.055 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99581, Requested 3662. Please try again in 46m41.952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:50:54.056 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:50:54.982 [WARN] Gemini stream 429 — sleeping 141720629s (attempt 1/2)...
+2026-04-17 12:50:59.826 [INFO] RESPONSE: You could approach this with a sense of playfulness, treat the distractions as just feedback about y
+2026-04-17 12:53:47.780 [INFO] INPUT: calm curiosity, playfulness, view the planning as a challenge you are ready to take on so that i can | intent=coaching
+2026-04-17 12:53:47.797 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "calm curiosity, playfulness, view the planning as "
+2026-04-17 12:53:47.820 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.657
+2026-04-17 12:53:47.820 [INFO] RAG: "calm curiosity, playfulness, view the planning as a challeng" → 3 chunks (fallback=true) | top score=0.657
+2026-04-17 12:53:47.821 [INFO] Retrieved 3 chunks, top score=0.657
+2026-04-17 12:53:47.821 [INFO] Context: mem=0c rag=1322c
+2026-04-17 12:53:47.822 [INFO] KB context: 1322 chars injected
+2026-04-17 12:53:48.111 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99647, Requested 2300. Please try again in 28m2.208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 12:53:48.112 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 12:53:48.595 [WARN] Gemini stream 429 — sleeping 529984088s (attempt 1/2)...
+2026-04-17 12:53:48.746 [WARN] Gemini stream 429 — sleeping 379465974s (attempt 2/2)...
+2026-04-17 12:53:48.899 [ERROR] Socket chat error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:streamGenerateContent?alt=sse: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 11.227157463s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"11s"}]
+2026-04-17 13:04:11.389 [INFO] Client connected: frdKEygi5PpdQpljAAAG
+2026-04-17 13:04:15.226 [INFO] Client disconnected: frdKEygi5PpdQpljAAAG
+2026-04-17 13:04:15.324 [INFO] Client connected: HIJdVseBvpEyRr_uAAAJ
+2026-04-17 13:04:52.230 [INFO] INPUT: calm curiosity, playfulness, view the planning as a challenge you are ready to take on so that i can | intent=coaching
+2026-04-17 13:04:52.262 [INFO] MEMORY: 0 entries passed threshold (0.28) for query "calm curiosity, playfulness, view the planning as "
+2026-04-17 13:04:52.310 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.657
+2026-04-17 13:04:52.311 [INFO] RAG: "calm curiosity, playfulness, view the planning as a challeng" → 3 chunks (fallback=true) | top score=0.657
+2026-04-17 13:04:52.311 [INFO] Retrieved 3 chunks, top score=0.657
+2026-04-17 13:04:52.312 [INFO] Context: mem=0c rag=1322c
+2026-04-17 13:04:52.312 [INFO] KB context: 1322 chars injected
+2026-04-17 13:04:53.095 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99307, Requested 3756. Please try again in 44m6.432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 13:04:53.096 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 13:04:53.781 [WARN] Gemini stream 429 — sleeping 373000787s (attempt 1/2)...
+2026-04-17 13:04:53.974 [WARN] Gemini stream 429 — sleeping 179609014s (attempt 2/2)...
+2026-04-17 13:04:54.165 [ERROR] Socket chat error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:streamGenerateContent?alt=sse: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 5.988653616s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"5s"}]
+2026-04-17 13:06:48.900 [INFO] Client disconnected: HIJdVseBvpEyRr_uAAAJ
+2026-04-17 13:06:48.987 [INFO] Client connected: I3Fz6ialb8g-Yp70AAAM
+2026-04-17 13:06:52.720 [INFO] INPUT: calm curiosity, playfulness, view the planning as a challenge you are ready to take on so that i can | intent=coaching
+2026-04-17 13:06:52.737 [INFO] MEMORY: 1 relevant entries found (top score=0.282)
+2026-04-17 13:06:52.758 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.657
+2026-04-17 13:06:52.759 [INFO] RAG: "calm curiosity, playfulness, view the planning as a challeng" → 3 chunks (fallback=true) | top score=0.657
+2026-04-17 13:06:52.759 [INFO] Retrieved 3 chunks, top score=0.657
+2026-04-17 13:06:52.760 [INFO] Context: mem=29c rag=1322c
+2026-04-17 13:06:52.761 [INFO] KB context: 1322 chars injected
+2026-04-17 13:06:52.761 [INFO] Memory context injected: 29 chars
+2026-04-17 13:06:53.090 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99642, Requested 3772. Please try again in 49m9.696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 13:06:53.091 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 13:06:53.615 [WARN] Gemini stream 429 — sleeping 542654929s (attempt 1/2)...
+2026-04-17 13:06:53.787 [WARN] Gemini stream 429 — sleeping 369967675s (attempt 2/2)...
+2026-04-17 13:06:54.090 [ERROR] Socket chat error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:streamGenerateContent?alt=sse: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 6.066561328s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"6s"}]
+2026-04-17 13:10:43.906 [INFO] Client disconnected: Rmq6ElONcQYY843bAAAB
+2026-04-17 13:10:59.539 [INFO] ════════════════════════════════════════════════════════════
+2026-04-17 13:10:59.545 [INFO] MetaCoach server starting...
+2026-04-17 13:10:59.545 [INFO] MongoDB disabled — using in-memory store
+2026-04-17 13:10:59.546 [INFO] Sessions: local JSONL storage
+2026-04-17 13:10:59.775 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-17 13:10:59.841 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-17 13:10:59.842 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-17 13:10:59.842 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-17 13:10:59.843 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-17 13:10:59.843 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-17 13:10:59.843 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-17 13:10:59.844 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-17 13:10:59.844 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-17 13:10:59.844 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-17 13:10:59.845 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-17 13:10:59.845 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-17 13:10:59.845 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-17 13:10:59.846 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-17 13:10:59.846 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 13:10:59.846 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-17 13:10:59.850 [INFO] ✅ Server → http://localhost:5000
+2026-04-17 13:11:03.961 [INFO] Client connected: HdCU8e96ARYqsJghAAAB
+2026-04-17 13:11:06.288 [INFO] Client disconnected: HdCU8e96ARYqsJghAAAB
+2026-04-17 13:11:10.419 [INFO] Client connected: A9bsNubP9jiuf90yAAAE
+2026-04-17 13:11:14.468 [INFO] Client connected: m4M6RdpdQ1W3ic3EAAAH
+2026-04-17 13:12:13.576 [INFO] INPUT: calm curiosity, playfulness, | intent=coaching
+2026-04-17 13:12:13.578 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-17 13:12:13.776 [INFO] Embedding model ready
+2026-04-17 13:12:13.793 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.594
+2026-04-17 13:12:13.794 [INFO] RAG: "calm curiosity, playfulness," → 3 chunks (fallback=true) | top score=0.594
+2026-04-17 13:12:13.795 [INFO] Retrieved 3 chunks, top score=0.594
+2026-04-17 13:12:13.796 [INFO] Context: mem=0c rag=1449c
+2026-04-17 13:12:13.796 [INFO] KB context: 1449 chars injected
+2026-04-17 13:12:14.269 [ERROR] Groq stream error: 429 - {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01knvk8pp6e9tt463qmpz8gpfv` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99323, Requested 3728. Please try again in 43m56.064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-04-17 13:12:14.270 [WARN] Fallback to Gemini Stream due to 429
+2026-04-17 13:12:14.902 [WARN] Gemini stream 429 — sleeping 262413007s (attempt 1/2)...
+2026-04-17 13:12:15.067 [WARN] Gemini stream 429 — sleeping 94303721s (attempt 2/2)...
+2026-04-17 13:12:15.235 [ERROR] Socket chat error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:streamGenerateContent?alt=sse: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 44.927830094s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-3-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"44s"}]
+2026-04-17 13:15:44.538 [INFO] Client disconnected: m4M6RdpdQ1W3ic3EAAAH
+2026-04-17 13:17:33.867 [INFO] Client disconnected: A9bsNubP9jiuf90yAAAE
+2026-04-18 10:47:59.075 [INFO] Client connected: wpYGttVqi91MMCasAAAL
+2026-04-18 10:48:26.102 [INFO] Client disconnected: wpYGttVqi91MMCasAAAL
+2026-04-29 08:51:20.559 [INFO] ════════════════════════════════════════════════════════════
+2026-04-29 08:51:20.571 [INFO] MetaCoach server starting...
+2026-04-29 08:51:20.572 [INFO] MongoDB disabled — using in-memory store
+2026-04-29 08:51:20.574 [INFO] Sessions: local JSONL storage
+2026-04-29 08:51:20.640 [INFO] Opened LanceDB table 'metacoach_kb'
+2026-04-29 08:51:20.830 [INFO] ⏩ 1692973130758_APGTrainingManual2022gwigxb-230825-171946.pdf: already ingested
+2026-04-29 08:51:20.831 [INFO] ⏩ 2016 MC Reflections.pdf: already ingested
+2026-04-29 08:51:20.832 [INFO] ⏩ 2017-Coach-Essentials-1.pdf: already ingested
+2026-04-29 08:51:20.832 [INFO] ⏩ 2023 Assist Team Leaders Manual.pdf: already ingested
+2026-04-29 08:51:20.833 [INFO] ⏩ 2023-Coach-ACMC.pdf: already ingested
+2026-04-29 08:51:20.834 [INFO] ⏩ Meta-Counseling Egypt Training Nov 23.pdf: already ingested
+2026-04-29 08:51:20.835 [INFO] ⏩ Meta-Trance-Master-Prac-1.pdf: already ingested
+2026-04-29 08:51:20.835 [INFO] ⏩ MetaModelPDF.pdf: already ingested
+2026-04-29 08:51:20.836 [INFO] ⏩ NLPPractitionerManual2023-230924-165835.pdf: already ingested
+2026-04-29 08:51:20.837 [INFO] ⏩ Perceptual-Genius-Training-Manual-2018-hkmqoe.pdf: already ingested
+2026-04-29 08:51:20.838 [INFO] ⏩ Reframing-Genius-Training-Manual-2018-r38em1.pdf: already ingested
+2026-04-29 08:51:20.839 [INFO] ⏩ TLTPractitioner-English-2025 - Israa Marouf.pdf: already ingested
+2026-04-29 08:51:20.840 [INFO] ⏩ Well-Formed-Outcome-PDF-Worksheet_080812.pdf: already ingested
+2026-04-29 08:51:20.841 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-29 08:51:20.841 [INFO] ✅ All PDFs already ingested (13 skipped)
+2026-04-29 08:51:20.849 [INFO] ✅ Server → http://localhost:5000
+2026-04-29 08:53:09.702 [INFO] Client connected: 9MdfuxfHOVJg8FLZAAAC
+2026-04-29 08:54:51.482 [INFO] Client connected: nO9QPLtTIHQcor_1AAAF
+2026-04-29 08:55:08.629 [INFO] INPUT: Hiii, how are you ? | intent=coaching
+2026-04-29 08:55:08.644 [INFO] Loading all-MiniLM-L6-v2 embedding model (first run: downloads ~22 MB)...
+2026-04-29 08:55:09.130 [INFO] Embedding model ready
+2026-04-29 08:55:09.200 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.237
+2026-04-29 08:55:09.201 [INFO] RAG: "Hiii, how are you ?" → 3 chunks (fallback=true) | top score=0.237
+2026-04-29 08:55:09.202 [INFO] Retrieved 3 chunks, top score=0.237
+2026-04-29 08:55:09.204 [INFO] Context: mem=0c rag=1447c
+2026-04-29 08:55:09.207 [INFO] KB context: 1447 chars injected
+2026-04-29 08:55:10.024 [INFO] RESPONSE: I'm doing well, thanks for asking. It's great to connect with you. What brings you here today, what'
+2026-04-29 08:56:49.779 [INFO] INPUT: I'm dealing with some anger issues | intent=coaching
+2026-04-29 08:56:49.812 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.731
+2026-04-29 08:56:49.814 [INFO] RAG: "I'm dealing with some anger issues" → 3 chunks (fallback=true) | top score=0.731
+2026-04-29 08:56:49.814 [INFO] Retrieved 3 chunks, top score=0.731
+2026-04-29 08:56:49.816 [INFO] Context: mem=0c rag=1280c
+2026-04-29 08:56:49.816 [INFO] KB context: 1280 chars injected
+2026-04-29 08:56:50.449 [INFO] RESPONSE: When you feel anger rising up, what do you believe about that anger - is it something to be expresse
+2026-04-29 08:57:20.215 [INFO] INPUT: i really don't know, help me figure out | intent=coaching
+2026-04-29 08:57:20.247 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=-0.162
+2026-04-29 08:57:20.248 [INFO] RAG: "i really don't know, help me figure out" → 3 chunks (fallback=true) | top score=-0.162
+2026-04-29 08:57:20.249 [INFO] Retrieved 3 chunks, top score=-0.162
+2026-04-29 08:57:20.250 [INFO] Context: mem=0c rag=1493c
+2026-04-29 08:57:20.251 [INFO] KB context: 1493 chars injected
+2026-04-29 08:57:21.079 [INFO] RESPONSE: That's okay, not knowing can be a great place to start. What's the first thing that comes to mind wh
+2026-04-29 08:59:09.592 [INFO] INPUT: it's rising more when I face an issue at work even if it's a simple one, | intent=coaching
+2026-04-29 08:59:09.627 [WARN] RAG FALLBACK: 0 passed threshold (0.75), using top 3 by raw score. Top cosine=0.197
+2026-04-29 08:59:09.628 [INFO] RAG: "it's rising more when I face an issue at work even if it's a" → 3 chunks (fallback=true) | top score=0.197
+2026-04-29 08:59:09.628 [INFO] Retrieved 3 chunks, top score=0.197
+2026-04-29 08:59:09.630 [INFO] Context: mem=0c rag=1256c
+2026-04-29 08:59:09.631 [INFO] KB context: 1256 chars injected
+2026-04-29 08:59:10.384 [INFO] RESPONSE: It sounds like work issues can trigger a strong reaction in you. What would you need to believe abou
+2026-04-29 08:59:44.826 [INFO] Client disconnected: 9MdfuxfHOVJg8FLZAAAC
+2026-04-29 09:09:33.183 [INFO] Client connected: c4q0aesS-ImJ53MvAAAH
+2026-04-29 09:16:26.995 [INFO] Client disconnected: nO9QPLtTIHQcor_1AAAF
+2026-04-29 09:16:33.370 [INFO] Client disconnected: c4q0aesS-ImJ53MvAAAH
+2026-04-29 09:17:49.318 [INFO] Client connected: 3c01ujfHpKt2jTY1AAAJ
+2026-04-29 09:21:29.458 [INFO] Client disconnected: 3c01ujfHpKt2jTY1AAAJ

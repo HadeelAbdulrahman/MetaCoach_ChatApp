@@ -115,7 +115,7 @@ app.get('/api/rag-probe', async (req, res) => {
     const query = req.query.q;
     if (!query) return res.status(400).json({ error: 'Pass ?q=your+query' });
     const docs = await retrieve(query);
-    const context = rerankAndFilter(query, docs);
+    const context = await rerankAndFilter(query, docs);
     res.json({
       query,
       chunksFound: docs.length,
@@ -131,16 +131,30 @@ app.get('/api/rag-probe', async (req, res) => {
 io.on('connection', (socket) => {
   logger.info(`Client connected: ${socket.id}`);
 
-  socket.on('chat', async ({ sessionId, message }) => {
-    try {
-      for await (const token of orchestrator(message, sessionId)) {
-        socket.emit('token', token);
+  const queue = [];
+  let isProcessing = false;
+
+  const processQueue = async () => {
+    if (isProcessing) return;
+    isProcessing = true;
+    while (queue.length > 0) {
+      const { sessionId, message } = queue.shift();
+      try {
+        for await (const token of orchestrator(message, sessionId)) {
+          socket.emit('token', token);
+        }
+        socket.emit('done');
+      } catch (e) {
+        logger.error(`Socket chat error: ${e.message}`);
+        socket.emit('error', `⚠️ ${e.message}`);
       }
-      socket.emit('done');
-    } catch (e) {
-      logger.error(`Socket chat error: ${e.message}`);
-      socket.emit('error', `⚠️ ${e.message}`);
     }
+    isProcessing = false;
+  };
+
+  socket.on('chat', ({ sessionId, message }) => {
+    queue.push({ sessionId, message });
+    processQueue();
   });
 
   socket.on('disconnect', () => logger.info(`Client disconnected: ${socket.id}`));

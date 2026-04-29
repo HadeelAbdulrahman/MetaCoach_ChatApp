@@ -33,12 +33,12 @@ function _buildMessages(userInput, memCtx, ragCtx, history) {
   // ── Build multi-turn message array ─────────────────────────────
   const messages = [{ role: 'system', content: systemContent }];
 
+  // ── Limit conversation history to ~4 latest messages ───────────
   if (history && history.length > 0) {
-    // Skip the welcome message from history (it's not a real turn)
     const realHistory = history.filter(t =>
       !(t.role === 'assistant' && t.content === WELCOME_MESSAGE.content)
     );
-    const recent = realHistory.slice(-(MAX_TURNS * 2));
+    const recent = realHistory.slice(-4);
     for (const turn of recent) {
       messages.push({ role: turn.role, content: turn.content });
     }
@@ -54,25 +54,36 @@ function _buildMessages(userInput, memCtx, ragCtx, history) {
   }
   messages.push({ role: 'user', content: userContent });
 
+  // ── Token budget system ──────────────────────────────────────────
+  const estimateTokens = (msgs) => msgs.reduce((acc, m) => acc + (m.content.length / 4), 0);
+  
+  const trimContext = (msgs) => {
+    // If we have history messages to trim (system is [0], user is [last])
+    if (msgs.length > 2) {
+      msgs.splice(1, 1); // remove oldest history message
+    } else {
+      // If no history left, compress the system prompt
+      msgs[0].content = msgs[0].content.slice(0, Math.max(msgs[0].content.length - 800, 500));
+    }
+  };
+
+  let tokens = estimateTokens(messages);
+  if (tokens > 2500) {
+    logger.warn(`Token budget exceeded (${Math.round(tokens)} > 2500). Trimming context...`);
+    while (estimateTokens(messages) > 2500 && (messages.length > 2 || messages[0].content.length > 1000)) {
+      trimContext(messages);
+    }
+    logger.info(`Context trimmed. New estimate: ~${Math.round(estimateTokens(messages))} tokens.`);
+  }
+
   return messages;
 }
 
 async function _retrieveWithFallback(userInput, kbCount) {
   if (kbCount === 0) return '';
-  let docs = [];
-  try {
-    const rewritten = await rewriteQuery(userInput, kbCount);
-    logger.info(`Query rewrite: "${userInput.slice(0,50)}" → "${rewritten.slice(0,50)}"`);
-    docs = await retrieve(rewritten);
-    if (docs.length === 0 && rewritten !== userInput) {
-      logger.info('Rewrite returned 0 — retrying with original');
-      docs = await retrieve(userInput);
-    }
-  } catch (e) {
-    logger.warn(`rewriteQuery error: ${e.message} — using original`);
-    docs = await retrieve(userInput);
-  }
-  if (!docs.length) { logger.warn('0 docs found after fallback'); return ''; }
+  // Skip rewriteQuery LLM call for minimal latency — embeddings handle semantic matching
+  const docs = await retrieve(userInput);
+  if (!docs.length) { logger.warn('0 docs found'); return ''; }
   logger.info(`Retrieved ${docs.length} chunks, top score=${docs[0]?.score?.toFixed(3)}`);
   return rerankAndFilter(userInput, docs);
 }

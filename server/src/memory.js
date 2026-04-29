@@ -4,7 +4,6 @@
 
 import { MongoClient } from 'mongodb';
 import { encode, cosineSim } from './embeddings.js';
-import { callLLM }           from './llm.js';
 import { logger }            from './logger.js';
 
 const MONGO_URI = process.env.MONGO_URI   ?? 'mongodb://localhost:27017';
@@ -89,38 +88,41 @@ async function _getAll(limit = 60) {
     .slice(0, limit);
 }
 
-export async function extractMemory(userInput) {
-  const prompt = `Extract structured memory from this coaching message.
-Return ONLY valid JSON — a list of objects, or [] if nothing applies.
+// ── Local memory extraction — NO LLM call ────────────────────────
+// Uses keyword/pattern matching to classify user input into memory categories.
+// This saves 1 Groq API call per message (~50% rate limit savings).
 
-Schema: [{"text": "short summary ≤20 words", "category": "goal"|"preference"|"habit"|"emotion"}]
+const _GOAL_PATTERNS = /\b(i want to|my goal|i aim|i plan to|i need to|i'm trying to|i hope to|i wish to|i'd like to|i intend to|target is|objective is|i will|i'm going to)\b/i;
+const _HABIT_PATTERNS = /\b(every day|daily|routine|habit|i usually|i always|i tend to|morning|evening|weekly|i regularly|each week|schedule)\b/i;
+const _PREF_PATTERNS = /\b(i prefer|i like|i enjoy|i love|i hate|i dislike|i value|important to me|matters to me|rather|my style|works for me|comfortable with)\b/i;
+const _EMOTION_KEYWORDS = new Set([..._POS, ..._NEG, 'anxious', 'overwhelmed', 'excited', 'nervous', 'calm', 'peaceful', 'burnout', 'lonely', 'content', 'fulfilled']);
 
-Rules:
-- goal       : concrete outcome the user wants to achieve
-- preference : how they like to work or what they value
-- habit      : a routine or regular behaviour they mention
-- emotion    : a significant feeling or emotional state
-- Return []  if nothing clearly applies — do NOT invent entries
-- Max 3 items per message
+export function extractMemory(userInput) {
+  const text = userInput.trim();
+  if (text.split(/\s+/).length < 5) return []; // too short to extract anything
 
-Message: "${userInput}"
+  const items = [];
+  const sentences = text.split(/[.!?\n]+/).map(s => s.trim()).filter(s => s.length > 10);
 
-JSON:`;
+  for (const sentence of sentences) {
+    if (items.length >= 3) break;
 
-  const raw   = await callLLM([{ role: 'user', content: prompt }], { temperature: 0, max_tokens: 200 });
-  const VALID = new Set(['goal', 'preference', 'habit', 'emotion']);
-  try {
-    const clean = raw.replace(/```json|```/g, '').trim();
-    const match = clean.match(/\[.*?\]/s);
-    if (match) {
-      const items = JSON.parse(match[0]);
-      return items.filter(i => i?.text && VALID.has(i?.category))
-                  .map(i => ({ text: String(i.text).slice(0, 200), category: i.category }));
+    if (_GOAL_PATTERNS.test(sentence)) {
+      items.push({ text: sentence.slice(0, 200), category: 'goal' });
+    } else if (_HABIT_PATTERNS.test(sentence)) {
+      items.push({ text: sentence.slice(0, 200), category: 'habit' });
+    } else if (_PREF_PATTERNS.test(sentence)) {
+      items.push({ text: sentence.slice(0, 200), category: 'preference' });
+    } else {
+      const words = new Set(sentence.toLowerCase().match(/\b\w+\b/g) ?? []);
+      const emotionHits = [...words].filter(w => _EMOTION_KEYWORDS.has(w));
+      if (emotionHits.length >= 1) {
+        items.push({ text: sentence.slice(0, 200), category: 'emotion' });
+      }
     }
-  } catch (e) {
-    logger.warn(`extractMemory parse error: ${e.message}`);
   }
-  return [];
+
+  return items;
 }
 
 export async function updateMemory(userInput) {

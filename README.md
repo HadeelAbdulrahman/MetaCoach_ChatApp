@@ -1,140 +1,108 @@
-# AI Meta-Coach v2
+# 🤖 MetaCoach - AI RAG-powered Coaching Assistant
 
-A RAG-powered coaching assistant grounded in your PDF knowledge base.
+<div align="center">
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-18+-green?logo=node.js">
+  <img alt="Express" src="https://img.shields.io/badge/Express.js-Backend-black?logo=express">
+  <img alt="React" src="https://img.shields.io/badge/React-Frontend-blue?logo=react">
+  <img alt="LanceDB" src="https://img.shields.io/badge/LanceDB-Vector_Store-orange">
+</div>
 
-## What Changed in v2
+<br/>
 
-### 🐛 Critical RAG Bug Fixed
-LanceDB returns **L2 distance**, not cosine distance. The original code used
-`1 - L2_distance` which is wrong for normalized vectors. The correct formula is:
+MetaCoach is a RAG-powered coaching assistant grounded in your own PDF knowledge base. It uses a semantic vector search across personal documents to provide insightful, context-aware advice via a sleek chat interface.
+
+## ✨ Features
+
+- **Retrieval-Augmented Generation (RAG):** Uses your personal PDFs as a knowledge base.
+- **Embedded Vector Database:** Powered by LanceDB — no external database setup required.
+- **Voice Input:** Web Speech API integration for hands-free interaction.
+- **RAG Evaluation Suite:** A dedicated UI tab to test, debug, and evaluate your retrieval pipeline and cosine similarity scores.
+- **Real-time Logging:** View server logs directly in the UI with color coding and filters.
+- **Streaming Responses:** Get real-time response generation via Socket.io.
+- **Smart Intent Detection:** Bypasses basic greetings and enforces structured coaching feedback.
+
+## 🛠️ Tech Stack
+
+- **Backend:** Node.js, Express, Socket.io
+- **Frontend:** React, Vite
+- **Vector Store:** LanceDB (`@lancedb/lancedb`)
+- **LLM API:** Google Generative AI / Groq API
+- **Embeddings:** `@xenova/transformers` (`all-MiniLM-L6-v2`)
+- **Document Processing:** `pdf-parse`
+
+## 🚀 Setup & Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/metacoach.git
+cd metacoach
 ```
-cosine_similarity = 1 - (L2_distance² / 2)
-```
-This caused nearly all relevant chunks to score below the threshold (0.35),
-meaning the model had zero KB context and was responding from its training knowledge only.
 
-### New Features
-- **Voice input** — browser Web Speech API mic button in the chat input
-- **White + green UI** — full design overhaul (DM Sans + DM Serif Display)
-- **RAG Eval tab** — test your retrieval pipeline directly in the UI
-- **Auto-refresh logs** — live log view with color coding and filter
-- **Affirmation suppression** — system prompt bans hollow openers
-
----
-
-## Setup
+### 2. Prepare your Knowledge Base (Important ⚠️)
+> **Note:** The `server/material/` folder is where the system reads its knowledge base from. The original PDFs have been removed as they are confidential. 
+> 
+> **You must add your own PDF files to `server/material/` before running the system.** 
+> The system will automatically ingest and chunk these files on startup.
 
 ```bash
-# Server
-cd server && npm install
+mkdir -p server/material
+# Copy your PDF documents into server/material/
+```
+
+### 3. Server Setup
+```bash
+cd server
+npm install
+
+# Set up your environment variables
+# Create a .env file based on the provided .env.example or set the required keys:
 echo "GROQ_API_KEY=your_key" > .env
-node src/index.js
+# or GEMINI_API_KEY if using Google Generative AI
 
-# Client
-cd client && npm install && npm run dev
+# Start the server
+npm run dev
 ```
 
-Put PDFs in `server/material/` before starting.
-
----
-
-## RAG Debugging & Evaluation
-
-### Quick Probe (UI)
-Go to **🔬 RAG Eval** tab → Quick Probe. Type any query and see which chunks were retrieved and their cosine similarity scores.
-
-### Quick Probe (API)
-```
-GET /api/rag-probe?q=what+does+the+doc+say+about+habits
-```
-
-### Last Chat Snapshot (UI)
-After sending any chat message, open RAG Eval → "Last Chat Retrieval Snapshot" → Load Debug.
-Shows exactly what was retrieved, all candidate scores, and threshold pass/fail.
-
-### Last Retrieval (API)
-```
-GET /api/rag-debug
-```
-
-### Eval Suite (UI)
-Define test queries with expected keywords and run a batch evaluation to score your RAG pipeline.
-
-### Eval Suite (API)
+### 4. Client Setup
+Open a new terminal window:
 ```bash
-POST /api/rag-eval
-Content-Type: application/json
-
-{
-  "queries": [
-    {
-      "query": "What is the meta-learning framework?",
-      "expectedKeywords": ["meta", "learning", "framework"],
-      "expectedSource": "metacoach_guide.pdf"
-    },
-    {
-      "query": "How do I build better habits?",
-      "expectedKeywords": ["habit", "routine", "consistency"]
-    }
-  ]
-}
+cd client
+npm install
+npm run dev
 ```
 
-Response:
-```json
-{
-  "summary": { "total": 2, "passed": 2, "failed": 0, "passRate": "100%" },
-  "results": [
-    {
-      "query": "...",
-      "chunksRetrieved": 5,
-      "topScore": "0.821",
-      "topSource": "metacoach_guide.pdf",
-      "keywordRecall": "3/3 (100%)",
-      "keywordsFound": ["meta", "learning", "framework"],
-      "keywordsMissed": [],
-      "sourceMatch": true,
-      "pass": true
-    }
-  ]
-}
+The application will be running at `http://localhost:5173` (or the port specified by Vite).
+
+## 🔬 RAG Debugging & Evaluation
+
+MetaCoach includes a built-in UI for testing your RAG pipeline:
+- **Quick Probe:** Test individual queries and see retrieved chunks and their cosine similarity scores.
+- **Last Chat Snapshot:** After sending a message, load the debug view to see exactly what was retrieved, candidate scores, and whether it passed the threshold.
+- **Batch Eval Suite:** Define test queries with expected keywords to score your RAG pipeline's accuracy.
+
+*(For detailed architectural changes and migration from Python to Node.js, please see the [REPORT.md](./REPORT.md).)*
+
+## 📂 Project Structure
+
+```text
+metacoach/
+├── client/                 # React frontend
+│   ├── src/
+│   │   ├── Chat.jsx        # Messaging & voice input
+│   │   ├── RagEval.jsx     # Retrieval testing UI
+│   │   └── Logs.jsx        # Live server logs viewer
+│   └── package.json
+└── server/                 # Node.js backend
+    ├── material/           # ⚠️ ADD YOUR PDFS HERE
+    ├── src/
+    │   ├── index.js        # Server entry point
+    │   ├── rag.js          # LanceDB vector store + ingestion
+    │   ├── orchestrator.js # Pipeline coordinator
+    │   ├── llm.js          # LLM API integration
+    │   └── embeddings.js   # Local embedding models
+    ├── package.json
+    └── .env
 ```
 
----
-
-## Evaluation Criteria
-
-| Metric | Description | Healthy Range |
-|--------|-------------|---------------|
-| `chunksRetrieved` | Chunks passing cosine threshold | ≥ 1 per query |
-| `topScore` | Best cosine similarity | > 0.4 = strong |
-| `keywordRecall` | Expected keywords found in context | ≥ 70% |
-| `sourceMatch` | Correct PDF was retrieved | true |
-| `passRate` | % of eval queries that passed | ≥ 80% |
-
-**If chunksRetrieved = 0:**
-1. Check `/api/rag-debug` candidate cosines — if all < 0.15, the query doesn't match KB vocabulary
-2. Try rephrasing the query using terms from your PDFs
-3. Check that PDFs were actually ingested (see `📚 N chunks` in the header)
-4. Use `/api/rag-probe` to test specific queries before chatting
-
----
-
-## Architecture
-
-```
-Client (React + Vite)
-  └── Chat.jsx        — messaging + voice input
-  └── RagEval.jsx     — retrieval testing UI
-  └── Memory.jsx      — memory viewer
-  └── Logs.jsx        — server log viewer
-
-Server (Node.js + Express + Socket.IO)
-  └── orchestrator.js — pipeline coordinator
-  └── rag.js          — LanceDB vector store + retrieval
-  └── embeddings.js   — all-MiniLM-L6-v2 (local, ~22MB)
-  └── memory.js       — MongoDB or in-memory
-  └── sessions.js     — conversation sessions
-  └── llm.js          — Groq Llama 3.3 70B (streaming)
-  └── analyzer.js     — intent detection + query rewriting
-```
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
